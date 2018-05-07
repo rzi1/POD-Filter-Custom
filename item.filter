@@ -26,11 +26,11 @@ ItemDisplay[mp1 CLVL>14]:
 ItemDisplay[mp2 CLVL>19]:
 ItemDisplay[mp3 CLVL>25]:
 //Essences (Respec Token)
-ItemDisplay[tes]: %GOLD%Suffering [Andariel]
-ItemDisplay[ceh]: %GOLD%Hatred [Mephisto]
-ItemDisplay[bet]: %GOLD%Terror [Diablo]
-ItemDisplay[fed]: %GOLD%Destruction [Baal]
-ItemDisplay[toa]: %GOLD%Token of Absolution
+ItemDisplay[tes]: %ORANGE%Suffering [Andariel]
+ItemDisplay[ceh]: %ORANGE%Hatred [Mephisto]
+ItemDisplay[bet]: %ORANGE%Terror [Diablo]
+ItemDisplay[fed]: %ORANGE%Destruction [Baal]
+ItemDisplay[toa]: %ORANGE%Token of Absolution
 //PoD Items
 ItemDisplay[cx5]: %PURPLE%Orb of Corruption
 ItemDisplay[cx6]: %PURPLE%%NAME%
