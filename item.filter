@@ -51,12 +51,12 @@ ItemDisplay[maz]: %PURPLE%%NAME%
 //Wirt's Leg
 ItemDisplay[leg]: %NAME%
 //Uber Keys
-ItemDisplay[pk1]: %GOLD%Terror [Countess]
-ItemDisplay[pk2]: %GOLD%Hate [Summoner]
-ItemDisplay[pk3]: %GOLD%Destruction [Nihlathak]
-ItemDisplay[dhn]: %GOLD%Diablo's Horn
-ItemDisplay[bey]: %GOLD%Baal's Eye
-ItemDisplay[mbr]: %GOLD%Mephisto's Brain
+ItemDisplay[pk1]: %GREEN%Terror [Countess]
+ItemDisplay[pk2]: %GREEN%Hate [Summoner]
+ItemDisplay[pk3]: %GREEN%Destruction [Nihlathak]
+ItemDisplay[dhn]: %GREEN%Diablo's Horn
+ItemDisplay[bey]: %GREEN%Baal's Eye
+ItemDisplay[mbr]: %GREEN%Mephisto's Brain
 
 //Utility
 //ItemDisplay[tsc]: %GREEN%!%WHITE%TP
