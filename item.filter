@@ -1638,9 +1638,16 @@ ItemDisplay[UNI !ID pae !ETH]: %RED%¤ Dragonscale %RED%¤
 //Dragonscale (Hydra paladin?)
 ItemDisplay[UNI !ID pae ETH]: %RED%ETH Dragonscale
 
-////Unique Charms
-ItemDisplay[!UNI (cm1 OR cm2 OR cm3)]: %PURPLE%%NAME% %WHITE%[L%ILVL%]
+////Unique Charms & Charms
+//GC and Small Unid
+ItemDisplay[!UNI !ID (cm1 OR cm3)]: %PURPLE%%NAME% %WHITE%[L%ILVL%]
+// GC and small ID 
+ItemDisplay[!UNI ID (cm1 OR cm3)]:%NAME% %WHITE%[L%ILVL%]
+//Large 
+ItemDisplay[!UNI (cm2)]: %NAME% %WHITE%[L%ILVL%]
+//Unique
 ItemDisplay[UNI !ID (cm1 OR cm2 OR cm3)]: %RED%%NAME% ¤
+
 
 
 ////SET ITEMS (no rings or amys edited)
