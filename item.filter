@@ -66,11 +66,9 @@ ItemDisplay[isc]: %GREEN%!%WHITE%ID
 	//Tomes
 ItemDisplay[tbk]: %WHITE%Tome of Town Portal
 ItemDisplay[ibk]: %WHITE%Tome of Identify
-//
-ItemDisplay[wms CLVL<60]: %GREEN%!%WHITE%Thaw
-ItemDisplay[wms CLVL>59]:
-//ItemDisplay[yps]: %GREEN%!%WHITE%Antidote
-ItemDisplay[yps]:
+	//  Thaw/Antidote
+ItemDisplay[wms]: %GREEN%!%WHITE%Thaw
+ItemDisplay[yps]: %GREEN%!%WHITE%Antidote
 //Keys for Locked Chests
 ItemDisplay[key]: %WHITE%key
 
