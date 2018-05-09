@@ -32,6 +32,7 @@ ItemDisplay[bet]: %ORANGE%Terror [Diablo]
 ItemDisplay[fed]: %ORANGE%Destruction [Baal]
 ItemDisplay[toa]: %ORANGE%Token of Absolution
 //PoD Items
+ItemDisplay[cx8]:%PURPLE%Orb of Enchantment
 ItemDisplay[cx5]: %PURPLE%Orb of Corruption
 ItemDisplay[cx6]: %PURPLE%%NAME%
 ItemDisplay[cx7]: %PURPLE%¤¤¤¤¤ KEY OF CHAOS ¤¤¤¤¤
