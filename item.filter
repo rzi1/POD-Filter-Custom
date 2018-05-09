@@ -5,7 +5,7 @@
 //Basics
 //Hide Gold Piles Smaller Than (<) X
 ItemDisplay[GOLD<5000]:
-//Health & Mana Potions
+//------------------------------------------------------------------Health & Mana Potions
 ItemDisplay[rvl]: %PURPLE%R %WHITE%70%
 ItemDisplay[hp4]: %RED%!%WHITE%H
 ItemDisplay[hp5]: %RED%!%WHITE%H+
@@ -25,13 +25,13 @@ ItemDisplay[mp3 CLVL<26]: %BLUE%!%WHITE%Mana
 ItemDisplay[mp1 CLVL>14]:
 ItemDisplay[mp2 CLVL>19]:
 ItemDisplay[mp3 CLVL>25]:
-//Essences (Respec Token)
+//---------------------------------------------------------------------Essences (Respec Token)
 ItemDisplay[tes]: %ORANGE%Suffering [Andariel]
 ItemDisplay[ceh]: %ORANGE%Hatred [Mephisto]
 ItemDisplay[bet]: %ORANGE%Terror [Diablo]
 ItemDisplay[fed]: %ORANGE%Destruction [Baal]
 ItemDisplay[toa]: %ORANGE%Token of Absolution
-//PoD Items
+//------------------------------------------------------------------PoD Items
 ItemDisplay[cx8]:%PURPLE%Orb of Enchantment
 ItemDisplay[cx5]: %PURPLE%Orb of Corruption
 ItemDisplay[cx6]: %PURPLE%%NAME%
@@ -51,18 +51,21 @@ ItemDisplay[ma6]: %PURPLE%%NAME%
 ItemDisplay[maz]: %PURPLE%%NAME%
 //Wirt's Leg
 ItemDisplay[leg]: %NAME%
-//Uber Keys
+//---------------------------------------------UBER KEYS----------------------------------------------------------\\
 ItemDisplay[pk1]: %GREEN%Terror [Countess]
 ItemDisplay[pk2]: %GREEN%Hate [Summoner]
 ItemDisplay[pk3]: %GREEN%Destruction [Nihlathak]
 ItemDisplay[dhn]: %GREEN%Diablo's Horn
 ItemDisplay[bey]: %GREEN%Baal's Eye
 ItemDisplay[mbr]: %GREEN%Mephisto's Brain
-
-//Utility
+//---------------------------------------------END UBER KEYS----------------------------------------------------------\\
+//Utility 
+	// Scrolls
 ItemDisplay[tsc]: %GREEN%!%WHITE%TP
 ItemDisplay[isc]: %GREEN%!%WHITE%ID
-
+	//Tomes
+ItemDisplay[tbk]: %WHITE%Tome of Town Portal
+ItemDisplay[ibk]: %WHITE%Tome of Identify
 //
 ItemDisplay[wms CLVL<60]: %GREEN%!%WHITE%Thaw
 ItemDisplay[wms CLVL>59]:
@@ -70,9 +73,24 @@ ItemDisplay[wms CLVL>59]:
 ItemDisplay[yps]:
 //Keys for Locked Chests
 ItemDisplay[key]: %WHITE%key
-//Tomes
-ItemDisplay[tbk]: %WHITE%Tome of Town Portal
-ItemDisplay[ibk]: %WHITE%Tome of Identify
+
+//misc
+ItemDisplay[bbb]: %TAN%%NAME%
+ItemDisplay[ass]: %TAN%%NAME%
+ItemDisplay[bkd]: %TAN%%NAME%
+ItemDisplay[bks]: %TAN%%NAME%
+ItemDisplay[box]: %TAN%%NAME%
+ItemDisplay[g34]: %TAN%%NAME%
+ItemDisplay[ice]: %TAN%%NAME%
+ItemDisplay[j34]: %TAN%%NAME%
+ItemDisplay[mss]: %TAN%%NAME%
+ItemDisplay[qbr]: %TAN%%NAME%
+ItemDisplay[qey]: %TAN%%NAME%
+ItemDisplay[qhr]: %TAN%%NAME%
+ItemDisplay[tr1]: %TAN%%NAME%
+ItemDisplay[tr2]: %TAN%%NAME%
+ItemDisplay[xyz]: %TAN%%NAME%
+
 //Choking, Exploding, Fulminating, Oil, Rancid, Strangling, Stamina 
 ItemDisplay[gpm]:
 ItemDisplay[opm]:
@@ -126,10 +144,8 @@ ItemDisplay[MAG WP7 !ID ILVL>25]:
 ItemDisplay[MAG WP8 !ID ILVL>25]:
 ItemDisplay[MAG WP9 !ID ILVL>25]:
 ItemDisplay[MAG WP10 !ID ILVL>25]:
-//
-
-////RUNES
-//1-16
+////----------------------------------------------------------------------------------RUNES ----------------------------------------------------------------------------\\
+//--------------------------------------------------------------------------1-16
 ItemDisplay[r01 CLVL>86]: %GRAY%%RUNENAME% [%RUNENUM%] 
 ItemDisplay[r02 CLVL>86]: %GRAY%%RUNENAME% [%RUNENUM%] 
 ItemDisplay[r03 CLVL>86]: %GRAY%%RUNENAME% [%RUNENUM%] 
@@ -154,7 +170,7 @@ ItemDisplay[r13]: %TAN%%RUNENAME% [%RUNENUM%]
 ItemDisplay[r14]: %TAN%%RUNENAME% [%RUNENUM%] 
 ItemDisplay[r15]: %ORANGE%  %RUNENAME% [%RUNENUM%]  %ORANGE%
 ItemDisplay[r16]: %TAN%%RUNENAME% [%RUNENUM%] 
-//17-23
+//--------------------------------------------------------------------------17-23
 ItemDisplay[r17]: %ORANGE%  %RUNENAME% [%RUNENUM%]  %ORANGE%
 ItemDisplay[r18]: %ORANGE%  %RUNENAME% [%RUNENUM%]  %ORANGE%
 ItemDisplay[r19]: %ORANGE%  %RUNENAME% [%RUNENUM%]  %ORANGE%
@@ -162,7 +178,7 @@ ItemDisplay[r20]: %ORANGE%  %RUNENAME% [%RUNENUM%]  %ORANGE%
 ItemDisplay[r21]: %PURPLE%  ** %RUNENAME% ** [%RUNENUM%]  %PURPLE%
 ItemDisplay[r22]: %PURPLE%  ** %RUNENAME% ** [%RUNENUM%]  %PURPLE%
 ItemDisplay[r23]: %PURPLE%  ** %RUNENAME% ** [%RUNENUM%]  %PURPLE%
-//24-33
+//--------------------------------------------------------------------------24-33
 ItemDisplay[r24]: %PURPLE%  **** %RUNENAME% **** [%RUNENUM%]  %PURPLE%
 ItemDisplay[r25]: %PURPLE%  **** %RUNENAME% **** [%RUNENUM%]  %PURPLE%
 ItemDisplay[r26]: %PURPLE%  ******* %RUNENAME% ******* [%RUNENUM%]  %PURPLE%
@@ -173,25 +189,8 @@ ItemDisplay[r30]: %PURPLE%  ******** %RUNENAME% ******** [%RUNENUM%]  %PURPLE%
 ItemDisplay[r31]: %PURPLE%  ***** %RUNENAME% ***** [%RUNENUM%]  %PURPLE%
 ItemDisplay[r32]: %PURPLE%  ***** %RUNENAME% ***** [%RUNENUM%]  %PURPLE%
 ItemDisplay[r33]: %PURPLE%  ***** %RUNENAME% ***** [%RUNENUM%]  %PURPLE%
-
-//misc
-ItemDisplay[bbb]: %TAN%%NAME%
-ItemDisplay[ass]: %TAN%%NAME%
-ItemDisplay[bkd]: %TAN%%NAME%
-ItemDisplay[bks]: %TAN%%NAME%
-ItemDisplay[box]: %TAN%%NAME%
-ItemDisplay[g34]: %TAN%%NAME%
-ItemDisplay[ice]: %TAN%%NAME%
-ItemDisplay[j34]: %TAN%%NAME%
-ItemDisplay[mss]: %TAN%%NAME%
-ItemDisplay[qbr]: %TAN%%NAME%
-ItemDisplay[qey]: %TAN%%NAME%
-ItemDisplay[qhr]: %TAN%%NAME%
-ItemDisplay[tr1]: %TAN%%NAME%
-ItemDisplay[tr2]: %TAN%%NAME%
-ItemDisplay[xyz]: %TAN%%NAME%
-
-//GEMS
+////----------------------------------------------------------------------------------End RUNES ----------------------------------------------------------------------------\\
+//------------------------------------------------------------------------------------GEMS-------------------------------------------------------------------------------------\\
 //1. Amethyst 2. Diamond 3. Emerald 4. Ruby 5. Sapphire 6. Topaz 7. Skull
 //chipped (Tier 1)
 ItemDisplay[GEM=1 GEMTYPE=1 DIFFICULTY>0]:
@@ -257,7 +256,7 @@ ItemDisplay[GEM=5 GEMTYPE=4]: %ORANGE%PERFECT RUBY
 ItemDisplay[GEM=5 GEMTYPE=5]: %ORANGE%PERFECT SAPPHIRE
 ItemDisplay[GEM=5 GEMTYPE=6]: %ORANGE%PERFECT TOPAZ
 ItemDisplay[GEM=5 GEMTYPE=7]: %ORANGE%PERFECT SKULL
-//
+//------------------------------------------------------------------------------------GEMS-------------------------------------------------------------------------------------\\
 
 ***Your own custom items here***
 
