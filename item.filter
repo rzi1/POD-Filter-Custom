@@ -2033,7 +2033,7 @@ ItemDisplay[MAG amu ILVL<85]: %BLUE%%NAME%%WHITE% [L%ILVL%]
 //Rings
 ItemDisplay[MAG rin]: %BLUE%%NAME%%WHITE% [L%ILVL%]
 //Magic Jewels
-ItemDisplay[MAG !ID jew ILVL=>87]: %RED%%NAME% %WHITE%[L%ILVL%]
+ItemDisplay[MAG !ID jew ILVL>86]: %RED%%NAME% %WHITE%[L%ILVL%]
 ItemDisplay[MAG jew]: %BLUE%%NAME% %WHITE%[L%ILVL%]
 
 
