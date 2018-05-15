@@ -1634,6 +1634,9 @@ ItemDisplay[UNI !ID pae !ETH]: %RED%¤ Dragonscale %RED%¤
 ItemDisplay[UNI !ID pae ETH]: %RED%ETH Dragonscale
 
 ////Unique Charms & Charms
+//Rerolling
+ItemDisplay[MAG cm3 ILVL>90]: %PURPLE%%NAME% %ORANGE%[L%ILVL%]
+ItemDisplay[MAG cm1 ILVL=47]: %NAME% %ORANGE%[L%ILVL%]
 //GC and Small Unid
 ItemDisplay[!UNI !ID (cm1 OR cm3) ILVL>79]: %PURPLE%%NAME% %WHITE%[L%ILVL%]
 ItemDisplay[!UNI !ID (cm1 OR cm3)]:%NAME% %WHITE%[L%ILVL%]
@@ -2027,7 +2030,9 @@ ItemDisplay[MAG amu ILVL<85]: %BLUE%%NAME%%WHITE% [L%ILVL%]
 //Rings
 ItemDisplay[MAG rin]: %BLUE%%NAME%%WHITE% [L%ILVL%]
 //Magic Jewels
-ItemDisplay[MAG jew]: %BLUE%%NAME%%WHITE% [L%ILVL%]
+ItemDisplay[MAG !ID jew ILVL>87]: %RED%%NAME% %WHITE%[L%ILVL%]
+ItemDisplay[MAG jew]: %BLUE%%NAME% %WHITE%[L%ILVL%]
+
 
 //Gloves
 //Blood Gloves (Heavy Gloves/Sharkskin/Vampirebone) + NEF + RUBY + JEWEL
@@ -2118,9 +2123,7 @@ ItemDisplay[MAG xlb ILVL>84]: %ORANGE%Caster Boots
 ItemDisplay[MAG lbt ILVL>84]: %ORANGE%Caster Boots
 //
 
-//Rerolling
-ItemDisplay[MAG cm3 ILVL>90]: %NAME% %ORANGE%[L%ILVL%]
-ItemDisplay[MAG cm1 ILVL=47]: %NAME% %ORANGE%[L%ILVL%]
+
 //
 
 //Runewords
@@ -4768,7 +4771,7 @@ ItemDisplay[RARE rin !ID]: %RED%%NAME% %RED%¤
 ItemDisplay[RARE EQ4 !ID]: %YELLOW%%NAME%
 ItemDisplay[RARE EQ5 !ID]: %YELLOW%%NAME%
 ItemDisplay[RARE EQ6 !ID]: %YELLOW%%NAME%
-ItemDisplay[RARE jew !ID]: %YELLOW%%NAME% %YELLOW%¤
+ItemDisplay[RARE jew !ID]: %ORANGE%%NAME% %ORANGE%¤
 //
 //Class Specific Rares (Druid Pelts, Barb Helms, Paladin Shields, Necro Heads, Assassin Claws, Sorc Orbs, Amazon Bow/Jav
 ItemDisplay[RARE CL1 !ID]: %YELLOW%%NAME%
