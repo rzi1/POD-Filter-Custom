@@ -59,17 +59,17 @@ ItemDisplay[dhn]: %GREEN%Diablo's Horn
 ItemDisplay[bey]: %GREEN%Baal's Eye
 ItemDisplay[mbr]: %GREEN%Mephisto's Brain
 //---------------------------------------------END UBER KEYS----------------------------------------------------------\\
-//Utility 
-	// Scrolls
+//-----------------------------------------------------------------------------------------------Utility 
+	//-----------------------------------------------------------------------------------------------Scrolls
 ItemDisplay[tsc]: %GREEN%!%WHITE%TP
 ItemDisplay[isc]: %GREEN%!%WHITE%ID
-	//Tomes
+	//-----------------------------------------------------------------------------------------------Tomes
 ItemDisplay[tbk]: %WHITE%Tome of Town Portal
 ItemDisplay[ibk]: %WHITE%Tome of Identify
-	//  Thaw/Antidote
+	//-----------------------------------------------------------------------------------------------Thaw/Antidote
 ItemDisplay[wms]: %GREEN%!%WHITE%Thaw
 ItemDisplay[yps]: %GREEN%!%WHITE%Antidote
-//Keys for Locked Chests
+//-----------------------------------------------------------------------------------------------Keys for Locked Chests
 ItemDisplay[key]: %WHITE%key
 
 //misc
@@ -1223,9 +1223,9 @@ ItemDisplay[UNI !ID 9br !ETH]: %TAN%Soulfeast Time
 //Soulfeast Time
 ItemDisplay[UNI !ID 9br ETH]: %TAN%ETH Soulfeast Time
 //Hone Sundan
-ItemDisplay[UNI !ID 9st !ETH]: %RED%¤ Hone Sundan %SOCKETS% %RED%¤
+ItemDisplay[UNI !ID 9st !ETH]: %RED%¤ Hone Sundan %RED%¤
 //ETH Hone Sundan
-ItemDisplay[UNI !ID 9st ETH]: %RED%¤ %PURPLE%ETH Hone Sundan %SOCKETS% %RED%¤
+ItemDisplay[UNI !ID 9st ETH]: %RED%¤ %PURPLE%ETH Hone Sundan %RED%¤
 //Spire of Honor
 ItemDisplay[UNI !ID 9p9 !ETH]: %TAN%Spire of Honor
 //Spire of Honor
@@ -1635,7 +1635,7 @@ ItemDisplay[UNI !ID pae ETH]: %RED%ETH Dragonscale
 
 ////Unique Charms & Charms
 //GC and Small Unid
-ItemDisplay[!UNI !ID (cm1 OR cm3)]: %PURPLE%%NAME% %WHITE%[L%ILVL%]
+ItemDisplay[!UNI !ID (cm1 OR cm3) AND (ILVL > 79)]: %PURPLE%%NAME% %WHITE%[L%ILVL%]
 // GC and small ID 
 ItemDisplay[!UNI ID (cm1 OR cm3)]:%NAME% %WHITE%[L%ILVL%]
 //Large 
@@ -4280,7 +4280,7 @@ ItemDisplay[7st ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=13]: %DGREEN%ETH %NAME%%BLUE%
 ItemDisplay[7st ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=14]: %DGREEN%ETH %NAME%%BLUE% +14%ED %RED%[%SOCKETS%]
 ItemDisplay[7st ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=15]: %DGREEN%ETH %NAME%%BLUE% +15%ED %RED%[%SOCKETS%]
 
-//War Pike +ED zero sox or 4 or more sox
+//-----------------------------------------------------------------------------------------------War Pike +ED zero sox or 4 or more sox
 ItemDisplay[7p7 !ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=1]: %GRAY%%NAME%%BLUE% +1%ED %RED%[%SOCKETS%]
 ItemDisplay[7p7 !ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=2]: %GRAY%%NAME%%BLUE% +2%ED %RED%[%SOCKETS%]
 ItemDisplay[7p7 !ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=3]: %GRAY%%NAME%%BLUE% +3%ED %RED%[%SOCKETS%]
@@ -4296,7 +4296,7 @@ ItemDisplay[7p7 !ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=12]: %GRAY%%NAME%%BLUE% +12%
 ItemDisplay[7p7 !ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=13]: %GRAY%%NAME%%BLUE% +13%ED %RED%[%SOCKETS%]
 ItemDisplay[7p7 !ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=14]: %DGREEN%%NAME%%BLUE% +14%ED %RED%[%SOCKETS%]
 ItemDisplay[7p7 !ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=15]: %DGREEN%%NAME%%BLUE% +15%ED %RED%[%SOCKETS%]
-//War Pike ETH +ED 6os or zero sox
+//-----------------------------------------------------------------------------------------------War Pike ETH +ED 6os or zero sox
 ItemDisplay[7p7 ETH !RW NMAG (SOCK=0 OR SOCK=6) ED=1]: %DGREEN%ETH %NAME%%BLUE% +1%ED %RED%[%SOCKETS%]
 ItemDisplay[7p7 ETH !RW NMAG (SOCK=0 OR SOCK=6) ED=2]: %DGREEN%ETH %NAME%%BLUE% +2%ED %RED%[%SOCKETS%]
 ItemDisplay[7p7 ETH !RW NMAG (SOCK=0 OR SOCK=6) ED=3]: %DGREEN%ETH %NAME%%BLUE% +3%ED %RED%[%SOCKETS%]
@@ -4312,8 +4312,8 @@ ItemDisplay[7p7 ETH !RW NMAG (SOCK=0 OR SOCK=6) ED=12]: %DGREEN%ETH %NAME%%BLUE%
 ItemDisplay[7p7 ETH !RW NMAG (SOCK=0 OR SOCK=6) ED=13]: %DGREEN%ETH %NAME%%BLUE% +13%ED %PURPLE%[%SOCKETS%]
 ItemDisplay[7p7 ETH !RW NMAG (SOCK=0 OR SOCK=6) ED=14]: %DGREEN%ETH %NAME%%BLUE% +14%ED %PURPLE%[%SOCKETS%]
 ItemDisplay[7p7 ETH !RW NMAG (SOCK=0 OR SOCK=6) ED=15]: %DGREEN%ETH %NAME%%BLUE% +15%ED %PURPLE%[%SOCKETS%]
-//War Pike ETH 6os or zero sox
-ItemDisplay[7p7 ETH !RW NMAG (SOCK=0 OR SOCK=6)]: %DGREEN%ETH %NAME%% %RED%[%SOCKETS%]
+//-----------------------------------------------------------------------------------------------War Pike ETH 6os or zero sox
+ItemDisplay[7p7 ETH !RW NMAG (SOCK=0 OR SOCK=6)]: %DGREEN%ETH %NAME% %RED%[%SOCKETS%]
 
 ////Staves////
 //
