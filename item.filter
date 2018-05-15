@@ -1635,7 +1635,8 @@ ItemDisplay[UNI !ID pae ETH]: %RED%ETH Dragonscale
 
 ////Unique Charms & Charms
 //GC and Small Unid
-ItemDisplay[!UNI !ID (cm1 OR cm3) AND (ILVL > 79)]: %PURPLE%%NAME% %WHITE%[L%ILVL%]
+ItemDisplay[!UNI !ID (cm1 OR cm3) ILVL>79]: %PURPLE%%NAME% %WHITE%[L%ILVL%]
+ItemDisplay[!UNI !ID (cm1 OR cm3)]:%NAME% %WHITE%[L%ILVL%]
 // GC and small ID 
 ItemDisplay[!UNI ID (cm1 OR cm3)]:%NAME% %WHITE%[L%ILVL%]
 //Large 
