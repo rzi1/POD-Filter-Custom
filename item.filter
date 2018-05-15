@@ -2,10 +2,13 @@
 //Based with Anirml's Loot filter
 //Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
 
-//Basics
-//Hide Gold Piles Smaller Than (<) X
-ItemDisplay[GOLD<5000]:
-//------------------------------------------------------------------Health & Mana Potions
+//-------------------------------------------------------------------------------Basics
+//Hide Gold Piles Smaller Than (<) X based on Character levels
+ItemDisplay[CLVL>49 AND GOLD<5000]:
+ItemDisplay[CLVL>24 AND GOLD<1000]:
+ItemDisplay[CLVL>10 AND GOLD<100]:
+
+//-------------------------------------------------------------------------------Health & Mana Potions
 ItemDisplay[rvl]: %PURPLE%R %WHITE%70%
 ItemDisplay[hp4]: %RED%!%WHITE%H
 ItemDisplay[hp5]: %RED%!%WHITE%H+
@@ -25,52 +28,52 @@ ItemDisplay[mp3 CLVL<26]: %BLUE%!%WHITE%Mana
 ItemDisplay[mp1 CLVL>14]:
 ItemDisplay[mp2 CLVL>19]:
 ItemDisplay[mp3 CLVL>25]:
-//---------------------------------------------------------------------Essences (Respec Token)
+
+//-------------------------------------------------------------------------------Essences (Respec Token)
 ItemDisplay[tes]: %ORANGE%Suffering [Andariel]
 ItemDisplay[ceh]: %ORANGE%Hatred [Mephisto]
 ItemDisplay[bet]: %ORANGE%Terror [Diablo]
 ItemDisplay[fed]: %ORANGE%Destruction [Baal]
 ItemDisplay[toa]: %ORANGE%Token of Absolution
-//------------------------------------------------------------------PoD Items
+
+//-------------------------------------------------------------------------------PoD Items
 ItemDisplay[cx8]:%PURPLE%Orb of Enchantment
 ItemDisplay[cx5]: %PURPLE%Orb of Corruption
 ItemDisplay[cx6]: %PURPLE%%NAME%
 ItemDisplay[cx7]: %PURPLE%¤¤¤¤¤ KEY OF CHAOS ¤¤¤¤¤
-//ItemDisplay[ma1]: %PURPLE%%NAME%
-ItemDisplay[ma1]: %PURPLE%%NAME%
-//ItemDisplay[ma2]: %PURPLE%%NAME%
-ItemDisplay[ma2]: %PURPLE%%NAME%
-//ItemDisplay[ma3]: %PURPLE%%NAME%
-ItemDisplay[ma3]: %PURPLE%%NAME%
-//ItemDisplay[ma4]: %PURPLE%Desecrated Temple Relic [Tier 1]
+
+//MAPS
 ItemDisplay[ma4]: %PURPLE%Tier 1 Relic
-//ItemDisplay[ma5]: %PURPLE%Frigid Plateau [Tier 2]
 ItemDisplay[ma5]: %PURPLE%Tier 2 Relic
-//ItemDisplay[ma6]: %PURPLE%%NAME%
 ItemDisplay[ma6]: %PURPLE%%NAME%
 ItemDisplay[maz]: %PURPLE%%NAME%
+
 //Wirt's Leg
 ItemDisplay[leg]: %NAME%
-//---------------------------------------------UBER KEYS----------------------------------------------------------\\
+//-------------------------------------------------------------------------------UBER KEYS----------------------------------------------------------\\
 ItemDisplay[pk1]: %GREEN%Terror [Countess]
 ItemDisplay[pk2]: %GREEN%Hate [Summoner]
 ItemDisplay[pk3]: %GREEN%Destruction [Nihlathak]
 ItemDisplay[dhn]: %GREEN%Diablo's Horn
 ItemDisplay[bey]: %GREEN%Baal's Eye
 ItemDisplay[mbr]: %GREEN%Mephisto's Brain
-//---------------------------------------------END UBER KEYS----------------------------------------------------------\\
-//-----------------------------------------------------------------------------------------------Utility 
-	//-----------------------------------------------------------------------------------------------Scrolls
+//-------------------------------------------------------------------------------END UBER KEYS----------------------------------------------------------\\
+
+//-------------------------------------------------------------------------------UTILITY 
+//-------------------------------------------------------------------------------SCROLLS
 ItemDisplay[tsc]: %GREEN%!%WHITE%TP
 ItemDisplay[isc]: %GREEN%!%WHITE%ID
-	//-----------------------------------------------------------------------------------------------Tomes
+
+//-------------------------------------------------------------------------------TOMES
 ItemDisplay[tbk]: %WHITE%Tome of Town Portal
 ItemDisplay[ibk]: %WHITE%Tome of Identify
-	//-----------------------------------------------------------------------------------------------Thaw/Antidote
-ItemDisplay[wms]: %GREEN%!%WHITE%Thaw
+
+//-------------------------------------------------------------------------------Thaw/Antidote
+ItemDisplay[wms]: %BLUE%!%WHITE%Thaw
 ItemDisplay[yps]: %GREEN%!%WHITE%Antidote
-//-----------------------------------------------------------------------------------------------Keys for Locked Chests
-ItemDisplay[key]: %WHITE%key
+
+//-------------------------------------------------------------------------------KEYS FOR LOCKED CHESTS
+ItemDisplay[key]: %GOLD%key
 
 //misc
 ItemDisplay[bbb]: %TAN%%NAME%
@@ -98,6 +101,7 @@ ItemDisplay[gps]:
 ItemDisplay[gpl]:
 ItemDisplay[vps CLVL<55]: %GREEN%!%WHITE%Stamina
 ItemDisplay[vps CLVL>54]:
+
 //Hide MAGIC Quivers & Bolts above level 60
 ItemDisplay[aq2 MAG ILVL>60]:
 ItemDisplay[aq2 RARE ILVL>60]: %NAME%
@@ -115,7 +119,7 @@ ItemDisplay[NMAG SOCK=1 !RW !leg]:
 //Hide all 0 socket normal NonMagical items to reduce lag for low lvl
 ItemDisplay[NMAG !ELT !EXC SOCK=0 ILVL>1 !RW !leg]:
 
-//MAGIC
+//-------------------------------------------------------------------------------MAGIC
 //Magic Circlets
 ItemDisplay[MAG ci0 ci1 ci2 ci3 !ID]: %BLUE%%NAME%
 //Magic Vendor (Staff, Wand, Scepter)
@@ -142,8 +146,9 @@ ItemDisplay[MAG WP7 !ID ILVL>25]:
 ItemDisplay[MAG WP8 !ID ILVL>25]:
 ItemDisplay[MAG WP9 !ID ILVL>25]:
 ItemDisplay[MAG WP10 !ID ILVL>25]:
-////----------------------------------------------------------------------------------RUNES ----------------------------------------------------------------------------\\
-//--------------------------------------------------------------------------1-16
+
+//-------------------------------------------------------------------------------RUNES ----------------------------------------------------------------------------\\
+//-------------------------------------------------------------------------------1-16
 ItemDisplay[r01 CLVL>86]: %GRAY%%RUNENAME% [%RUNENUM%] 
 ItemDisplay[r02 CLVL>86]: %GRAY%%RUNENAME% [%RUNENUM%] 
 ItemDisplay[r03 CLVL>86]: %GRAY%%RUNENAME% [%RUNENUM%] 
@@ -168,7 +173,8 @@ ItemDisplay[r13]: %TAN%%RUNENAME% [%RUNENUM%]
 ItemDisplay[r14]: %TAN%%RUNENAME% [%RUNENUM%] 
 ItemDisplay[r15]: %ORANGE%  %RUNENAME% [%RUNENUM%]  %ORANGE%
 ItemDisplay[r16]: %TAN%%RUNENAME% [%RUNENUM%] 
-//--------------------------------------------------------------------------17-23
+
+//-------------------------------------------------------------------------------17-23
 ItemDisplay[r17]: %ORANGE%  %RUNENAME% [%RUNENUM%]  %ORANGE%
 ItemDisplay[r18]: %ORANGE%  %RUNENAME% [%RUNENUM%]  %ORANGE%
 ItemDisplay[r19]: %ORANGE%  %RUNENAME% [%RUNENUM%]  %ORANGE%
@@ -176,7 +182,8 @@ ItemDisplay[r20]: %ORANGE%  %RUNENAME% [%RUNENUM%]  %ORANGE%
 ItemDisplay[r21]: %PURPLE%  ** %RUNENAME% ** [%RUNENUM%]  %PURPLE%
 ItemDisplay[r22]: %PURPLE%  ** %RUNENAME% ** [%RUNENUM%]  %PURPLE%
 ItemDisplay[r23]: %PURPLE%  ** %RUNENAME% ** [%RUNENUM%]  %PURPLE%
-//--------------------------------------------------------------------------24-33
+
+//-------------------------------------------------------------------------------24-33
 ItemDisplay[r24]: %PURPLE%  **** %RUNENAME% **** [%RUNENUM%]  %PURPLE%
 ItemDisplay[r25]: %PURPLE%  **** %RUNENAME% **** [%RUNENUM%]  %PURPLE%
 ItemDisplay[r26]: %PURPLE%  ******* %RUNENAME% ******* [%RUNENUM%]  %PURPLE%
@@ -187,8 +194,10 @@ ItemDisplay[r30]: %PURPLE%  ******** %RUNENAME% ******** [%RUNENUM%]  %PURPLE%
 ItemDisplay[r31]: %PURPLE%  ***** %RUNENAME% ***** [%RUNENUM%]  %PURPLE%
 ItemDisplay[r32]: %PURPLE%  ***** %RUNENAME% ***** [%RUNENUM%]  %PURPLE%
 ItemDisplay[r33]: %PURPLE%  ***** %RUNENAME% ***** [%RUNENUM%]  %PURPLE%
-////----------------------------------------------------------------------------------End RUNES ----------------------------------------------------------------------------\\
-//------------------------------------------------------------------------------------GEMS-------------------------------------------------------------------------------------\\
+//-------------------------------------------------------------------------------END RUNES----------------------------------------------------------------------------\\
+
+
+//-------------------------------------------------------------------------------GEMS-------------------------------------------------------------------------------------\\
 //1. Amethyst 2. Diamond 3. Emerald 4. Ruby 5. Sapphire 6. Topaz 7. Skull
 //chipped (Tier 1)
 ItemDisplay[GEM=1 GEMTYPE=1 DIFFICULTY>0]:
@@ -198,6 +207,7 @@ ItemDisplay[GEM=1 GEMTYPE=4 DIFFICULTY>0]:
 ItemDisplay[GEM=1 GEMTYPE=5 DIFFICULTY>0]:
 ItemDisplay[GEM=1 GEMTYPE=6 DIFFICULTY>0]:
 ItemDisplay[GEM=1 GEMTYPE=7 DIFFICULTY>0]:
+
 //flawed (Tier2)
 ItemDisplay[GEM=2 GEMTYPE=1 DIFFICULTY>0]:
 ItemDisplay[GEM=2 GEMTYPE=2 DIFFICULTY>0]:
@@ -206,6 +216,7 @@ ItemDisplay[GEM=2 GEMTYPE=4 DIFFICULTY>0]:
 ItemDisplay[GEM=2 GEMTYPE=5 DIFFICULTY>0]:
 ItemDisplay[GEM=2 GEMTYPE=6 DIFFICULTY>0]:
 ItemDisplay[GEM=2 GEMTYPE=7 DIFFICULTY>0]:
+
 //normal (Tier3)
 ItemDisplay[GEM=3 GEMTYPE=1 DIFFICULTY>0]:
 ItemDisplay[GEM=3 GEMTYPE=2 DIFFICULTY>0]:
@@ -214,6 +225,7 @@ ItemDisplay[GEM=3 GEMTYPE=4 DIFFICULTY>0]:
 ItemDisplay[GEM=3 GEMTYPE=5 DIFFICULTY>0]:
 ItemDisplay[GEM=3 GEMTYPE=6 DIFFICULTY>0]:
 ItemDisplay[GEM=3 GEMTYPE=7 DIFFICULTY>0]:
+
 //chipped (Tier1): (lowercase display)
 ItemDisplay[GEM=1 GEMTYPE=1]: chipped amethyst
 ItemDisplay[GEM=1 GEMTYPE=2]: chipped diamond
@@ -222,6 +234,7 @@ ItemDisplay[GEM=1 GEMTYPE=4]: chipped ruby
 ItemDisplay[GEM=1 GEMTYPE=5]: chipped sapphire
 ItemDisplay[GEM=1 GEMTYPE=6]: chipped topaz
 ItemDisplay[GEM=1 GEMTYPE=7]: chipped skull
+
 //flawed (Tier2): (lowercase display)
 ItemDisplay[GEM=2 GEMTYPE=1]: flawed amethyst
 ItemDisplay[GEM=2 GEMTYPE=2]: flawed diamond
@@ -230,6 +243,7 @@ ItemDisplay[GEM=2 GEMTYPE=4]: flawed ruby
 ItemDisplay[GEM=2 GEMTYPE=5]: flawed sapphire
 ItemDisplay[GEM=2 GEMTYPE=6]: flawed topaz
 ItemDisplay[GEM=2 GEMTYPE=7]: flawed skull
+
 //normal (Tier3): (lowercase display)
 ItemDisplay[GEM=3 GEMTYPE=1]: amethyst
 ItemDisplay[GEM=3 GEMTYPE=2]: diamond
@@ -238,6 +252,7 @@ ItemDisplay[GEM=3 GEMTYPE=4]: ruby
 ItemDisplay[GEM=3 GEMTYPE=5]: sapphire
 ItemDisplay[GEM=3 GEMTYPE=6]: topaz
 ItemDisplay[GEM=3 GEMTYPE=7]: skull
+
 //Flawless (Tier4): (Standard display with orange crafting indicator)
 ItemDisplay[GEM=4 GEMTYPE=1]: %ORANGE%Amethyst
 ItemDisplay[GEM=4 GEMTYPE=2]: %ORANGE%Diamond
@@ -246,6 +261,7 @@ ItemDisplay[GEM=4 GEMTYPE=4]: %ORANGE%Ruby
 ItemDisplay[GEM=4 GEMTYPE=5]: %ORANGE%Sapphire
 ItemDisplay[GEM=4 GEMTYPE=6]: %ORANGE%Topaz
 ItemDisplay[GEM=4 GEMTYPE=7]: %ORANGE%Skull
+
 //PERFECT (Tier5): (Uppercase display with orange crafting and tier indicator)
 ItemDisplay[GEM=5 GEMTYPE=1]: %ORANGE%PERFECT AMETHYST
 ItemDisplay[GEM=5 GEMTYPE=2]: %ORANGE%PERFECT DIAMOND
@@ -254,15 +270,13 @@ ItemDisplay[GEM=5 GEMTYPE=4]: %ORANGE%PERFECT RUBY
 ItemDisplay[GEM=5 GEMTYPE=5]: %ORANGE%PERFECT SAPPHIRE
 ItemDisplay[GEM=5 GEMTYPE=6]: %ORANGE%PERFECT TOPAZ
 ItemDisplay[GEM=5 GEMTYPE=7]: %ORANGE%PERFECT SKULL
-//------------------------------------------------------------------------------------GEMS-------------------------------------------------------------------------------------\\
 
-***Your own custom items here***
+//-------------------------------------------------------------------------------GEMS-------------------------------------------------------------------------------------\\
 
+////-----------------------------------------------------------------------------UNIQUE ITEMS---------------------------------------------------------------------------------\\\\
 
-////UNIQUE ITEMS////
-//
-//Unique Helms (inc Circlets)
-//
+//-------------------------------------------------------------------------------UNIQUE HELMS (inc Circlets)
+
 //Biggin's Bonnet
 ItemDisplay[UNI !ID cap !ETH]: %TAN%Biggin's Bonnet
 //Biggin's Bonnet ETH
@@ -360,8 +374,8 @@ ItemDisplay[UNI !ID ci2 !ETH]: %RED%¤ Kira's Guardian %RED%¤
 //Kira's Guardian ETH
 ItemDisplay[UNI !ID ci2 ETH]: %RED%ETH Kira's Guardian%RED%
 
-////Unique Armor
-//
+//-------------------------------------------------------------------------------UNIQUE ARMOR
+
 //Greyform
 ItemDisplay[UNI !ID qui !ETH]: %TAN%Greyform
 //Greyform
@@ -511,8 +525,8 @@ ItemDisplay[UNI !ID uar !ETH]: %RED%¤ %PURPLE%Tyrael's Might %RED%¤
 //Tyrael's Might
 ItemDisplay[UNI !ID uar ETH]: %RED%¤ %PURPLE%ETH Tyrael's Might %RED%¤
 
-////Unique Shields
-//
+//-------------------------------------------------------------------------------UNIQUE SHIELDS
+
 //Pelta Lunata
 ItemDisplay[UNI !ID buc !ETH]: %TAN%Pelta Lunata
 //Pelta Lunata
@@ -602,8 +616,8 @@ ItemDisplay[UNI !ID uts !ETH]: %RED%Spirit Ward
 //Spirit Ward
 ItemDisplay[UNI !ID uts ETH]: %RED%ETH Spirit Ward
 
-////Unique Gloves
-//
+//-------------------------------------------------------------------------------UNIQUE GLOVES
+
 //The Hand of Broc
 ItemDisplay[UNI !ID lgl !ETH]: %TAN%The Hand of Broc
 //The Hand of Broc
@@ -657,8 +671,8 @@ ItemDisplay[UNI !ID uhg !ETH]: %RED%Steelrend
 //Steelrend
 ItemDisplay[UNI !ID uhg ETH]: %TAN%ETH Steelrend
 
-////Unique Boots
-//
+//-------------------------------------------------------------------------------UNIQUE BOOTS
+
 //Hotspur
 ItemDisplay[UNI !ID lbt !ETH]: %RED%¤ Hotspur %RED%¤
 //Hotspur
@@ -712,8 +726,8 @@ ItemDisplay[UNI !ID uhb !ETH]: %RED%¤ Shadow Dancer %RED%¤
 //Shadow Dancer
 ItemDisplay[UNI !ID uhb ETH]: %TAN%ETH Shadow Dancer
 
-////Unique Belts
-//
+//-------------------------------------------------------------------------------UNIQUE BELTS
+
 //Lenymo
 ItemDisplay[UNI !ID lbl !ETH]: %TAN%Lenymo
 //Lenymo
@@ -767,10 +781,10 @@ ItemDisplay[UNI !ID umc !ETH]: %RED%¤ %PURPLE%Verdungo's Hearty Cord %RED%¤
 //Verdungo's Hearty Cord
 ItemDisplay[UNI !ID umc ETH]: %RED%ETH Verdungo's Hearty Cord
 
-////Unique Weapons
-//
-////Unique Axes
-//
+//-------------------------------------------------------------------------------UNIQUE WEAPONS
+
+//-------------------------------------------------------------------------------UNIQUE AXES
+
 //The Gnasher
 ItemDisplay[UNI !ID hax !ETH]: %TAN%The Gnasher
 //The Gnasher
@@ -882,8 +896,8 @@ ItemDisplay[UNI !ID 7gi !ETH]: %RED%¤ Executioner's Justice %RED%¤
 //Executioner's Justice
 ItemDisplay[UNI !ID 7gi ETH]: %RED%ETH Executioner's Justice
 
-////Unique Bows
-//
+//-------------------------------------------------------------------------------UNIQUE BOWS
+
 //Pluckeye
 ItemDisplay[UNI !ID sbw]: %TAN%Pluckeye
 //Witherstring
@@ -923,8 +937,8 @@ ItemDisplay[UNI !ID 6sw]: %RED%¤ Widowmaker %RED%¤
 //Windforce
 ItemDisplay[UNI !ID 6lw]: %RED%¤ %PURPLE%Windforce %RED%¤
 
-////Unique Crossbows
-//
+//-------------------------------------------------------------------------------UNIQUE CROSSBOWS
+
 //Leadcrow
 ItemDisplay[UNI !ID lxb]: %TAN%Leadcrow
 //Ichorsting
@@ -946,8 +960,8 @@ ItemDisplay[UNI !ID 6hx]: %TAN%Hellrack %SOCKETS%
 //Gut Siphon (good for terror amazon or support amazon)
 ItemDisplay[UNI !ID 6rx]: %RED%¤ Gut Siphon %RED%¤
 
-////Unique Daggers
-//
+//-------------------------------------------------------------------------------UNIQUE DAGGERS
+
 //Gull
 ItemDisplay[UNI !ID dgr !ETH]: %RED%¤ Gull %RED%¤
 //Gull
@@ -991,8 +1005,8 @@ ItemDisplay[UNI !ID 7kr ETH]: %RED%ETH Fleshripper
 //ETH Ghostflame (always eth)
 ItemDisplay[UNI !ID 7bl ETH]: %RED%ETH Ghostflame
 
-////Unique Maces
-//
+//-------------------------------------------------------------------------------UNIQUE MACES
+
 //Felloak
 ItemDisplay[UNI !ID clb !ETH]: %TAN%Felloak
 //Felloak
@@ -1086,8 +1100,8 @@ ItemDisplay[UNI !ID 7gm !ETH]: %RED%¤ Earth Shifter or The Cranium Basher %RED%
 //Earth Shifter or The Cranium Basher
 ItemDisplay[UNI !ID 7gm ETH]: %RED%¤ ETH Earth Shifter or ETH The Cranium Basher %RED%¤
 
-////Unique Polearms
-//
+//-------------------------------------------------------------------------------UNIQUE POLEARMS
+
 //Dimoak's Hew
 ItemDisplay[UNI !ID bar !ETH]: %TAN%Dimoak's Hew
 //Dimoak's Hew
@@ -1153,8 +1167,8 @@ ItemDisplay[UNI !ID 7wc !ETH]: %TAN%Stormspire
 //ETH Stormspire
 ItemDisplay[UNI !ID 7wc ETH]: %RED%ETH Stormspire
 
-////Unique Scepters
-//
+//-------------------------------------------------------------------------------UNIQUE SCEPTERS
+
 //Knell Striker
 ItemDisplay[UNI !ID scp !ETH]: %TAN%Knell Striker
 //Knell Striker
@@ -1188,8 +1202,8 @@ ItemDisplay[UNI !ID 7ws !ETH]: %RED%¤ Astreon's Iron Ward %RED%¤
 //Astreon's Iron Ward
 ItemDisplay[UNI !ID 7ws ETH]: %RED%ETH Astreon's Iron Ward
 
-////Unique Spears
-//
+//-------------------------------------------------------------------------------UNIQUE SPEARS
+
 //The Dragon Chang
 ItemDisplay[UNI !ID spr !ETH]: %TAN%The Dragon Chang
 //The Dragon Chang
@@ -1243,8 +1257,8 @@ ItemDisplay[UNI !ID 7p7 !ETH]: %RED%¤ Steel Pillar %RED%¤
 //Steel Pillar
 ItemDisplay[UNI !ID 7p7 ETH]: %RED%¤ ETH Steel Pillar %RED%¤
 
-////Unique Staves
-//
+//-------------------------------------------------------------------------------UNIQUE STAVES
+
 //Bane Ash
 ItemDisplay[UNI !ID sst !ETH]: %TAN%Bane Ash
 //Bane Ash
@@ -1294,8 +1308,8 @@ ItemDisplay[UNI !ID 6ws !ETH]: %RED%Mang Song's Lesson
 //Mang Song's Lesson
 ItemDisplay[UNI !ID 6ws ETH]: %TAN%ETH Mang Song's Lesson
 
-////Unique Swords
-//
+//-------------------------------------------------------------------------------UNIQUE SWORDS
+
 //Rixot's Keen
 ItemDisplay[UNI !ID ssd !ETH]: %TAN%Rixot's Keen
 //Rixot's Keen
@@ -1431,8 +1445,8 @@ ItemDisplay[UNI !ID 7gd !ETH]: %RED%¤ The Grandfather %RED%¤
 //ETH The Grandfather
 ItemDisplay[UNI !ID 7gd ETH]: %RED%¤ ETH The Grandfather %RED%¤
 
-////Unique Wands
-//
+//-------------------------------------------------------------------------------UNIQUE WANDS
+
 //Torch of Iro
 ItemDisplay[UNI !ID wnd !ETH]: %TAN%Torch of Iro
 //Torch of Iro
@@ -1474,8 +1488,8 @@ ItemDisplay[UNI !ID 7gw !ETH]: %RED%¤ %PURPLE%Death's Web %RED%¤
 //Death's Web (-40 to -50 to enemy poison res)
 ItemDisplay[UNI !ID 7gw ETH]: %RED%¤ ETH Death's Web %RED%¤
 
-////Unique Throwing Weapons
-//
+//-------------------------------------------------------------------------------UNIQUE THROWING WEAPONS
+
 //Deathbit
 ItemDisplay[UNI !ID 9tk !ETH]: %TAN%Deathbit
 //ETH Deathbit
@@ -1497,8 +1511,8 @@ ItemDisplay[UNI !ID 7b8 !ETH]: %RED%¤ Lacerator %RED%¤
 //ETH Lacerator
 ItemDisplay[UNI !ID 7b8 ETH]: %RED%¤ %PURPLE%ETH Lacerator %RED%¤
 
-////Unique Javelins
-//
+//-------------------------------------------------------------------------------UNIQUE JAVELINS
+
 //Demon's Arch
 ItemDisplay[UNI !ID 7s7 !ETH]: %RED%Demon's Arch
 //ETH Demon's Arch
@@ -1510,8 +1524,8 @@ ItemDisplay[UNI !ID 7ts !ETH]: %TAN%Gargoyle's Bite
 //ETH Gargoyle's Bite
 ItemDisplay[UNI !ID 7ts ETH]: %RED%ETH Gargoyle's Bite
 
-////Unique Amazon only items
-//
+//-------------------------------------------------------------------------------UNIQUE AMAZON ONLY
+
 //Stoneraven
 ItemDisplay[UNI !ID amd !ETH]: %RED%Stoneraven
 //Stoneraven
@@ -1533,8 +1547,8 @@ ItemDisplay[UNI !ID amf ETH]: %TAN%ETH Thunderstroke
 //Blood Raven's Charge (got lvl 5 revive (30charges))
 ItemDisplay[UNI !ID amb]: %TAN%Blood Raven's Charge
 
-////Unique Assassin only items
-//
+//-------------------------------------------------------------------------------UNIQUE ASSASSIN ONLY
+
 //ETH Shadow Killer (its always ETH)
 ItemDisplay[UNI !ID 7cs ETH]: %RED%ETH Shadow Killer
 //Bartuc's Cut-Throat
@@ -1550,8 +1564,8 @@ ItemDisplay[UNI !ID 7lw !ETH]: %TAN%Firelizard's Talons
 //Firelizard's Talons
 ItemDisplay[UNI !ID 7lw ETH]: %TAN%ETH Firelizard's Talons
 
-////Unique Necromancer only items
-//
+//-------------------------------------------------------------------------------UNIQUE NECROMANCER ONLY
+
 //Homunculus
 ItemDisplay[UNI !ID nea !ETH]: %RED%¤ %PURPLE%Homunculus %RED%¤
 //Homunculus
@@ -1565,8 +1579,8 @@ ItemDisplay[UNI !ID nee !ETH]: %RED%¤ Boneflame %RED%¤
 //Boneflame
 ItemDisplay[UNI !ID nee ETH]: %TAN%ETH Boneflame
 
-////Unique Barbarian only items
-//
+//-------------------------------------------------------------------------------UNIQUE BARBARIAN ONLY 
+
 //Arreat's Face
 ItemDisplay[UNI !ID baa !ETH]: %RED%¤ %PURPLE%Arreat's Face %RED%¤
 //Arreat's Face
@@ -1584,8 +1598,8 @@ ItemDisplay[UNI !ID bae !ETH]: %RED%Halaberd's Reign
 //Halaberd's Reign
 ItemDisplay[UNI !ID bae ETH]: %TAN%ETH Halaberd's Reign
 
-////Unique Sorceress only items
-//
+//-------------------------------------------------------------------------------UNIQUE SORCERESS ONLY
+
 //The Oculus
 ItemDisplay[UNI !ID oba !ETH]: %RED%¤ The Oculus %RED%¤
 //The Oculus
@@ -1599,8 +1613,8 @@ ItemDisplay[UNI !ID obf !ETH]: %RED%¤ Death's Fathom %RED%¤
 //Death's Fathom
 ItemDisplay[UNI !ID obf ETH]: %TAN%ETH Death's Fathom
 
-////Unique Druid only items
-//
+//-------------------------------------------------------------------------------UNIQUE DRUID ONLY
+
 //Jalal's Mane
 ItemDisplay[UNI !ID dra !ETH]: %RED%¤ %PURPLE%Jalal's Mane %RED%¤
 //Jalal's Mane
@@ -1618,8 +1632,8 @@ ItemDisplay[UNI !ID drd !ETH]: %RED%¤ Spirit Keeper %RED%¤
 //Spirit Keeper
 ItemDisplay[UNI !ID drd ETH]: %TAN%ETH Spirit Keeper
 
-////Unique Paladin only items
-//
+//-------------------------------------------------------------------------------UNIQUE PALADIN ONLY ITEMS
+
 //Alma Negra
 ItemDisplay[UNI !ID pac !ETH]: %RED%¤ Alma Negra %RED%¤
 //Alma Negra
@@ -1633,36 +1647,36 @@ ItemDisplay[UNI !ID pae !ETH]: %RED%¤ Dragonscale %RED%¤
 //Dragonscale (Hydra paladin?)
 ItemDisplay[UNI !ID pae ETH]: %RED%ETH Dragonscale
 
-////Unique Charms & Charms
-//GC and Small Unid
+//-------------------------------------------------------------------------------UNIQUE CHARMS & CHARMS
+//-------------------------------------------------------------------------------GC AND Sc UNID
 ItemDisplay[!UNI !ID cm3 ILVL>90]: %PURPLE%%NAME% %ORANGE%[L%ILVL%]
 ItemDisplay[!UNI !ID (cm1 OR cm3) ILVL>78]: %PURPLE%%NAME% %WHITE%[L%ILVL%]
 ItemDisplay[!UNI !ID cm1 ILVL=47]:%NAME% %ORANGE%[L%ILVL%]
 ItemDisplay[!UNI !ID (cm1 OR cm3)]:%NAME% %WHITE%[L%ILVL%]
 //Rerolling
-// GC and small ID 
+//-------------------------------------------------------------------------------GC AND SC ID 
 ItemDisplay[MAG cm3 ILVL>90]: %NAME% %ORANGE%[L%ILVL%]
 ItemDisplay[MAG cm1 ILVL=47]: %NAME% %ORANGE%[L%ILVL%]
 ItemDisplay[!UNI ID (cm1 OR cm3)]:%NAME% %WHITE%[L%ILVL%]
 ItemDisplay[!UNI ID (cm1 OR cm3)]:%NAME% %WHITE%[L%ILVL%]
-//Large 
+//-------------------------------------------------------------------------------LC
 ItemDisplay[!UNI (cm2)]: %NAME% %WHITE%[L%ILVL%]
-//Unique
+//-------------------------------------------------------------------------------UNIQUE
 ItemDisplay[UNI !ID (cm1 OR cm2 OR cm3)]: %RED%%NAME% ¤
 
 
 
-////SET ITEMS (no rings or amys edited)
-//
-//Angelic Raiment
-//
+//-------------------------------------------------------------------------------SET ITEMS (no rings or amys edited)
+
+//-------------------------------------------------------------------------------Angelic Raiment
+
 //Angelic Mantle
 ItemDisplay[SET !ID rng]: %GREEN%%NAME% %DGREEN%Angelic
 //Angelic Sickle
 ItemDisplay[SET !ID sbr]: %GREEN%%NAME% %DGREEN%Angelic
 
-//Arcanna's Tricks
-//
+//-------------------------------------------------------------------------------Arcanna's Tricks
+
 //Arcanna's Head
 ItemDisplay[SET !ID skp]: %GREEN%%NAME% %DGREEN%Arcanna's
 //Arcanna's Flesh
@@ -1670,8 +1684,8 @@ ItemDisplay[SET !ID ltp]: %GREEN%%NAME% %DGREEN%Arcanna's
 //Arcanna's Deathwand
 ItemDisplay[SET !ID wst]: %GREEN%%NAME% %DGREEN%Arcanna's
 
-//Arctic Gear
-//
+//-------------------------------------------------------------------------------Arctic Gear
+
 //Arctic Furs
 ItemDisplay[SET !ID qui]: %GREEN%%NAME% %DGREEN%Arctic
 //Arctic Binding
@@ -1681,8 +1695,8 @@ ItemDisplay[SET !ID tgl]: %GREEN%%NAME% %DGREEN%Arctic
 //Arctic Horn
 ItemDisplay[SET !ID swb]: %GREEN%%NAME% %DGREEN%Arctic
 
-//Berserker'Arsenal
-//
+//-------------------------------------------------------------------------------Berserker'Arsenal
+
 //Berserker's Headgear
 ItemDisplay[SET !ID hlm]: %GREEN%%NAME% %DGREEN%Berserker's
 //Berserker's Hauberk
@@ -1690,8 +1704,8 @@ ItemDisplay[SET !ID spl]: %GREEN%%NAME% %DGREEN%Berserker's
 //Berserker's Hatchet
 ItemDisplay[SET !ID 2ax]: %GREEN%%NAME% %DGREEN%Berserker's
 
-//Cathan's Traps
-//
+//-------------------------------------------------------------------------------Cathan's Traps
+
 //Cathan's Visage
 ItemDisplay[SET !ID msk]: %GREEN%%NAME% %DGREEN%Cathan's
 //Cathan's Mesh
@@ -1699,15 +1713,15 @@ ItemDisplay[SET !ID chn]: %GREEN%%NAME% %DGREEN%Cathan's
 //Cathan's Rule
 ItemDisplay[SET !ID bst]: %GREEN%%NAME% %DGREEN%Cathan's
 
-//Civerb's Vestments
-//
+//-------------------------------------------------------------------------------Civerb's Vestments
+
 //Civerb's Cudgel
 ItemDisplay[SET !ID gsc]: %GREEN%%NAME% %DGREEN%Civerb's
 //Civerb's Ward
 ItemDisplay[SET !ID lrg]: %GREEN%%NAME% %DGREEN%Civerb's
 
-//Cleglaw's Brace
-//
+//-------------------------------------------------------------------------------Cleglaw's Brace
+
 //Cleglaw's Tooth
 ItemDisplay[SET !ID lsd]: %GREEN%%NAME% %DGREEN%Cleglaw's
 //Cleglaw's Pincer's
@@ -1715,8 +1729,8 @@ ItemDisplay[SET !ID mgl]: %GREEN%%NAME% %DGREEN%Cleglaw's
 //Cleglaw's Claw
 ItemDisplay[SET !ID sml]: %GREEN%%NAME% %DGREEN%Cleglaw's
 
-//Death's Disguise
-//
+//-------------------------------------------------------------------------------Death's Disguise
+
 //Death's Touch
 ItemDisplay[SET !ID wsd]: %GREEN%%NAME% %DGREEN%Death's
 //Death's Hand
@@ -1724,8 +1738,8 @@ ItemDisplay[SET !ID lgl]: %GREEN%%NAME% %DGREEN%Death's
 //Death's Guard
 ItemDisplay[SET !ID lbl]: %GREEN%%NAME% %DGREEN%Death's
 
-//Hsarus' Defense
-//
+//-------------------------------------------------------------------------------Hsarus' Defense
+
 //Hsarus' Iron Fist
 ItemDisplay[SET !ID buc]: %GREEN%%NAME% %DGREEN%Hsarus'
 //Hsarus' Iron Stay
@@ -1733,8 +1747,8 @@ ItemDisplay[SET !ID mbl]: %GREEN%%NAME% %DGREEN%Hsarus' or Hwanin's
 //Hsarus' Iron Heel
 ItemDisplay[SET !ID mbt]: %GREEN%%NAME% %DGREEN%Hsarus'
 
-//Infernal Tools
-//
+//-------------------------------------------------------------------------------Infernal Tools
+
 //Infernal Cranium
 ItemDisplay[SET !ID cap]: %GREEN%%NAME% %DGREEN%Infernal Cranium or Sander's Paragon
 //Infernal Sign
@@ -1742,8 +1756,8 @@ ItemDisplay[SET !ID tbl]: %GREEN%%NAME% %DGREEN%Infernal Sign or Iratha's Cord
 //Infernal Torch
 ItemDisplay[SET !ID gwn]: %GREEN%%NAME% %DGREEN%Infernal
 
-//Iratha's Finery
-//
+//-------------------------------------------------------------------------------Iratha's Finery
+
 //Iratha's Coil
 ItemDisplay[SET !ID crn]: %GREEN%%NAME% %DGREEN%Iratha's Coil or Milabrega's Diadem
 //Iratha's Cord
@@ -1751,8 +1765,8 @@ ItemDisplay[SET !ID tbl]: %GREEN%%NAME% %DGREEN%Infernal Sign or Iratha's Cord
 //Iratha's Cuff
 ItemDisplay[SET !ID tgl]: %GREEN%%NAME% %DGREEN%Iratha's Cuff or Arctic Mitts
 
-//Isenhart's Armory
-//
+//-------------------------------------------------------------------------------Isenhart's Armory
+
 //Isenhart's Lightbrand
 ItemDisplay[SET !ID bsd]: %GREEN%%NAME% %DGREEN%Isenhart's
 //Isenhart's Horns
@@ -1762,8 +1776,8 @@ ItemDisplay[SET !ID brs]: %GREEN%%NAME% %DGREEN%Isenhart's
 //Isenhart's Parry
 ItemDisplay[SET !ID gts]: %GREEN%%NAME% %DGREEN%Isenhart's
 
-//Milabrega's Regalia
-//
+//-------------------------------------------------------------------------------Milabrega's Regalia
+
 //Milabrega's Diadem
 ItemDisplay[SET !ID crn]: %GREEN%%NAME% %DGREEN%Iratha's Coil or Milabrega's Diadem
 //Milabrega's Robe
@@ -1773,8 +1787,8 @@ ItemDisplay[SET !ID kit]: %GREEN%%NAME% %DGREEN%Milabrega's
 //Milabrega's Rod
 ItemDisplay[SET !ID wsp]: %GREEN%%NAME% %DGREEN%Milabrega's
 
-//Sigon's Complete Steel
-//
+//-------------------------------------------------------------------------------Sigon's Complete Steel
+
 //Sigon's Visor
 ItemDisplay[SET !ID ghm]: %GREEN%%NAME% %DGREEN%Sigon's
 //Sigon's Shelter
@@ -1788,8 +1802,8 @@ ItemDisplay[SET !ID hbl]: %GREEN%%NAME% %DGREEN%Sigon's
 //Sigon's Gage
 ItemDisplay[SET !ID hgl]: %GREEN%%NAME% %DGREEN%Sigon's
 
-//Tancred's Battlegear
-//
+//-------------------------------------------------------------------------------Tancred's Battlegear
+
 //Tancred's Skull
 ItemDisplay[SET !ID bhm]: %GREEN%%NAME% %DGREEN%Tancred's
 //Tancred's Spine
@@ -1799,8 +1813,8 @@ ItemDisplay[SET !ID lbt]: %GREEN%%NAME% %DGREEN%Tancred's
 //Tancred's Crowbill
 ItemDisplay[SET !ID mpi]: %GREEN%%NAME% %DGREEN%Tancred's
 
-//Vidala's Rig
-//
+//-------------------------------------------------------------------------------Vidala's Rig
+
 //Vidala's Barb
 ItemDisplay[SET !ID lbb]: %GREEN%%NAME% %DGREEN%Vidala's
 //Vidala's Ambush
@@ -1808,8 +1822,8 @@ ItemDisplay[SET !ID lea]: %GREEN%%NAME% %DGREEN%Vidala's
 //Vidala's Fetlock
 ItemDisplay[SET !ID tbt]: %GREEN%%NAME% %DGREEN%Vidala's
 
-//Aldur's Watchtower
-//
+//-------------------------------------------------------------------------------Aldur's Watchtower
+
 //Aldur's Stony Gaze
 ItemDisplay[SET !ID dr8]: %GREEN%%NAME% %DGREEN%Aldur's %RED%¤
 //Aldur's Advance
@@ -1819,15 +1833,15 @@ ItemDisplay[SET !ID uul]: %GREEN%%NAME% %DGREEN%Aldur's %RED%¤
 //Aldur's Rhythm
 ItemDisplay[SET !ID 9mt]: %GREEN%%NAME% %DGREEN%Aldur's [%SOCKETS%]
 
-//Bul-Kathos' Children
-//
+//-------------------------------------------------------------------------------Bul-Kathos' Children
+
 //Bul-Kathos' Sacred Charge
 ItemDisplay[SET !ID 7gd]: %GREEN%%NAME% %DGREEN%Bul-Kathos' %RED%¤
 //Bul-Kathos' Tribal Guardian
 ItemDisplay[SET !ID 7wd]: %GREEN%%NAME% %DGREEN%Bul-Kathos' %RED%¤
 
-//Cow King's Leathers
-//
+//-------------------------------------------------------------------------------Cow King's Leathers
+
 //Cow King's Horns
 ItemDisplay[SET !ID xap]: %GREEN%%NAME% %DGREEN%Cow King's %RED%¤
 //Cow King's Hide
@@ -1835,8 +1849,8 @@ ItemDisplay[SET !ID stu]: %GREEN%%NAME% %DGREEN%Cow King's %RED%¤
 //Cow King's Hooves
 ItemDisplay[SET !ID vbt]: %GREEN%%NAME% %DGREEN%Sander's Riprap or Cow King's Hooves
 
-//The Disciple
-//
+//-------------------------------------------------------------------------------The Disciple
+
 //Laying of Hands
 ItemDisplay[SET !ID ulg]: %RED%¤ %GREEN%%NAME% %DGREEN%The Disciple %RED%¤
 //Dark Adherent
@@ -1846,8 +1860,8 @@ ItemDisplay[SET !ID xlb]: %GREEN%%NAME% %DGREEN%The Disciple
 //Credendum
 ItemDisplay[SET !ID umc]: %GREEN%%NAME% %DGREEN%The Disciple
 
-//Griswold's Legacy
-//
+//-------------------------------------------------------------------------------Griswold's Legacy
+
 //Griswold's Heart
 ItemDisplay[SET !ID xar]: %GREEN%%NAME% %DGREEN%Griswold's
 //Griswold's Valor
@@ -1857,8 +1871,8 @@ ItemDisplay[SET !ID 7ws]: %GREEN%%NAME% %DGREEN%Griswold's
 //Griswold's Honor
 ItemDisplay[SET !ID paf]: %GREEN%%NAME% %DGREEN%Griswold's %RED%¤
 
-//Heaven's Brethren
-//
+//-------------------------------------------------------------------------------Heaven's Brethren
+
 //Haemosu's Adamant
 ItemDisplay[SET !ID xrs]: %GREEN%%NAME% %DGREEN%Heaven's Brethren
 //Dangoon's Teaching
@@ -1868,8 +1882,8 @@ ItemDisplay[SET !ID uts]: %GREEN%%NAME% %DGREEN%Heaven's Brethren %RED%¤
 //Ondal's Almighty
 ItemDisplay[SET !ID uhm]: %GREEN%%NAME% %DGREEN%Heaven's Brethren
 
-//Hwanin's Majesty
-//
+//-------------------------------------------------------------------------------Hwanin's Majesty
+
 //Hwanin's Splendor
 ItemDisplay[SET !ID xrn]: %GREEN%%NAME% %DGREEN%Hwanin's
 //Hwanin's Justice
@@ -1881,8 +1895,8 @@ ItemDisplay[SET !ID xcl]: %GREEN%%NAME% %DGREEN%Hwanin's
 //Hwanin's Blessing
 ItemDisplay[SET !ID mbl]: %GREEN%%NAME% %DGREEN%Hsarus' or Hwanin's
 
-//Immortal King
-//
+//-------------------------------------------------------------------------------Immortal King
+
 //Immortal King's Will
 ItemDisplay[SET !ID ba5]: %RED%¤ %GREEN%%NAME% %DGREEN%Immortal King %RED%¤
 //Immortal King's Stone Crusher
@@ -1896,8 +1910,8 @@ ItemDisplay[SET !ID xhg]: %GREEN%%NAME% %DGREEN%Immortal King
 //Immortal King's Pillar
 ItemDisplay[SET !ID xhb]: %RED%¤ %GREEN%%NAME% %DGREEN%Immortal King %RED%¤
 
-//M'avina's Battle Hymn
-//
+//-------------------------------------------------------------------------------M'avina's Battle Hymn
+
 //M'avina's True Sight
 ItemDisplay[SET !ID ci3]: %GREEN%%NAME% %DGREEN%Mavina's %RED%¤
 //M'avina's Caster
@@ -1911,8 +1925,8 @@ ItemDisplay[SET !ID zvb]: %GREEN%%NAME% %DGREEN%Mavina's
 //M'avina's Tenet perf def
 ItemDisplay[SET !ID zvb DEF>35]: %RED%¤ %GREEN%%NAME% %DGREEN%Mavina's Perf Def %RED%¤
 
-//Natalya's Odium
-//
+//-------------------------------------------------------------------------------Natalya's Odium
+
 //Natalya's Totem
 ItemDisplay[SET !ID xh9]: %GREEN%%NAME% %DGREEN%Natalya's
 //Natalya's Mark
@@ -1922,8 +1936,8 @@ ItemDisplay[SET !ID ucl]: %GREEN%%NAME% %DGREEN%Natalya's %RED%¤
 //Natalya's Soul
 ItemDisplay[SET !ID xmb]: %RED%¤ %GREEN%%NAME% %DGREEN%Natalya's %RED%¤
 
-//Naj's Ancient Vestige
-//
+//-------------------------------------------------------------------------------Naj's Ancient Vestige
+
 //Naj's Circlet
 ItemDisplay[SET !ID ci0]: %GREEN%%NAME% %DGREEN%Naj's
 //Naj's Circlet perf def
@@ -1933,8 +1947,8 @@ ItemDisplay[SET !ID ult]: %RED%¤ %GREEN%%NAME% %DGREEN%Naj's %RED%¤
 //Naj's Puzzler
 ItemDisplay[SET !ID 6cs]: %GREEN%%NAME% %DGREEN%Naj's %RED%¤
 
-//Orphan's Call
-//
+//-------------------------------------------------------------------------------Orphan's Call
+
 //Guillaume's Face
 ItemDisplay[SET !ID xhm]: %RED%¤ %GREEN%%NAME% %DGREEN%Orphan's %RED%¤
 //Whitstan's Guard
@@ -1944,8 +1958,8 @@ ItemDisplay[SET !ID xvg]: %GREEN%%NAME% %DGREEN%Orphan's
 //Wilhelm's Pride
 ItemDisplay[SET !ID ztb]: %GREEN%%NAME% %DGREEN%Orphan's
 
-//Sander's Folly
-//
+//-------------------------------------------------------------------------------Sander's Folly
+
 //Sander's Paragon
 ItemDisplay[SET !ID cap]: %GREEN%%NAME% %DGREEN%Infernal Cranium or Sander's Paragon
 //Sander's Superstition
@@ -1955,8 +1969,8 @@ ItemDisplay[SET !ID vgl]: %GREEN%%NAME% %DGREEN%Sander's
 //Sander's Riprap
 ItemDisplay[SET !ID vbt]: %GREEN%%NAME% %DGREEN%Sander's Riprap or Cow King's Hooves
 
-//Sazabi's Grand Tribute
-//
+//-------------------------------------------------------------------------------Sazabi's Grand Tribute
+
 //Sazabi's Mental Sheath
 ItemDisplay[SET !ID xhl]: %GREEN%%NAME% %DGREEN%Sazabi's
 //Sazabi's Cobalt Redeemer
@@ -1964,8 +1978,8 @@ ItemDisplay[SET !ID 7ls]: %RED%¤ %GREEN%%NAME% %DGREEN%Sazabi's %RED%¤
 //Sazabi's Ghost Liberator
 ItemDisplay[SET !ID upl]: %GREEN%%NAME% %DGREEN%Sazabi's %RED%¤
 
-//Tal Rasha's Wrappings
-//
+//-------------------------------------------------------------------------------Tal Rasha's Wrappings
+
 //Tal Rasha's Lidless Eye
 ItemDisplay[SET !ID oba]: %RED%¤ %GREEN%%NAME% %DGREEN%Tal Rasha's %RED%¤
 //Tal Rasha's Horadric Crest
@@ -1975,8 +1989,8 @@ ItemDisplay[SET !ID uth]: %PURPLE%¤ %GREEN%%NAME% %DGREEN%Tal Rasha's %PURPLE%�
 //Tal Rasha's Fine-Spun Cloth
 ItemDisplay[SET !ID zmb]: %RED%¤ %GREEN%%NAME% %DGREEN%Tal Rasha's %RED%¤
 
-//Trang-Oul's Avatar
-//
+//-------------------------------------------------------------------------------Trang-Oul's Avatar
+
 //Trang-Oul's Guise
 ItemDisplay[SET !ID uh9]: %RED%¤ %GREEN%%NAME% %DGREEN%Trang-Oul's %RED%¤
 //Trang-Oul's Scales
@@ -1989,11 +2003,11 @@ ItemDisplay[SET !ID utc]: %RED%¤ %GREEN%%NAME% %DGREEN%Trang-Oul's %RED%¤
 ItemDisplay[SET !ID xmg]: %RED%¤ %GREEN%%NAME% %DGREEN%Trang-Oul's %RED%¤
 
 
-//Rings Amulets Jewels Charms
+//-------------------------------------------------------------------------------Rings Amulets Jewels Diadems
 ItemDisplay[UNI !ID (rin OR amu OR jew OR ci3)]: %PURPLE% %NAME% ¤ %PURPLE%
 ItemDisplay[UNI ID (rin OR amu OR jew OR ci3)]: %PURPLE% %NAME%
 
-//UNIQUE&SET Eth/Socket Catchall
+//-------------------------------------------------------------------------------UNIQUE&SET Eth/Socket Catchall
 ItemDisplay[UNI ETH SOCK>0 !ID]: ETH %NAME% [%SOCKETS%]
 ItemDisplay[SET ETH SOCK>0 !ID]: ETH %NAME% [%SOCKETS%]
 ItemDisplay[UNI ETH !ID]: ETH %NAME%
@@ -2010,9 +2024,9 @@ ItemDisplay[UNI SOCK>0]: %NAME% [%SOCKETS%]
 ItemDisplay[SET SOCK>0]: %NAME% [%SOCKETS%]
 ItemDisplay[UNI]: %NAME%
 ItemDisplay[SET]: %NAME%
-//
 
-//Amulets
+
+//-------------------------------------------------------------------------------AMULETS
 ItemDisplay[MAG amu ILVL=85]: %BLUE%%NAME%%ORANGE% [CLVL 96+]
 ItemDisplay[MAG amu ILVL=86]: %BLUE%%NAME%%ORANGE% [CLVL 94+]
 ItemDisplay[MAG amu ILVL=87]: %BLUE%%NAME%%ORANGE% [CLVL 94+]
@@ -2030,14 +2044,14 @@ ItemDisplay[MAG amu ILVL=98]: %BLUE%%NAME%%ORANGE% [CLVL 82+]
 ItemDisplay[MAG amu ILVL=99]: %BLUE%%NAME%%ORANGE% [CLVL 82+]
 ItemDisplay[MAG amu ILVL<85]: %BLUE%%NAME%%WHITE% [L%ILVL%]
 
-//Rings
+//-------------------------------------------------------------------------------RINGS
 ItemDisplay[MAG rin]: %BLUE%%NAME%%WHITE% [L%ILVL%]
-//Magic Jewels
+//-------------------------------------------------------------------------------MAGIC JEWELS
 ItemDisplay[MAG !ID jew ILVL>86]: %RED%%NAME% %WHITE%[L%ILVL%]
 ItemDisplay[MAG jew]: %BLUE%%NAME% %WHITE%[L%ILVL%]
 
 
-//Gloves
+//-------------------------------------------------------------------------------GLOVES
 //Blood Gloves (Heavy Gloves/Sharkskin/Vampirebone) + NEF + RUBY + JEWEL
 //Heavy Gloves
 //ItemDisplay[MAG vgl ILVL=85]: %BLUE%Blood Gloves%ORANGE% [CLVL 58]
@@ -2105,9 +2119,8 @@ ItemDisplay[MAG (xmg OR umg) ILVL=96]: %BLUE%Hit Power Gloves%WHITE% [L%ILVL%]
 ItemDisplay[MAG (xmg OR umg) ILVL=97]: %BLUE%Hit Power Gloves%WHITE% [L%ILVL%]
 ItemDisplay[MAG (xmg OR umg) ILVL=98]: %BLUE%Hit Power Gloves%WHITE% [L%ILVL%]
 ItemDisplay[MAG (xmg OR umg) ILVL=99]: %BLUE%Hit Power Gloves%WHITE% [L%ILVL%]
-//
 
-//BELTS
+//-------------------------------------------------------------------------------BELTS
 //Exceptional and Elite Quality belts ONLY
 //Caster Belts (Vampirefang/Sharkskin) + ITH + AMETHYST + JEWEL
 ItemDisplay[MAG uvc ILVL>84]: %ORANGE%Caster Belt
@@ -2116,7 +2129,7 @@ ItemDisplay[MAG zvb ILVL>84]: %ORANGE%Caster Belt
 ItemDisplay[MAG umc ILVL>84]: %ORANGE%Blood Belt
 ItemDisplay[MAG zmb ILVL>84]: %ORANGE%Blood Belt
 
-//BOOTS
+//-------------------------------------------------------------------------------BOOTS
 //Caster Boots + Thul + Amethyst + Jewel
 //Wyrmhide Boots
 ItemDisplay[MAG ulb ILVL>84]: %ORANGE%Caster Boots
@@ -2124,17 +2137,13 @@ ItemDisplay[MAG ulb ILVL>84]: %ORANGE%Caster Boots
 ItemDisplay[MAG xlb ILVL>84]: %ORANGE%Caster Boots
 //Boots
 ItemDisplay[MAG lbt ILVL>84]: %ORANGE%Caster Boots
-//
 
-
-//
-
-//Runewords
+//-------------------------------------------------------------------------------RUNEWORDS
 ItemDisplay[RW]: %NAME%
 
-////Body Armor////
+//-------------------------------------------------------------------------------BODY ARMOR
 //ETH Armor +ED
-//
+
 //Mage Plate
 //ItemDisplay[NMAG ETH !RW !SOCK=1 ED=1 xtp]: %DGREEN%ETH %NAME%%BLUE% +1%ED %YELLOW%[%SOCKETS%]
 //ItemDisplay[NMAG ETH !RW !SOCK=1 ED=2 xtp]: %DGREEN%ETH %NAME%%BLUE% +2%ED %YELLOW%[%SOCKETS%]
@@ -2380,7 +2389,7 @@ ItemDisplay[NMAG ETH !RW !SOCK=1 ED=13 uar]: %DGREEN%ETH %NAME%%BLUE% +13%ED %RE
 ItemDisplay[NMAG ETH !RW !SOCK=1 ED=14 uar]: %DGREEN%ETH %NAME%%BLUE% +14%ED %RED%[%SOCKETS%]
 ItemDisplay[NMAG ETH !RW !SOCK=1 ED=15 uar]: %DGREEN%ETH %NAME%%BLUE% +15%ED %RED%[%SOCKETS%]
 
-//NON ETH Armor +ED
+//-------------------------------------------------------------------------------NON ETH ARMOR +ED
 //
 //Light Plate
 ItemDisplay[NMAG !ETH !RW !SOCK=1 ED=1 ltp]: %DGREEN%%NAME%%BLUE% +1%ED %GRAY%[%SOCKETS%]
@@ -2833,7 +2842,7 @@ ItemDisplay[NMAG SOCK=1 ltp]:
 ItemDisplay[NMAG SOCK>1 xtp]: %GRAY%%NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[NMAG SOCK=1 xtp]:
 
-////NON ETH Helms////
+//-------------------------------------------------------------------------------NON ETH HELMS
 //
 //Demonhead
 ItemDisplay[NMAG !ETH !RW SOCK=0 ED=10 usk]: %DGREEN%%NAME%%BLUE% +10%ED %YELLOW%[%SOCKETS%]
@@ -2874,8 +2883,8 @@ ItemDisplay[NMAG !ETH !RW SOCK=3 ED=13 ci3]: %DGREEN%%NAME%%BLUE% +13%ED %RED%[%
 ItemDisplay[NMAG !ETH !RW SOCK=3 ED=14 ci3]: %DGREEN%%NAME%%BLUE% +14%ED %RED%[%SOCKETS%]
 ItemDisplay[NMAG !ETH !RW SOCK=3 ED=15 ci3]: %DGREEN%%NAME%%BLUE% +15%ED %RED%[%SOCKETS%]
 
-////Shields////
-//
+//-------------------------------------------------------------------------------SHIELDS
+
 //4os Monarch, 10+ed Monarch 4os, Monarch
 ItemDisplay[uit !ETH !RW NMAG ED=1 SOCK=4]: %DGREEN%%NAME%%BLUE% +1%ED %YELLOW%[%SOCKETS%]
 ItemDisplay[uit !ETH !RW NMAG ED=2 SOCK=4]: %DGREEN%%NAME%%BLUE% +2%ED %YELLOW%[%SOCKETS%]
@@ -2963,10 +2972,9 @@ ItemDisplay[CL3 !ETH NMAG ED=65 !SOCK=1]: %DGREEN%%NAME%%BLUE% +65%ED %RED%[%SOC
 ItemDisplay[CL3 ETH NMAG ED=64 !SOCK=1]: %DGREEN%ETH %NAME%%BLUE% +64%ED %RED%[%SOCKETS%]
 ItemDisplay[CL3 ETH NMAG ED=65 !SOCK=1]: %DGREEN%ETH %NAME%%BLUE% +65%ED %RED%[%SOCKETS%]
 
-////Best Weapons nonmagic////
-//
-////Swords////
-//
+//-------------------------------------------------------------------------------BEST WEAPONS NONMAGIC
+
+//-------------------------------------------------------------------------------SWORDS
 //Short Sword
 ItemDisplay[ssd !ETH !RW NMAG ED=15 SOCK=2 ILVL<55]: %GRAY%%NAME%%BLUE% +15%ED %GRAY%[%SOCKETS%]
 
@@ -3525,8 +3533,7 @@ ItemDisplay[7gd ETH !RW NMAG ED=13 SOCK=0]: %DGREEN%ETH %NAME%%BLUE% +13%ED %RED
 ItemDisplay[7gd ETH !RW NMAG ED=14 SOCK=0]: %DGREEN%ETH %NAME%%BLUE% +14%ED %RED%[%SOCKETS%]
 ItemDisplay[7gd ETH !RW NMAG ED=15 SOCK=0]: %DGREEN%ETH %NAME%%BLUE% +15%ED %RED%[%SOCKETS%]
 
-////Axes////
-//
+//-------------------------------------------------------------------------------AXES
 //Hand Axe
 //ItemDisplay[hax !ETH !RW NMAG ED=15 !SOCK=1]: %GRAY%%NAME%%BLUE% +15%ED %GRAY%[%SOCKETS%]
 
@@ -3679,8 +3686,7 @@ ItemDisplay[7gi ETH !RW NMAG ED=13 SOCK>3]: %DGREEN%ETH %NAME%%BLUE% +13%ED %RED
 ItemDisplay[7gi ETH !RW NMAG ED=14 SOCK>3]: %DGREEN%ETH %NAME%%BLUE% +14%ED %RED%[%SOCKETS%]
 ItemDisplay[7gi ETH !RW NMAG ED=15 SOCK>3]: %DGREEN%ETH %NAME%%BLUE% +15%ED %RED%[%SOCKETS%]
 
-////Maces////
-//
+//-------------------------------------------------------------------------------MACES
 //Club
 //ItemDisplay[clb !ETH !RW NMAG ED=15 !SOCK=1]: %GRAY%%NAME%%BLUE% +15%ED %GRAY%[%SOCKETS%]
 
@@ -3841,8 +3847,7 @@ ItemDisplay[7gm ETH !RW NMAG ED=13 SOCK>3]: %DGREEN%ETH %NAME%%BLUE% +13%ED %RED
 ItemDisplay[7gm ETH !RW NMAG ED=14 SOCK>3]: %DGREEN%ETH %NAME%%BLUE% +14%ED %RED%[%SOCKETS%]
 ItemDisplay[7gm ETH !RW NMAG ED=15 SOCK>3]: %DGREEN%ETH %NAME%%BLUE% +15%ED %RED%[%SOCKETS%]
 
-////Polearms////
-//
+//-------------------------------------------------------------------------------POLEARMS
 //Bardiche
 //ItemDisplay[bar !ETH !RW NMAG ED=15 !SOCK=1 CLVL<55]: %GRAY%%NAME%%BLUE% +15%ED %GRAY%[%SOCKETS%]
 
@@ -4042,8 +4047,7 @@ ItemDisplay[7wc ETH !RW NMAG SOCK=6]: %DGREEN%ETH %NAME% %RED%[%SOCKETS%]
 //ETH
 ItemDisplay[7wc ETH !RW NMAG SOCK=0]: %DGREEN%ETH %NAME% %RED%[%SOCKETS%]
 
-////Daggers////
-//
+//-------------------------------------------------------------------------------DAGGERS
 //Dagger(hidden)
 
 //Dirk(hidden)
@@ -4074,15 +4078,14 @@ ItemDisplay[7kr !ETH !RW NMAG ED=15 !SOCK=1]: %GRAY%%NAME%%BLUE% +15%ED %GRAY%[%
 //Legend Spike
 ItemDisplay[7bl !ETH !RW NMAG ED=15 !SOCK=1]: %GRAY%%NAME%%BLUE% +15%ED %GRAY%[%SOCKETS%]
 
-////Amazon Javelins////
+//-------------------------------------------------------------------------------AMAZON JAVELINS
 //Non Magic for imbue quest
-//
 //Matriarchal Javelin non eth +15ED
 ItemDisplay[amf !ETH !RW NMAG ED=15]: %WHITE%%NAME%%BLUE% +15%ED %RED%[%SOCKETS%]
 //Matriarchal Javelin Eth +15ED
 ItemDisplay[amf ETH !RW NMAG ED=15]: %DGREEN%ETH %NAME%%BLUE% +15%ED %RED%[%SOCKETS%]
 
-////Javelins(non Ama)////
+//-------------------------------------------------------------------------------JAVELINS(NON AMA)
 //Non Magic for imbue quest
 //
 //Hyperion Javelin non eth +15ED
@@ -4110,9 +4113,9 @@ ItemDisplay[7ts !ETH !RW NMAG ED=15]: %WHITE%%NAME%%BLUE% +15%ED
 //Winged Harpoon Eth +15ED
 ItemDisplay[7ts !ETH !RW NMAG ED=15]: %GRAY%%NAME%%BLUE% +15%ED %RED%[%SOCKETS%]
 
-////Throwing////
+//-------------------------------------------------------------------------------THROWING
 //Non Magic for imbue quest
-//
+
 //Flying Knife non eth +15ED
 ItemDisplay[7tk !ETH !RW NMAG ED=15]: %WHITE%%NAME%%BLUE% +15%ED
 //Flying Knife Eth +15ED
@@ -4133,8 +4136,7 @@ ItemDisplay[7b8 !ETH !RW NMAG ED=15]: %WHITE%%NAME%%BLUE% +15%ED
 //Winged Axe Eth +15ED
 ItemDisplay[7b8 !ETH !RW NMAG ED=15]: %GRAY%%NAME%%BLUE% +15%ED %YELLOW%[%SOCKETS%]
 
-////Amazon Spears////
-//
+//-------------------------------------------------------------------------------AMAZON SPEARS
 //Non Magic Amazon Spears
 //ETH +ED Elite Amazon Spears 5os
 ItemDisplay[CL7 ELT NMAG ETH ED=1 TABSK2>2 SOCK=5]: %DGREEN%ETH %NAME%%BLUE% +1%ED %RED%[%SOCKETS%]
@@ -4185,8 +4187,7 @@ ItemDisplay[(amd OR ame) ELT NMAG ETH ED=13 TABSK2>2 SOCK=0]: %DGREEN%ETH %NAME%
 ItemDisplay[(amd OR ame) ELT NMAG ETH ED=14 TABSK2>2 SOCK=0]: %DGREEN%ETH %NAME%%BLUE% +14%ED %RED%[%SOCKETS%]
 ItemDisplay[(amd OR ame) ELT NMAG ETH ED=15 TABSK2>2 SOCK=0]: %DGREEN%ETH %NAME%%BLUE% +15%ED %PURPLE%[%SOCKETS%]
 
-////Spears(non Ama)////
-//
+//-------------------------------------------------------------------------------SPEARS
 //Spear +15ED
 //ItemDisplay[spr !ETH !RW NMAG ED=15 ILVL<55]: %WHITE%%NAME%%BLUE% +15%ED
 //Spear ETH +15ED
@@ -4287,7 +4288,7 @@ ItemDisplay[7st ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=13]: %DGREEN%ETH %NAME%%BLUE%
 ItemDisplay[7st ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=14]: %DGREEN%ETH %NAME%%BLUE% +14%ED %RED%[%SOCKETS%]
 ItemDisplay[7st ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=15]: %DGREEN%ETH %NAME%%BLUE% +15%ED %RED%[%SOCKETS%]
 
-//-----------------------------------------------------------------------------------------------War Pike +ED zero sox or 4 or more sox
+//-------------------------------------------------------------------------------War Pike +ED zero sox or 4 or more sox
 ItemDisplay[7p7 !ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=1]: %GRAY%%NAME%%BLUE% +1%ED %RED%[%SOCKETS%]
 ItemDisplay[7p7 !ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=2]: %GRAY%%NAME%%BLUE% +2%ED %RED%[%SOCKETS%]
 ItemDisplay[7p7 !ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=3]: %GRAY%%NAME%%BLUE% +3%ED %RED%[%SOCKETS%]
@@ -4303,7 +4304,7 @@ ItemDisplay[7p7 !ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=12]: %GRAY%%NAME%%BLUE% +12%
 ItemDisplay[7p7 !ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=13]: %GRAY%%NAME%%BLUE% +13%ED %RED%[%SOCKETS%]
 ItemDisplay[7p7 !ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=14]: %DGREEN%%NAME%%BLUE% +14%ED %RED%[%SOCKETS%]
 ItemDisplay[7p7 !ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=15]: %DGREEN%%NAME%%BLUE% +15%ED %RED%[%SOCKETS%]
-//-----------------------------------------------------------------------------------------------War Pike ETH +ED 6os or zero sox
+//-------------------------------------------------------------------------------War Pike ETH +ED 6os or zero sox
 ItemDisplay[7p7 ETH !RW NMAG (SOCK=0 OR SOCK=6) ED=1]: %DGREEN%ETH %NAME%%BLUE% +1%ED %RED%[%SOCKETS%]
 ItemDisplay[7p7 ETH !RW NMAG (SOCK=0 OR SOCK=6) ED=2]: %DGREEN%ETH %NAME%%BLUE% +2%ED %RED%[%SOCKETS%]
 ItemDisplay[7p7 ETH !RW NMAG (SOCK=0 OR SOCK=6) ED=3]: %DGREEN%ETH %NAME%%BLUE% +3%ED %RED%[%SOCKETS%]
@@ -4319,11 +4320,10 @@ ItemDisplay[7p7 ETH !RW NMAG (SOCK=0 OR SOCK=6) ED=12]: %DGREEN%ETH %NAME%%BLUE%
 ItemDisplay[7p7 ETH !RW NMAG (SOCK=0 OR SOCK=6) ED=13]: %DGREEN%ETH %NAME%%BLUE% +13%ED %PURPLE%[%SOCKETS%]
 ItemDisplay[7p7 ETH !RW NMAG (SOCK=0 OR SOCK=6) ED=14]: %DGREEN%ETH %NAME%%BLUE% +14%ED %PURPLE%[%SOCKETS%]
 ItemDisplay[7p7 ETH !RW NMAG (SOCK=0 OR SOCK=6) ED=15]: %DGREEN%ETH %NAME%%BLUE% +15%ED %PURPLE%[%SOCKETS%]
-//-----------------------------------------------------------------------------------------------War Pike ETH 6os or zero sox
+//-------------------------------------------------------------------------------War Pike ETH 6os or zero sox
 ItemDisplay[7p7 ETH !RW NMAG (SOCK=0 OR SOCK=6)]: %DGREEN%ETH %NAME% %RED%[%SOCKETS%]
 
-////Staves////
-//
+//-------------------------------------------------------------------------------STAVES
 //Staves
 //5os +3 Energy Shield Staff = CTA
 ItemDisplay[WP11 NMAG SOCK=5 SK58>2]: %DGREEN%%NAME% %ORANGE%+3 Energy Shield %RED%[%SOCKETS%]
@@ -4357,8 +4357,7 @@ ItemDisplay[WP11 NMAG ELT ETH ED=15 SOCK=4]: %DGREEN%ETH %NAME%%BLUE% +15%ED %RE
 ItemDisplay[WP11 NMAG ELT ETH SOCK=4]: %DGREEN%ETH %NAME% %WHITE%[%SOCKETS%]
 ItemDisplay[WP11 NMAG ELT ETH SOCK=0]: %GRAY%ETH %NAME% %WHITE%[%SOCKETS%]
 
-////Scepters////
-//
+//-------------------------------------------------------------------------------SCEPTERS
 //Non Magic Scepters
 //+3 Sanctuary scepter 0 or 5os
 ItemDisplay[(wsp OR 9ws OR 7ws) !ETH NMAG (SOCK=0 OR SOCK=5) SK119>2]: %DGREEN%%NAME% %ORANGE%+3 Sanctuary %WHITE%[%SOCKETS%]
@@ -4377,8 +4376,7 @@ ItemDisplay[WP13 !ETH NMAG SK102>2]: %GRAY%%NAME% %ORANGE%+3 Holy Fire %WHITE%[%
 ItemDisplay[WP13 !ETH NMAG SK114>2]: %GRAY%%NAME% %ORANGE%+3 Holy Freeze %WHITE%[%SOCKETS%]
 ItemDisplay[WP13 !ETH NMAG SK118>2]: %GRAY%%NAME% %ORANGE%+3 Holy Shock %WHITE%[%SOCKETS%]
 
-////Crossbows////
-//
+//-------------------------------------------------------------------------------CROSSBOWS
 //Non Magic Crossbows
 //Elite +12ED or more Crossbows 4 or more sockets
 ItemDisplay[WP10 NMAG ELT ED=12 SOCK>3]: %DGREEN%%NAME%%BLUE% +12%ED %RED%[%SOCKETS%]
@@ -4386,8 +4384,7 @@ ItemDisplay[WP10 NMAG ELT ED=13 SOCK>3]: %DGREEN%%NAME%%BLUE% +13%ED %RED%[%SOCK
 ItemDisplay[WP10 NMAG ELT ED=14 SOCK>3]: %DGREEN%%NAME%%BLUE% +14%ED %RED%[%SOCKETS%]
 ItemDisplay[WP10 NMAG ELT ED=15 SOCK>3]: %DGREEN%%NAME%%BLUE% +15%ED %RED%[%SOCKETS%]
 
-////Amazon Bows////
-//
+//-------------------------------------------------------------------------------AMAZON BOWS
 //Non Magic Amazon Bows
 +3Bow skills +ED melody bow base ashwood or Matriarchal Bow 3sox
 ItemDisplay[(amb OR am6) NMAG ED=1 TABSK0>2 SOCK=3]: %DGREEN%%NAME%%BLUE% +1%ED %YELLOW%[%SOCKETS%]
@@ -4458,8 +4455,7 @@ ItemDisplay[(amb OR amc) NMAG TABSK0>2 SOCK=4]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 +3Bow skills Faith bow base Grand Matron or Matriarchal Bow 0sox
 ItemDisplay[(amb OR amc) NMAG TABSK0>2 SOCK=0]: %DGREEN%%NAME% %WHITE%[%SOCKETS%]
 
-////Bows(non ama)////
-//
+//-------------------------------------------------------------------------------BOWS(NON AMA)
 //Non Magic Bows
 //Elite +ED Bows 4 or more sockets
 ItemDisplay[WP9 !CL7 NMAG ELT ED=1 SOCK>3]: %DGREEN%%NAME%%BLUE% +1%ED %RED%[%SOCKETS%]
@@ -4497,8 +4493,7 @@ ItemDisplay[WP9 !CL7 NMAG !6sb ELT ED=15 SOCK=0]: %DGREEN%%NAME%%BLUE% +15%ED %R
 ItemDisplay[WP9 !CL7 NMAG ELT SOCK>3]: %GRAY%%NAME% %WHITE%[%SOCKETS%]
 ItemDisplay[WP9 !CL7 NMAG ELT SOCK=0]: %NAME%
 
-////Assassin Claws////
-//
+//-------------------------------------------------------------------------------ASSASSIN CLAWS
 //Chaos Runeword Base +15 ED Elite claws
 ItemDisplay[CL5 ELT !ETH !SOCK=1 !SOCK=2 NMAG ED=15]: %DGREEN%%NAME%%BLUE% +15%ED %RED%[%SOCKETS%]
 //
@@ -4518,8 +4513,7 @@ ItemDisplay[CL5 !ETH (SK277>2)]: %DGREEN%%NAME% %ORANGE%+3 Blade Shield %WHITE%[
 ItemDisplay[CL5 !ETH (SK258>2)]: %DGREEN%%NAME% %ORANGE%+3 Burst of Speed %WHITE%[%SOCKETS%]
 ItemDisplay[CL5 NMAG ILVL>59]:
 
-////Sorc orbs////
-//
+//-------------------------------------------------------------------------------SORC ORBS
 //Sorc orbs
 //+3 Frigerate orbs
 ItemDisplay[CL6 !ETH SK40>2]: %NAME% %ORANGE%+3 Frigerate %YELLOW%[%SOCKETS%]
@@ -4530,8 +4524,7 @@ ItemDisplay[CL6 !ETH SK50>2]: %NAME% %ORANGE%+3 Shiver Armor %WHITE%[%SOCKETS%]
 //+3 Enchant orbs
 ItemDisplay[CL6 !ETH SK52>2]: %NAME% %ORANGE%+3 Enchant %YELLOW%[%SOCKETS%]
 
-////Wands////
-//
+//-------------------------------------------------------------------------------WANDS
 //Non Magic Wands +3 to Teeth
 ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK67>2 SOCK=2]: %DGREEN%%NAME% %ORANGE%+3 Teeth %RED%[%SOCKETS%]
 ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK67>2 SOCK=0]: %DGREEN%%NAME% %ORANGE%+3 Teeth
@@ -4551,8 +4544,7 @@ ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK83>2 SOCK=0]: %DGREEN%%NAME% %ORANGE
 ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK94>2 SOCK=2]: %DGREEN%%NAME% %ORANGE%+3 Fire Golem %RED%[%SOCKETS%]
 ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK94>2 SOCK=0]: %DGREEN%%NAME% %ORANGE%+3 Fire Golem
 
-////Shrunken Heads////
-//
+//-------------------------------------------------------------------------------SHRUNKEN HEADS
 //Non Magic Shrunken Heads +3 to Teeth
 ItemDisplay[CL4 !ETH NMAG SK67>2 SOCK=2]: %DGREEN%%NAME% %ORANGE%+3 Teeth %RED%[%SOCKETS%]
 ItemDisplay[CL4 !ETH NMAG SK67>2 SOCK=0]: %DGREEN%%NAME% %ORANGE%+3 Teeth
@@ -4578,8 +4570,7 @@ ItemDisplay[CL4 !ETH NMAG SK94>2 SOCK=0]: %DGREEN%%NAME% %ORANGE%+3 Fire Golem
 ItemDisplay[CL4 !ETH NMAG (SK83=2 OR SK92=2 OR SK84=2 OR SK73=2 OR SK67=2) SOCK=2]: %NAME% %ORANGE%+2 to good Nec skill %GRAY%[%SOCKETS%]
 ItemDisplay[CL4 !ETH NMAG (SK83=2 OR SK92=2 OR SK84=2 OR SK73=2 OR SK67=2) SOCK=0]: %NAME% %ORANGE%+2 to good Nec skill
 
-////Druid Pelts////
-//
+//-------------------------------------------------------------------------------DRUID PELTS
 //Non Magic Druid Pelts +3 to Raven
 ItemDisplay[CL1 !ETH NMAG SK221>2 !SOCK=1]: %DGREEN%%NAME% %ORANGE%+3 Raven %YELLOW%[%SOCKETS%]
 //Non Magic Druid Pelts +3 to Rabies
@@ -4595,8 +4586,7 @@ ItemDisplay[CL1 !ETH NMAG SK245>2 !SOCK=1]: %DGREEN%%NAME% %ORANGE%+3 Tornado %Y
 //Non Magic Druid Pelts +3 to Hurricane
 ItemDisplay[CL1 !ETH NMAG SK250>2 !SOCK=1]: %DGREEN%%NAME% %ORANGE%+3 Hurricane %YELLOW%[%SOCKETS%]
 
-////Barbarian Primal Helms////
-//
+//-------------------------------------------------------------------------------BARBARIAN PRIMAL HELMS
 //Non Magic Primal Helm +3 to War Cry
 ItemDisplay[CL2 !ETH NMAG SK154>2 !SOCK=1]: %DGREEN%%NAME% %ORANGE%+3 War Cry %YELLOW%[%SOCKETS%]
 ItemDisplay[CL2 !ETH NMAG SK149>2 !SOCK=1]: %DGREEN%%NAME% %ORANGE%+3 Battle Orders %YELLOW%[%SOCKETS%]
