@@ -4494,9 +4494,24 @@ ItemDisplay[WP9 !CL7 NMAG ELT SOCK>3]: %GRAY%%NAME% %WHITE%[%SOCKETS%]
 ItemDisplay[WP9 !CL7 NMAG ELT SOCK=0]: %NAME%
 
 //-------------------------------------------------------------------------------ASSASSIN CLAWS
-//Chaos Runeword Base +15 ED Elite claws
+//-------------------------------------------------------------------------------CHAOS RUNEWORD BASE - ELITE CLAWS
+ItemDisplay[CL5 ELT !ETH !SOCK=1 !SOCK=2 NMAG ED=1]: %DGREEN%%NAME%%BLUE% +1%ED %RED%[%SOCKETS%]
+ItemDisplay[CL5 ELT !ETH !SOCK=1 !SOCK=2 NMAG ED=2]: %DGREEN%%NAME%%BLUE% +2%ED %RED%[%SOCKETS%]
+ItemDisplay[CL5 ELT !ETH !SOCK=1 !SOCK=2 NMAG ED=3]: %DGREEN%%NAME%%BLUE% +3%ED %RED%[%SOCKETS%]
+ItemDisplay[CL5 ELT !ETH !SOCK=1 !SOCK=2 NMAG ED=4]: %DGREEN%%NAME%%BLUE% +4%ED %RED%[%SOCKETS%]
+ItemDisplay[CL5 ELT !ETH !SOCK=1 !SOCK=2 NMAG ED=5]: %DGREEN%%NAME%%BLUE% +5%ED %RED%[%SOCKETS%]
+ItemDisplay[CL5 ELT !ETH !SOCK=1 !SOCK=2 NMAG ED=6]: %DGREEN%%NAME%%BLUE% +6%ED %RED%[%SOCKETS%]
+ItemDisplay[CL5 ELT !ETH !SOCK=1 !SOCK=2 NMAG ED=7]: %DGREEN%%NAME%%BLUE% +7%ED %RED%[%SOCKETS%]
+ItemDisplay[CL5 ELT !ETH !SOCK=1 !SOCK=2 NMAG ED=8]: %DGREEN%%NAME%%BLUE% +8%ED %RED%[%SOCKETS%]
+ItemDisplay[CL5 ELT !ETH !SOCK=1 !SOCK=2 NMAG ED=9]: %DGREEN%%NAME%%BLUE% +9%ED %RED%[%SOCKETS%]
+ItemDisplay[CL5 ELT !ETH !SOCK=1 !SOCK=2 NMAG ED=10]: %DGREEN%%NAME%%BLUE% +10%ED %RED%[%SOCKETS%]
+ItemDisplay[CL5 ELT !ETH !SOCK=1 !SOCK=2 NMAG ED=11]: %DGREEN%%NAME%%BLUE% +11%ED %RED%[%SOCKETS%]
+ItemDisplay[CL5 ELT !ETH !SOCK=1 !SOCK=2 NMAG ED=12]: %DGREEN%%NAME%%BLUE% +12%ED %RED%[%SOCKETS%]
+ItemDisplay[CL5 ELT !ETH !SOCK=1 !SOCK=2 NMAG ED=13]: %DGREEN%%NAME%%BLUE% +13%ED %RED%[%SOCKETS%]
+ItemDisplay[CL5 ELT !ETH !SOCK=1 !SOCK=2 NMAG ED=14]: %DGREEN%%NAME%%BLUE% +14%ED %RED%[%SOCKETS%]
 ItemDisplay[CL5 ELT !ETH !SOCK=1 !SOCK=2 NMAG ED=15]: %DGREEN%%NAME%%BLUE% +15%ED %RED%[%SOCKETS%]
-//
+//-------------------------------------------------------------------------------END CHAOS RUNEWORD BASE - ELITE CLAWS
+
 ItemDisplay[CL5 (TABSK48>2 AND SK271>2)]: %DGREEN%%NAME% %ORANGE%+3 Traps +3 Lightning Sentry %PURPLE%[%SOCKETS%]
 ItemDisplay[CL5 (TABSK48=2 AND SK271=3)]: %DGREEN%%NAME% %ORANGE%+2 Traps +3 Lightning Sentry %RED%[%SOCKETS%]
 ItemDisplay[CL5 (TABSK48=1 AND SK271=3)]: %DGREEN%%NAME% %ORANGE%+1 Traps +3 Lightning Sentry %YELLOW%[%SOCKETS%]
