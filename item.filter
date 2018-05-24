@@ -37,7 +37,7 @@ ItemDisplay[fed]: %ORANGE%Destruction [Baal]
 ItemDisplay[toa]: %ORANGE%Token of Absolution
 
 //-------------------------------------------------------------------------------PoD Items
-ItemDisplay[cx8]:%PURPLE%Orb of Enchantment
+ItemDisplay[cx8]: %PURPLE%Orb of Enchantment
 ItemDisplay[cx5]: %PURPLE%Orb of Corruption
 ItemDisplay[cx6]: %PURPLE%%NAME%
 ItemDisplay[cx7]: %PURPLE%¤¤¤¤¤ KEY OF CHAOS ¤¤¤¤¤
@@ -4326,7 +4326,7 @@ ItemDisplay[7p7 ETH !RW NMAG (SOCK=0 OR SOCK=6)]: %DGREEN%ETH %NAME% %RED%[%SOCK
 //-------------------------------------------------------------------------------STAVES
 //Staves
 //5os +3 Energy Shield Staff = CTA
-ItemDisplay[WP11 NMAG SOCK=5 SK58>2]: %DGREEN%%NAME% %ORANGE%+3 Energy Shield %RED%[%SOCKETS%]
+ItemDisplay[WP11 NMAG (SOCK=0 OR SOCK=4 OR SOCK=5) SK58>2]: %DGREEN%%NAME% %ORANGE%+3 Energy Shield %RED%[%SOCKETS%]
 //4os +3 Lightning Surge Staff = Memory
 ItemDisplay[WP11 NMAG SOCK=4 SK49>2]: %DGREEN%%NAME% %ORANGE%+3 Lightning Surge %WHITE%[%SOCKETS%]
 //2os +3 Enchant Staff = Leaf
