@@ -114,10 +114,7 @@ ItemDisplay[cq2 SET ILVL>60]: %NAME%
 
 ItemDisplay[INF !RW !leg]:
 
-//All normal white items 1sox hidden
-ItemDisplay[NMAG SOCK=1 !RW !leg]:
-//Hide all 0 socket normal NonMagical items to reduce lag for low lvl
-ItemDisplay[NMAG !ELT !EXC SOCK=0 ILVL>1 !RW !leg]:
+
 
 //-------------------------------------------------------------------------------MAGIC
 //Magic Circlets
@@ -5537,6 +5534,11 @@ ItemDisplay[NMAG !RW CL4 SOCK=1 ILVL>24]:
 ItemDisplay[NMAG !RW CL4 ETH ILVL>24]:
 ItemDisplay[NMAG !RW CL4 SOCK=1 ILVL<25]: %NAME% %[SOCKETS]%
 ItemDisplay[NMAG !RW CL4 SOCK=2 !ETH ILVL>24]: %NAME% %[SOCKETS]%
+
+//All normal white items 1sox hidden
+ItemDisplay[NMAG SOCK=1 !RW !leg]:
+//Hide all 0 socket normal NonMagical items to reduce lag for low lvl
+ItemDisplay[NMAG !ELT !EXC SOCK=0 ILVL>1 !RW !leg]:
 
 //Catchall
 ItemDisplay[ETH SOCK>0]: ETH %NAME% [%SOCKETS%]
