@@ -123,7 +123,7 @@ ItemDisplay[NMAG !ELT !EXC SOCK=0 ILVL>1 !RW !leg]:
 //Magic Circlets
 ItemDisplay[MAG ci0 ci1 ci2 ci3 !ID]: %BLUE%%NAME%
 //Magic Vendor (Staff, Wand, Scepter)
-ItemDisplay[MAG WP11 !ID ILVL>34]:
+//ItemDisplay[MAG WP11 !ID ILVL>34]:
 ItemDisplay[MAG WP12 !ID ILVL>54]:
 ItemDisplay[MAG ELT WP13 !ID]: %BLUE%%NAME%
 ItemDisplay[MAG !ELT WP13 !ID ILVL>54]:
@@ -273,7 +273,7 @@ ItemDisplay[GEM=5 GEMTYPE=7]: %ORANGE%PERFECT SKULL
 
 //-------------------------------------------------------------------------------GEMS-------------------------------------------------------------------------------------\\
 
-////-----------------------------------------------------------------------------UNIQUE ITEMS---------------------------------------------------------------------------------\\\\
+//-------------------------------------------------------------------------------UNIQUE ITEMS
 
 //-------------------------------------------------------------------------------UNIQUE HELMS (inc Circlets)
 
@@ -954,7 +954,7 @@ ItemDisplay[UNI !ID 8mx]: %TAN%Pus Spitter
 //Buriza-Do Kyanon
 ItemDisplay[UNI !ID 8hx]: %RED%¤ Buriza-Do Kyanon %RED%¤
 //Demon Machine
-ItemDisplay[UNI !ID 8rx]: %RED%¤ Demon Machine %%RED%¤
+ItemDisplay[UNI !ID 8rx]: %RED%¤ Demon Machine %RED%¤
 //Hellrack
 ItemDisplay[UNI !ID 6hx]: %TAN%Hellrack %SOCKETS%
 //Gut Siphon (good for terror amazon or support amazon)
