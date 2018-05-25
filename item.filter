@@ -123,7 +123,7 @@ ItemDisplay[NMAG !ELT !EXC SOCK=0 ILVL>1 !RW !leg]:
 //Magic Circlets
 ItemDisplay[MAG ci0 ci1 ci2 ci3 !ID]: %BLUE%%NAME%
 //Magic Vendor (Staff, Wand, Scepter)
-//ItemDisplay[MAG WP11 !ID ILVL>34]:
+ItemDisplay[MAG WP11 !ID ILVL>34]:
 ItemDisplay[MAG WP12 !ID ILVL>54]:
 ItemDisplay[MAG ELT WP13 !ID]: %BLUE%%NAME%
 ItemDisplay[MAG !ELT WP13 !ID ILVL>54]:
