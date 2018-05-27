@@ -2001,7 +2001,7 @@ ItemDisplay[SET !ID xmg]: %RED%¤ %GREEN%%NAME% %DGREEN%Trang-Oul's %RED%¤
 
 
 //-------------------------------------------------------------------------------Rings Amulets Jewels Diadems
-ItemDisplay[UNI !ID (rin OR amu OR jew OR ci3)]: %PURPLE% %NAME% ¤ %PURPLE%
+ItemDisplay[UNI !ID (rin OR amu OR jew OR ci3)]: %PURPLE% ¤¤¤¤¤¤¤¤¤¤¤ %NAME% ¤¤¤¤¤¤¤¤¤¤¤ %PURPLE%
 ItemDisplay[UNI ID (rin OR amu OR jew OR ci3)]: %PURPLE% %NAME%
 
 //-------------------------------------------------------------------------------UNIQUE&SET Eth/Socket Catchall
