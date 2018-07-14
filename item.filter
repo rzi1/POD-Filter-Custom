@@ -195,78 +195,75 @@ ItemDisplay[r33]: %PURPLE%  ***** %RUNENAME% ***** [%RUNENUM%]  %PURPLE%
 
 
 //-------------------------------------------------------------------------------GEMS-------------------------------------------------------------------------------------\\
-//1. Amethyst 2. Diamond 3. Emerald 4. Ruby 5. Sapphire 6. Topaz 7. Skull
-//chipped (Tier 1)
-ItemDisplay[GEM=1 GEMTYPE=1 DIFFICULTY>0]:
-ItemDisplay[GEM=1 GEMTYPE=2 DIFFICULTY>0]:
-ItemDisplay[GEM=1 GEMTYPE=3 DIFFICULTY>0]:
-ItemDisplay[GEM=1 GEMTYPE=4 DIFFICULTY>0]:
-ItemDisplay[GEM=1 GEMTYPE=5 DIFFICULTY>0]:
-ItemDisplay[GEM=1 GEMTYPE=6 DIFFICULTY>0]:
-ItemDisplay[GEM=1 GEMTYPE=7 DIFFICULTY>0]:
+//Gems Chipped
 
-//flawed (Tier2)
-ItemDisplay[GEM=2 GEMTYPE=1 DIFFICULTY>0]:
-ItemDisplay[GEM=2 GEMTYPE=2 DIFFICULTY>0]:
-ItemDisplay[GEM=2 GEMTYPE=3 DIFFICULTY>0]:
-ItemDisplay[GEM=2 GEMTYPE=4 DIFFICULTY>0]:
-ItemDisplay[GEM=2 GEMTYPE=5 DIFFICULTY>0]:
-ItemDisplay[GEM=2 GEMTYPE=6 DIFFICULTY>0]:
-ItemDisplay[GEM=2 GEMTYPE=7 DIFFICULTY>0]:
+ItemDisplay[gcv CLVL<30]: chipped amethyst
+ItemDisplay[gcw CLVL<30]: chipped diamond
+ItemDisplay[gcg CLVL<30]: chipped emerald
+ItemDisplay[gcr CLVL<30]: chipped ruby
+ItemDisplay[gcb CLVL<30]: chipped sapphire
+ItemDisplay[gcy CLVL<30]: chipped topaz
+ItemDisplay[skc CLVL<30]: chipped skull
+ItemDisplay[gcv CLVL>29]:
+ItemDisplay[gcw CLVL>29]:
+ItemDisplay[gcg CLVL>29]:
+ItemDisplay[gcr CLVL>29]:
+ItemDisplay[gcb CLVL>29]:
+ItemDisplay[gcy CLVL>29]:
+ItemDisplay[skc CLVL>29]:
 
-//normal (Tier3)
-ItemDisplay[GEM=3 GEMTYPE=1 DIFFICULTY>0]:
-ItemDisplay[GEM=3 GEMTYPE=2 DIFFICULTY>0]:
-ItemDisplay[GEM=3 GEMTYPE=3 DIFFICULTY>0]:
-ItemDisplay[GEM=3 GEMTYPE=4 DIFFICULTY>0]:
-ItemDisplay[GEM=3 GEMTYPE=5 DIFFICULTY>0]:
-ItemDisplay[GEM=3 GEMTYPE=6 DIFFICULTY>0]:
-ItemDisplay[GEM=3 GEMTYPE=7 DIFFICULTY>0]:
+//Gems Flawed
 
-//chipped (Tier1): (lowercase display)
-ItemDisplay[GEM=1 GEMTYPE=1]: chipped amethyst
-ItemDisplay[GEM=1 GEMTYPE=2]: chipped diamond
-ItemDisplay[GEM=1 GEMTYPE=3]: chipped emerald
-ItemDisplay[GEM=1 GEMTYPE=4]: chipped ruby
-ItemDisplay[GEM=1 GEMTYPE=5]: chipped sapphire
-ItemDisplay[GEM=1 GEMTYPE=6]: chipped topaz
-ItemDisplay[GEM=1 GEMTYPE=7]: chipped skull
+ItemDisplay[gfv CLVL<40]: flawed amethyst
+ItemDisplay[gfw CLVL<40]: flawed diamond
+ItemDisplay[gfg CLVL<40]: flawed emerald
+ItemDisplay[gfr CLVL<40]: flawed ruby
+ItemDisplay[gfb CLVL<40]: flawed sapphire
+ItemDisplay[gfy CLVL<40]: flawed topaz
+ItemDisplay[skf CLVL<40]: flawed skull
+ItemDisplay[gfv CLVL>39]:
+ItemDisplay[gfw CLVL>39]:
+ItemDisplay[gfg CLVL>39]:
+ItemDisplay[gfr CLVL>39]:
+ItemDisplay[gfb CLVL>39]:
+ItemDisplay[gfy CLVL>39]:
+ItemDisplay[skf CLVL>39]:
 
-//flawed (Tier2): (lowercase display)
-ItemDisplay[GEM=2 GEMTYPE=1]: flawed amethyst
-ItemDisplay[GEM=2 GEMTYPE=2]: flawed diamond
-ItemDisplay[GEM=2 GEMTYPE=3]: flawed emerald
-ItemDisplay[GEM=2 GEMTYPE=4]: flawed ruby
-ItemDisplay[GEM=2 GEMTYPE=5]: flawed sapphire
-ItemDisplay[GEM=2 GEMTYPE=6]: flawed topaz
-ItemDisplay[GEM=2 GEMTYPE=7]: flawed skull
+//Gems Normal
 
-//normal (Tier3): (lowercase display)
-ItemDisplay[GEM=3 GEMTYPE=1]: amethyst
-ItemDisplay[GEM=3 GEMTYPE=2]: diamond
-ItemDisplay[GEM=3 GEMTYPE=3]: emerald
-ItemDisplay[GEM=3 GEMTYPE=4]: ruby
-ItemDisplay[GEM=3 GEMTYPE=5]: sapphire
-ItemDisplay[GEM=3 GEMTYPE=6]: topaz
-ItemDisplay[GEM=3 GEMTYPE=7]: skull
+ItemDisplay[gsv CLVL<50]: amethyst
+ItemDisplay[gsw CLVL<50]: diamond
+ItemDisplay[gsg CLVL<50]: emerald
+ItemDisplay[gsr CLVL<50]: ruby
+ItemDisplay[gsb CLVL<50]: sapphire
+ItemDisplay[gsy CLVL<50]: topaz
+ItemDisplay[sku CLVL<50]: skull
+ItemDisplay[gsv CLVL>49]:
+ItemDisplay[gsw CLVL>49]:
+ItemDisplay[gsg CLVL>49]:
+ItemDisplay[gsr CLVL>49]:
+ItemDisplay[gsb CLVL>49]:
+ItemDisplay[gsy CLVL>49]:
+ItemDisplay[sku CLVL>49]:
 
-//Flawless (Tier4): (Standard display with orange crafting indicator)
-ItemDisplay[GEM=4 GEMTYPE=1]: %ORANGE%Amethyst
-ItemDisplay[GEM=4 GEMTYPE=2]: %ORANGE%Diamond
-ItemDisplay[GEM=4 GEMTYPE=3]: %ORANGE%Emerald
-ItemDisplay[GEM=4 GEMTYPE=4]: %ORANGE%Ruby
-ItemDisplay[GEM=4 GEMTYPE=5]: %ORANGE%Sapphire
-ItemDisplay[GEM=4 GEMTYPE=6]: %ORANGE%Topaz
-ItemDisplay[GEM=4 GEMTYPE=7]: %ORANGE%Skull
+//Gems flawless
+ItemDisplay[gzv]: %ORANGE%Amethyst
+ItemDisplay[glw]: %ORANGE%Diamond
+ItemDisplay[glg]: %ORANGE%Emerald
+ItemDisplay[glr]: %ORANGE%Ruby
+ItemDisplay[glb]: %ORANGE%Sapphire
+ItemDisplay[gly]: %ORANGE%Topaz
+ItemDisplay[skl]: %ORANGE%Skull
 
-//PERFECT (Tier5): (Uppercase display with orange crafting and tier indicator)
-ItemDisplay[GEM=5 GEMTYPE=1]: %ORANGE%PERFECT AMETHYST
-ItemDisplay[GEM=5 GEMTYPE=2]: %ORANGE%PERFECT DIAMOND
-ItemDisplay[GEM=5 GEMTYPE=3]: %ORANGE%PERFECT EMERALD
-ItemDisplay[GEM=5 GEMTYPE=4]: %ORANGE%PERFECT RUBY
-ItemDisplay[GEM=5 GEMTYPE=5]: %ORANGE%PERFECT SAPPHIRE
-ItemDisplay[GEM=5 GEMTYPE=6]: %ORANGE%PERFECT TOPAZ
-ItemDisplay[GEM=5 GEMTYPE=7]: %ORANGE%PERFECT SKULL
+//Gems Perfect
+ItemDisplay[gpv]: %ORANGE%P %PURPLE%AMETHYST
+ItemDisplay[gpw]: %ORANGE%P %WHITE%DIAMOND
+ItemDisplay[gpg]: %ORANGE%P %GREEN%EMERALD
+ItemDisplay[gpr]: %ORANGE%P %RED%RUBY
+ItemDisplay[gpb]: %ORANGE%P %BLUE%SAPPHIRE
+ItemDisplay[gpy]: %ORANGE%P %YELLOW%TOPAZ
+ItemDisplay[skz]: %ORANGE%P %TAN%SKULL
+
 
 //-------------------------------------------------------------------------------GEMS-------------------------------------------------------------------------------------\\
 
