@@ -2578,6 +2578,7 @@ ItemDisplay[7mp !ETH !RW NMAG ED=15 !SOCK=1]: %GRAY%%NAME%%BLUE% +15%ED %YELLOW%
 
 //Berserker Axe
 //Berserker Axe +ED
+ItemDisplay[7wa !ETH !RW NMAG !SOCK=1]: %DGREEN%%NAME%%BLUE% %YELLOW%[%SOCKETS%]
 ItemDisplay[7wa !ETH !RW NMAG (ED>0 AND ED<15) !SOCK=1]: %DGREEN%%NAME%%BLUE% ED %YELLOW%[%SOCKETS%]
 ItemDisplay[7wa !ETH !RW NMAG ED=15 !SOCK=1]: %DGREEN%%NAME%%BLUE% +15%ED %RED%[%SOCKETS%]
 //Berserker Axe +ED ETH sox +4 or more
