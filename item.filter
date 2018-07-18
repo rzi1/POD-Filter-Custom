@@ -47,6 +47,7 @@ ItemDisplay[ma4]: %PURPLE%Tier 1 Relic
 ItemDisplay[ma5]: %PURPLE%Tier 2 Relic
 ItemDisplay[ma6]: %PURPLE%%NAME%
 ItemDisplay[maz]: %PURPLE%%NAME%
+ItemDisplay[ma2]: %PURPLE%Tier 4 Relic
 
 //Wirt's Leg
 ItemDisplay[leg]: %NAME%
@@ -557,10 +558,7 @@ ItemDisplay[UNI !ID gts ETH]: %TAN%ETH The Ward
 ItemDisplay[UNI !ID xuc !ETH]: %RED%Visceratuant
 //Visceratuant
 ItemDisplay[UNI !ID xuc ETH]: %TAN%ETH Visceratuant
-//Moser's Blessed Circle
-ItemDisplay[UNI !ID xml !ETH]: %RED%Moser's Blessed Circle %SOCKETS%
-//Moser's Blessed Circle
-ItemDisplay[UNI !ID xml ETH]: %TAN%ETH Moser's Blessed Circle %SOCKETS%
+
 //Stormchaser
 ItemDisplay[UNI !ID xrg !ETH]: %TAN%Stormchaser
 //Stormchaser
@@ -835,10 +833,7 @@ ItemDisplay[UNI !ID 92a ETH]: %TAN%ETH Islestrike
 ItemDisplay[UNI !ID 9mp !ETH]: %TAN%Pompeii's Wrath
 //Pompeii's Wrath
 ItemDisplay[UNI !ID 9mp ETH]: %TAN%ETH Pompeii's Wrath
-//Guardian Naga
-ItemDisplay[UNI !ID 9wa !ETH]: %TAN%Guardian Naga
-//Guardian Naga
-ItemDisplay[UNI !ID 9wa ETH]: %TAN%ETH Guardian Naga
+
 //Warlord's Trust
 ItemDisplay[UNI !ID 9la !ETH]: %TAN%Warlord's Trust
 //ETH Warlord's Trust
@@ -863,10 +858,7 @@ ItemDisplay[UNI !ID 9gi ETH]: %TAN%ETH The Minotaur
 ItemDisplay[UNI !ID 7ha !ETH]: %TAN%Razor's Edge
 //Razor's Edge
 ItemDisplay[UNI !ID 7ha ETH]: %TAN%ETH Razor's Edge
-//Rune Master
-ItemDisplay[UNI !ID 72a !ETH]: %RED%Rune Master %SOCKETS%
-//Rune Master
-ItemDisplay[UNI !ID 72a ETH]: %TAN%ETH Rune Master %SOCKETS%
+
 //Cranebeak
 ItemDisplay[UNI !ID 7mp !ETH]: %TAN%Cranebeak
 //Cranebeak
@@ -1210,10 +1202,6 @@ ItemDisplay[UNI !ID tri ETH]: %TAN%ETH Razortine
 ItemDisplay[UNI !ID brn !ETH]: %TAN%Bloodthief
 //Bloodthief
 ItemDisplay[UNI !ID brn ETH]: %TAN%ETH Bloodthief
-//Lance of Yaggai
-ItemDisplay[UNI !ID spt !ETH]: %TAN%Lance of Yaggai
-//Lance of Yaggai
-ItemDisplay[UNI !ID spt ETH]: %TAN%ETH Lance of Yaggai
 //The Tannr Gorerod
 ItemDisplay[UNI !ID pik !ETH]: %TAN%The Tannr Gorerod
 //The Tannr Gorerod
@@ -1222,10 +1210,6 @@ ItemDisplay[UNI !ID pik ETH]: %TAN%ETH The Tannr Gorerod
 ItemDisplay[UNI !ID 9sr !ETH]: %TAN%The Impaler
 //The Impaler
 ItemDisplay[UNI !ID 9sr ETH]: %TAN%ETH The Impaler
-//Kelpie Snare
-ItemDisplay[UNI !ID 9tr !ETH]: %RED%¤ Kelpie Snare %RED%¤
-//Kelpie Snare
-ItemDisplay[UNI !ID 9tr ETH]: %RED%¤ ETH Kelpie Snare %RED%¤
 //Soulfeast Time
 ItemDisplay[UNI !ID 9br !ETH]: %TAN%Soulfeast Time
 //Soulfeast Time
@@ -2546,8 +2530,6 @@ ItemDisplay[wax !ETH !RW NMAG ED=15 !SOCK=1]: %GRAY%%NAME%%BLUE% +15%ED %GRAY%[%
 //Crowbill
 ItemDisplay[9mp !ETH !RW NMAG ED=15 !SOCK=1]: %GRAY%%NAME%%BLUE% +15%ED %GRAY%[%SOCKETS%]
 
-//Naga
-ItemDisplay[9wa !ETH !RW NMAG ED=15 !SOCK=1]: %GRAY%%NAME%%BLUE% +15%ED %GRAY%[%SOCKETS%]
 
 //Military Axe
 //ItemDisplay[9la !ETH !RW NMAG ED=15 !SOCK=1]: %GRAY%%NAME%%BLUE% +15%ED %GRAY%[%SOCKETS%]
