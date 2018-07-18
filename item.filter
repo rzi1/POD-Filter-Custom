@@ -2021,15 +2021,15 @@ ItemDisplay[SET]: %NAME%
 
 
 //-------------------------------------------------------------------------------AMULETS
-ItemDisplay[MAG amu ILVL=85]: %BLUE%%NAME%%ORANGE% [CLVL 96+]
-ItemDisplay[MAG amu (ILVL>85 AND ILVL<88)]: %BLUE%%NAME%%ORANGE% [CLVL 94+]
-ItemDisplay[MAG amu (ILVL>87 AND ILVL<90)]: %BLUE%%NAME%%ORANGE% [CLVL 92+]
-ItemDisplay[MAG amu (ILVL<89 AND ILVL<92)]: %BLUE%%NAME%%ORANGE% [CLVL 90+]
-ItemDisplay[MAG amu (ILVL>91 AND ILVL<94)]: %BLUE%%NAME%%ORANGE% [CLVL 88+]
-ItemDisplay[MAG amu (ILVL>93 AND ILVL<96)]: %BLUE%%NAME%%ORANGE% [CLVL 86+]
-ItemDisplay[MAG amu (ILVL>95 AND ILVL<98)]: %BLUE%%NAME%%ORANGE% [CLVL 84+]
-ItemDisplay[MAG amu ILVL>97]: %BLUE%%NAME%%ORANGE% [CLVL 82+]
 ItemDisplay[MAG amu ILVL<85]: %BLUE%%NAME%%WHITE% [L%ILVL%]
+ItemDisplay[MAG amu ILVL=85]: %BLUE%%NAME%%ORANGE% [L%ILVL%] [CLVL 96+]
+ItemDisplay[MAG amu (ILVL>85 AND ILVL<88)]: %BLUE%%NAME%%ORANGE%  [L%ILVL%][CLVL 94+]
+ItemDisplay[MAG amu (ILVL>87 AND ILVL<90)]: %BLUE%%NAME%%ORANGE% [L%ILVL%][CLVL 92+]
+ItemDisplay[MAG amu (ILVL<89 AND ILVL<92)]: %BLUE%%NAME%%ORANGE% [L%ILVL%][CLVL 90+]
+ItemDisplay[MAG amu (ILVL>91 AND ILVL<94)]: %BLUE%%NAME%%ORANGE% [L%ILVL%][CLVL 88+]
+ItemDisplay[MAG amu (ILVL>93 AND ILVL<96)]: %BLUE%%NAME%%ORANGE% [L%ILVL%][CLVL 86+]
+ItemDisplay[MAG amu (ILVL>95 AND ILVL<98)]: %BLUE%%NAME%%ORANGE% [L%ILVL%][CLVL 84+]
+ItemDisplay[MAG amu ILVL>97]: %BLUE%%NAME%%ORANGE% [L%ILVL%][CLVL 82+]
 
 //-------------------------------------------------------------------------------RINGS
 ItemDisplay[MAG rin]: %BLUE%%NAME%%WHITE% [L%ILVL%]
