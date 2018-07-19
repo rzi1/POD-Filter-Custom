@@ -3099,8 +3099,12 @@ ItemDisplay[CL5 (TABSK48=1 AND SK271=3)]: %DGREEN%%NAME% %ORANGE%+1 Traps +3 Lig
 ItemDisplay[CL5 (TABSK48=3 AND SK271=2)]: %DGREEN%%NAME% %ORANGE%+3 Traps +2 Lightning Sentry %RED%[%SOCKETS%]
 ItemDisplay[CL5 (TABSK48=3 AND SK271=1)]: %DGREEN%%NAME% %ORANGE%+3 Traps +1 Lightning Sentry %YELLOW%[%SOCKETS%]
 ItemDisplay[CL5 (TABSK48=2 AND SK271=2)]: %DGREEN%%NAME% %ORANGE%+2 Traps +2 Lightning Sentry %YELLOW%[%SOCKETS%]
-ItemDisplay[CL5 (CLSK6>1 AND SK271>2)]: %DGREEN%%NAME% %ORANGE%+1 Assa Skills +3 Lightning Sentry %WHITE%[%SOCKETS%]
-ItemDisplay[CL5 (CLSK6>1 AND SK271>1)]: %DGREEN%%NAME% %ORANGE%+1 Assa Skills +2 Lightning Sentry %WHITE%[%SOCKETS%]
+ItemDisplay[CL5 (CLSK6=1 AND SK271=3)]: %DGREEN%%NAME% %ORANGE%+1 Assa Skills +3 Lightning Sentry %WHITE%[%SOCKETS%]
+ItemDisplay[CL5 (CLSK6=1 AND SK271=2)]: %DGREEN%%NAME% %ORANGE%+1 Assa Skills +2 Lightning Sentry %WHITE%[%SOCKETS%]
+ItemDisplay[CL5 (CLSK6=2 AND SK271=3)]: %DGREEN%%NAME% %ORANGE%+2 Assa Skills +3 Lightning Sentry %WHITE%[%SOCKETS%]
+ItemDisplay[CL5 (CLSK6=2 AND SK271=2)]: %DGREEN%%NAME% %ORANGE%+2 Assa Skills +2 Lightning Sentry %WHITE%[%SOCKETS%]
+ItemDisplay[CL5 (CLSK6=3 AND SK271=3)]: %DGREEN%%NAME% %ORANGE%+3 Assa Skills +3 Lightning Sentry %WHITE%[%SOCKETS%]
+ItemDisplay[CL5 (CLSK6=3 AND SK271=2)]: %DGREEN%%NAME% %ORANGE%+3 Assa Skills +2 Lightning Sentry %WHITE%[%SOCKETS%]
 ItemDisplay[9lw  9tw  7tw  7lw) !ETH MAG !ID]: %BLUE%%NAME%
 ItemDisplay[CL5 !ETH (SK271>2)]: %DGREEN%%NAME% %ORANGE%+3 Lightning Sentry %WHITE%[%SOCKETS%]
 ItemDisplay[CL5 !ETH (SK278>2)]: %DGREEN%%NAME% %ORANGE%+3 Venom %WHITE%[%SOCKETS%]
@@ -4048,8 +4052,8 @@ ItemDisplay[NMAG !RW CL1 SOCK=1]:
 ItemDisplay[NMAG !RW CL1 ETH]:
 ItemDisplay[NMAG CL1 !RW ILVL>54]:
 ItemDisplay[CL1 SOCK=0 NMAG !RW SK245>2]: %RED%%NAME%
-ItemDisplay[CL1 SOCK=2 NMAG !RW SK245>2]: %RED%%NAME% %[SOCKETS]%
-ItemDisplay[CL1 SOCK=3 NMAG !RW SK245>2]: %RED%%NAME% %[SOCKETS]%
+ItemDisplay[CL1 SOCK=2 NMAG !RW SK245>2]: %RED%%NAME% [%SOCKETS%]
+ItemDisplay[CL1 SOCK=3 NMAG !RW SK245>2]: %RED%%NAME% [%SOCKETS%]
 //Barbarian Helms
 ItemDisplay[NMAG CL2 !RW SOCK=1]:
 ItemDisplay[NMAG CL2 !RW ETH]:
@@ -4116,8 +4120,8 @@ ItemDisplay[NMAG !RW ILVL>59 SOCK=6 ame]:
 ItemDisplay[NMAG !RW CL4 ILVL>24 !SOCK=1 (SK84>2 OR SK67>2 OR SK92>2)]: %DGREEN%%NAME%
 ItemDisplay[NMAG !RW CL4 SOCK=1 ILVL>24]:
 ItemDisplay[NMAG !RW CL4 ETH ILVL>24]:
-ItemDisplay[NMAG !RW CL4 SOCK=1 ILVL<25]: %NAME% %[SOCKETS]%
-ItemDisplay[NMAG !RW CL4 SOCK=2 !ETH ILVL>24]: %NAME% %[SOCKETS]%
+ItemDisplay[NMAG !RW CL4 SOCK=1 ILVL<25]: %NAME% [%SOCKETS%]
+ItemDisplay[NMAG !RW CL4 SOCK=2 !ETH ILVL>24]: %NAME% [%SOCKETS%]
 
 //All normal white items 1sox hidden
 ItemDisplay[NMAG SOCK=1 !RW !leg]:
