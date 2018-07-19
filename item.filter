@@ -320,10 +320,6 @@ ItemDisplay[UNI !ID xlm ETH]: %RED%ETH Stealskull%RED%
 ItemDisplay[UNI !ID xhl !ETH]: %TAN%Darksight Helm
 //Darksight Helm ETH
 ItemDisplay[UNI !ID xhl ETH]: %TAN%ETH Darksight Helm
-//Valkyrie Wing
-ItemDisplay[UNI !ID xhm !ETH]: %RED%Valkyrie Wing%RED%
-//Valkyrie Wing ETH
-ItemDisplay[UNI !ID xhm ETH]: %TAN%ETH Valkyrie Wing%RED%
 //Blackhorn's Face
 ItemDisplay[UNI !ID xsk !ETH]: %TAN%Blackhorn's Face
 //Blackhorn's Face ETH
@@ -399,10 +395,6 @@ ItemDisplay[UNI !ID scl ETH]: %TAN%ETH Hawkmail
 ItemDisplay[UNI !ID brs !ETH]: %TAN%Venom Ward
 //Venom Ward
 ItemDisplay[UNI !ID brs ETH]: %TAN%ETH Venom Ward
-//Sparking Mail
-ItemDisplay[UNI !ID chn !ETH]: %TAN%Sparking Mail
-//Sparking Mail
-ItemDisplay[UNI !ID chn ETH]: %TAN%ETH Sparking Mail
 //Iceblink
 ItemDisplay[UNI !ID spl !ETH]: %TAN%Iceblink
 //Iceblink
@@ -538,10 +530,6 @@ ItemDisplay[UNI !ID lrg ETH]: %TAN%ETH Stormguild
 ItemDisplay[UNI !ID kit !ETH]: %TAN%Steelclash
 //Steelclash
 ItemDisplay[UNI !ID kit ETH]: %TAN%ETH Steelclash
-//Swordback Hold
-ItemDisplay[UNI !ID spk !ETH]: %TAN%Swordback Hold
-//Swordback Hold
-ItemDisplay[UNI !ID spk ETH]: %TAN%ETH Swordback Hold
 //Bverrit Keep
 ItemDisplay[UNI !ID tow !ETH]: %TAN%Bverrit Keep
 //Bverrit Keep
@@ -673,10 +661,6 @@ ItemDisplay[UNI !ID lbt ETH]: %TAN%ETH Hotspur
 ItemDisplay[UNI !ID vbt !ETH]: %TAN%Gorefoot
 //Gorefoot
 ItemDisplay[UNI !ID vbt ETH]: %TAN%ETH Gorefoot
-//Treads of Cthon
-ItemDisplay[UNI !ID mbt !ETH]: %TAN%Treads of Cthon
-//Treads of Cthon
-ItemDisplay[UNI !ID mbt ETH]: %TAN%ETH Treads of Cthon
 //Goblin Toe
 ItemDisplay[UNI !ID tbt !ETH]: %RED%¤ Goblin Toe %RED%¤
 //Goblin Toe
@@ -785,10 +769,6 @@ ItemDisplay[UNI !ID hax ETH]: %TAN%ETH The Gnasher
 ItemDisplay[UNI !ID axe !ETH]: %TAN%Deathspade
 //Deathspade
 ItemDisplay[UNI !ID axe ETH]: %TAN%ETH Deathspade
-//Bladebone
-ItemDisplay[UNI !ID 2ax !ETH]: %TAN%Bladebone
-//Bladebone
-ItemDisplay[UNI !ID 2ax ETH]: %TAN%ETH Bladebone
 //Skull Splitter
 ItemDisplay[UNI !ID mpi !ETH]: %TAN%Skull Splitter
 //Skull Splitter
@@ -821,10 +801,6 @@ ItemDisplay[UNI !ID gix ETH]: %TAN%ETH Humongous
 ItemDisplay[UNI !ID 9ha !ETH]: %TAN%Coldkill
 //Coldkill
 ItemDisplay[UNI !ID 9ha ETH]: %TAN%ETH Coldkill
-//Butcher's Pupil
-ItemDisplay[UNI !ID 9ax !ETH]: %TAN% Butcher's Pupil %TAN%
-//ETH Butcher's Pupil
-ItemDisplay[UNI !ID 9ax ETH]: %RED%ETH Butcher's Pupil
 //Islestrike
 ItemDisplay[UNI !ID 92a !ETH]: %TAN%Islestrike
 //Islestrike
@@ -904,8 +880,6 @@ ItemDisplay[UNI !ID lwb]: %TAN%Blastbark
 ItemDisplay[UNI !ID 8sb]: %TAN%Skystrike
 //Riphook (good for terror/support ama)
 ItemDisplay[UNI !ID 8hb]: %RED%Riphook
-//Kuko Shakaku
-ItemDisplay[UNI !ID 8lb]: %RED%¤ Kuko Shakaku %RED%¤
 //Endlesshail
 ItemDisplay[UNI !ID 8cb]: %TAN%Endlesshail
 //Witchwild String
@@ -1025,10 +999,6 @@ ItemDisplay[UNI !ID mau ETH]: %TAN%ETH Bonesnap
 ItemDisplay[UNI !ID gma !ETH]: %TAN%Steeldriver
 //Steeldriver
 ItemDisplay[UNI !ID gma ETH]: %TAN%ETH Steeldriver
-//Dark Clan Crusher
-ItemDisplay[UNI !ID 9cl !ETH]: %TAN%Dark Clan Crusher
-//Dark Clan Crusher
-ItemDisplay[UNI !ID 9cl ETH]: %TAN%ETH Dark Clan Crusher
 //Fleshrender
 ItemDisplay[UNI !ID 9sp !ETH]: %RED%Fleshrender
 //Fleshrender
@@ -1320,10 +1290,6 @@ ItemDisplay[UNI !ID wsd ETH]: %TAN%ETHCulwen's Point
 ItemDisplay[UNI !ID 2hs !ETH]: %TAN%Shadowfang
 //Shadowfang
 ItemDisplay[UNI !ID 2hs ETH]: %TAN%ETH Shadowfang
-//Soulflay
-ItemDisplay[UNI !ID clm !ETH]: %TAN%Soulflay
-//Soulflay
-ItemDisplay[UNI !ID clm ETH]: %TAN%ETH Soulflay
 //Kinemil's Awl (great paladin holy fire lvling sword)
 ItemDisplay[UNI !ID gis !ETH]: %TAN%Kinemil's Awl
 //Kinemil's Awl (great paladin holy fire lvling sword)
@@ -1527,8 +1493,6 @@ ItemDisplay[UNI !ID amb]: %TAN%Blood Raven's Charge
 
 //-------------------------------------------------------------------------------UNIQUE ASSASSIN ONLY
 
-//ETH Shadow Killer (its always ETH)
-ItemDisplay[UNI !ID 7cs ETH]: %RED%ETH Shadow Killer
 //Bartuc's Cut-Throat
 ItemDisplay[UNI !ID 9tw !ETH]: %RED%¤ Bartuc's Cut-Throat %RED%¤
 //Bartuc's Cut-Throat
@@ -1673,23 +1637,8 @@ ItemDisplay[SET !ID tgl]: %GREEN%%NAME% %DGREEN%Arctic
 //Arctic Horn
 ItemDisplay[SET !ID swb]: %GREEN%%NAME% %DGREEN%Arctic
 
-//-------------------------------------------------------------------------------Berserker'Arsenal
 
-//Berserker's Headgear
-ItemDisplay[SET !ID hlm]: %GREEN%%NAME% %DGREEN%Berserker's
-//Berserker's Hauberk
-ItemDisplay[SET !ID spl]: %GREEN%%NAME% %DGREEN%Berserker's
-//Berserker's Hatchet
-ItemDisplay[SET !ID 2ax]: %GREEN%%NAME% %DGREEN%Berserker's
 
-//-------------------------------------------------------------------------------Cathan's Traps
-
-//Cathan's Visage
-ItemDisplay[SET !ID msk]: %GREEN%%NAME% %DGREEN%Cathan's
-//Cathan's Mesh
-ItemDisplay[SET !ID chn]: %GREEN%%NAME% %DGREEN%Cathan's
-//Cathan's Rule
-ItemDisplay[SET !ID bst]: %GREEN%%NAME% %DGREEN%Cathan's
 
 //-------------------------------------------------------------------------------Civerb's Vestments
 
@@ -1707,14 +1656,7 @@ ItemDisplay[SET !ID mgl]: %GREEN%%NAME% %DGREEN%Cleglaw's
 //Cleglaw's Claw
 ItemDisplay[SET !ID sml]: %GREEN%%NAME% %DGREEN%Cleglaw's
 
-//-------------------------------------------------------------------------------Death's Disguise
 
-//Death's Touch
-ItemDisplay[SET !ID wsd]: %GREEN%%NAME% %DGREEN%Death's
-//Death's Hand
-ItemDisplay[SET !ID lgl]: %GREEN%%NAME% %DGREEN%Death's
-//Death's Guard
-ItemDisplay[SET !ID lbl]: %GREEN%%NAME% %DGREEN%Death's
 
 //-------------------------------------------------------------------------------Hsarus' Defense
 
@@ -1743,16 +1685,6 @@ ItemDisplay[SET !ID tbl]: %GREEN%%NAME% %DGREEN%Infernal Sign or Iratha's Cord
 //Iratha's Cuff
 ItemDisplay[SET !ID tgl]: %GREEN%%NAME% %DGREEN%Iratha's Cuff or Arctic Mitts
 
-//-------------------------------------------------------------------------------Isenhart's Armory
-
-//Isenhart's Lightbrand
-ItemDisplay[SET !ID bsd]: %GREEN%%NAME% %DGREEN%Isenhart's
-//Isenhart's Horns
-ItemDisplay[SET !ID fhl]: %GREEN%%NAME% %DGREEN%Isenhart's
-//Isenhart's Case
-ItemDisplay[SET !ID brs]: %GREEN%%NAME% %DGREEN%Isenhart's
-//Isenhart's Parry
-ItemDisplay[SET !ID gts]: %GREEN%%NAME% %DGREEN%Isenhart's
 
 //-------------------------------------------------------------------------------Milabrega's Regalia
 
