@@ -147,14 +147,10 @@ ItemDisplay[MAG WP10 !ID ILVL>25]:
 
 //-------------------------------------------------------------------------------RUNES ----------------------------------------------------------------------------\\
 //-------------------------------------------------------------------------------1-16
-ItemDisplay[r01 CLVL>86]: %GRAY%%RUNENAME% [%RUNENUM%] 
-ItemDisplay[r02 CLVL>86]: %GRAY%%RUNENAME% [%RUNENUM%] 
-ItemDisplay[r03 CLVL>86]: %GRAY%%RUNENAME% [%RUNENUM%] 
 ItemDisplay[r01]: %TAN%%RUNENAME% [%RUNENUM%] 
 ItemDisplay[r02]: %TAN%%RUNENAME% [%RUNENUM%] 
 ItemDisplay[r03]: %TAN%%RUNENAME% [%RUNENUM%] 
-ItemDisplay[r04]: %TAN%Nef [%RUNENUM%] [B Gloves]
-ItemDisplay[r05 CLVL>86]: %TAN%%RUNENAME% [%RUNENUM%] 
+ItemDisplay[r04]: %TAN%Nef [%RUNENUM%] [B Gloves] 
 ItemDisplay[r05]: %TAN%%RUNENAME% [%RUNENUM%]
 ItemDisplay[r06]: %TAN%Ith [%RUNENUM%] [C Belt]
 ItemDisplay[r07]: %TAN%Tal [%RUNENUM%] [B Belt]
@@ -163,14 +159,10 @@ ItemDisplay[r09]: %TAN%Ort [%RUNENUM%] [HP Gloves]
 ItemDisplay[r10]: %TAN%Thul [%RUNENUM%] [S Amulet]
 ItemDisplay[r11]: %TAN%Amn [%RUNENUM%] [C Ring]
 ItemDisplay[r12]: %TAN%Sol [%RUNENUM%] [B Ring]
-ItemDisplay[r13 CLVL>86]: %TAN%%RUNENAME% [%RUNENUM%] 
-ItemDisplay[r14 CLVL>86]: %TAN%%RUNENAME% [%RUNENUM%] 
-ItemDisplay[r15 CLVL>86]: %ORANGE%  %RUNENAME% [%RUNENUM%]  %ORANGE%
-ItemDisplay[r16 CLVL>86]: %TAN%%RUNENAME% [%RUNENUM%] 
 ItemDisplay[r13]: %TAN%%RUNENAME% [%RUNENUM%] 
 ItemDisplay[r14]: %TAN%%RUNENAME% [%RUNENUM%] 
 ItemDisplay[r15]: %ORANGE%  %RUNENAME% [%RUNENUM%]  %ORANGE%
-ItemDisplay[r16]: %TAN%%RUNENAME% [%RUNENUM%] 
+ItemDisplay[r16]: %ORANGE%%RUNENAME% [%RUNENUM%] 
 
 //-------------------------------------------------------------------------------17-23
 ItemDisplay[r17]: %ORANGE%  %RUNENAME% [%RUNENUM%]  %ORANGE%
@@ -391,18 +383,12 @@ ItemDisplay[UNI !ID rng ETH]: %TAN%ETH Darkglow
 ItemDisplay[UNI !ID scl !ETH]: %TAN%Hawkmail
 //Hawkmail
 ItemDisplay[UNI !ID scl ETH]: %TAN%ETH Hawkmail
-//Venom Ward
-ItemDisplay[UNI !ID brs !ETH]: %TAN%Venom Ward
-//Venom Ward
-ItemDisplay[UNI !ID brs ETH]: %TAN%ETH Venom Ward
+
 //Iceblink
 ItemDisplay[UNI !ID spl !ETH]: %TAN%Iceblink
 //Iceblink
 ItemDisplay[UNI !ID spl ETH]: %TAN%ETH Iceblink
-//Heavenly Garb
-ItemDisplay[UNI !ID ltp !ETH]: %TAN%Heavenly Garb
-//Heavenly Garb
-ItemDisplay[UNI !ID ltp ETH]: %TAN%ETH Heavenly Garb
+
 //Rockfleece
 ItemDisplay[UNI !ID fld !ETH]: %TAN%Rockfleece
 //Rockfleece
@@ -411,10 +397,7 @@ ItemDisplay[UNI !ID fld ETH]: %TAN%ETH Rockfleece
 ItemDisplay[UNI !ID plt !ETH]: %TAN%Boneflesh
 //Boneflesh
 ItemDisplay[UNI !ID plt ETH]: %TAN%ETH Boneflesh
-//Rattlecage
-ItemDisplay[UNI !ID gth !ETH]: %RED%Rattlecage
-//Rattlecage
-ItemDisplay[UNI !ID gth ETH]: %TAN%ETH Rattlecage
+
 //Goldskin
 ItemDisplay[UNI !ID ful !ETH]: %TAN%Goldskin
 //Goldskin
@@ -475,10 +458,7 @@ ItemDisplay[UNI !ID xlt ETH]: %RED%¤ ETH Guardian Angel %RED%¤
 ItemDisplay[UNI !ID xth !ETH]: %TAN%Atma's Wail
 //Atma's Wail
 ItemDisplay[UNI !ID xth ETH]: %TAN%ETH Atma's Wail
-//Black Hades
-ItemDisplay[UNI !ID xul !ETH]: %RED%Black Hades %SOCKETS%
-//Black Hades
-ItemDisplay[UNI !ID xul ETH]: %RED%ETH Black Hades %SOCKETS%
+
 //Corpsemourn
 ItemDisplay[UNI !ID xar !ETH]: %TAN%Corpsemourn
 //Corpsemourn
@@ -526,22 +506,12 @@ ItemDisplay[UNI !ID sml ETH]: %TAN%ETH Umbral Disk
 ItemDisplay[UNI !ID lrg !ETH]: %TAN%Stormguild
 //Stormguild
 ItemDisplay[UNI !ID lrg ETH]: %TAN%ETH Stormguild
-//Steelclash
-ItemDisplay[UNI !ID kit !ETH]: %TAN%Steelclash
-//Steelclash
-ItemDisplay[UNI !ID kit ETH]: %TAN%ETH Steelclash
-//Bverrit Keep
-ItemDisplay[UNI !ID tow !ETH]: %TAN%Bverrit Keep
-//Bverrit Keep
-ItemDisplay[UNI !ID tow ETH]: %TAN%ETH Bverrit Keep
+
+
 //Wall of the Eyeless
 ItemDisplay[UNI !ID bsh !ETH]: %TAN%Wall of the Eyeless
 //Wall of the Eyeless
 ItemDisplay[UNI !ID bsh ETH]: %TAN%ETH Wall of the Eyeless
-//The Ward
-ItemDisplay[UNI !ID gts !ETH]: %RED%The Ward
-//The Ward
-ItemDisplay[UNI !ID gts ETH]: %TAN%ETH The Ward
 //Visceratuant
 ItemDisplay[UNI !ID xuc !ETH]: %RED%Visceratuant
 //Visceratuant
@@ -661,14 +631,7 @@ ItemDisplay[UNI !ID lbt ETH]: %TAN%ETH Hotspur
 ItemDisplay[UNI !ID vbt !ETH]: %TAN%Gorefoot
 //Gorefoot
 ItemDisplay[UNI !ID vbt ETH]: %TAN%ETH Gorefoot
-//Goblin Toe
-ItemDisplay[UNI !ID tbt !ETH]: %RED%¤ Goblin Toe %RED%¤
-//Goblin Toe
-ItemDisplay[UNI !ID tbt ETH]: %TAN%ETH Goblin Toe
-//Tearhaunch
-ItemDisplay[UNI !ID hbt !ETH]: %TAN%Tearhaunch
-//Tearhaunch
-ItemDisplay[UNI !ID hbt ETH]: %TAN%ETH Tearhaunch
+
 //Infernostride
 ItemDisplay[UNI !ID xlb !ETH]: %RED%¤ Infernostride %RED%¤
 //Infernostride
@@ -769,10 +732,7 @@ ItemDisplay[UNI !ID hax ETH]: %TAN%ETH The Gnasher
 ItemDisplay[UNI !ID axe !ETH]: %TAN%Deathspade
 //Deathspade
 ItemDisplay[UNI !ID axe ETH]: %TAN%ETH Deathspade
-//Skull Splitter
-ItemDisplay[UNI !ID mpi !ETH]: %TAN%Skull Splitter
-//Skull Splitter
-ItemDisplay[UNI !ID mpi ETH]: %TAN%ETH Skull Splitter
+
 //Rakescar
 ItemDisplay[UNI !ID wax !ETH]: %TAN%Rakescar
 //Rakescar
@@ -781,22 +741,13 @@ ItemDisplay[UNI !ID wax ETH]: %TAN%ETH Rakescar
 ItemDisplay[UNI !ID lax !ETH]: %TAN%Axe of Feckmar
 //Axe of Feckmar
 ItemDisplay[UNI !ID lax ETH]: %TAN%ETH Axe of Feckmar
-//Goreshovel
-ItemDisplay[UNI !ID bax !ETH]: %TAN%Goreshovel
-//Goreshovel
-ItemDisplay[UNI !ID bax ETH]: %TAN%ETH Goreshovel
-//The Chieftain
-ItemDisplay[UNI !ID btx !ETH]: %TAN%The Chieftain
-//The Chieftain
-ItemDisplay[UNI !ID btx ETH]: %TAN%ETH The Chieftain
+
+
 //Brainhew
 ItemDisplay[UNI !ID gax !ETH]: %TAN%Brainhew
 //Brainhew
 ItemDisplay[UNI !ID gax ETH]: %TAN%ETH Brainhew
-//Humongous
-ItemDisplay[UNI !ID gix !ETH]: %TAN%Humongous
-//Humongous
-ItemDisplay[UNI !ID gix ETH]: %TAN%ETH Humongous
+
 //Coldkill
 ItemDisplay[UNI !ID 9ha !ETH]: %TAN%Coldkill
 //Coldkill
@@ -810,10 +761,7 @@ ItemDisplay[UNI !ID 9mp !ETH]: %TAN%Pompeii's Wrath
 //Pompeii's Wrath
 ItemDisplay[UNI !ID 9mp ETH]: %TAN%ETH Pompeii's Wrath
 
-//Warlord's Trust
-ItemDisplay[UNI !ID 9la !ETH]: %TAN%Warlord's Trust
-//ETH Warlord's Trust
-ItemDisplay[UNI !ID 9la ETH]: %RED%ETH Warlord's Trust
+
 //Spellsteel
 ItemDisplay[UNI !ID 9ba !ETH]: %TAN%Spellsteel
 //Spellsteel
@@ -826,10 +774,7 @@ ItemDisplay[UNI !ID 9bt ETH]: %TAN%ETH Stormrider
 ItemDisplay[UNI !ID 9ga !ETH]: %TAN%Boneslayer Blade
 //Boneslayer Blade
 ItemDisplay[UNI !ID 9ga ETH]: %TAN%ETH Boneslayer Blade
-//The Minotaur
-ItemDisplay[UNI !ID 9gi !ETH]: %RED%The Minotaur
-//The Minotaur
-ItemDisplay[UNI !ID 9gi ETH]: %TAN%ETH The Minotaur
+
 //Razor's Edge
 ItemDisplay[UNI !ID 7ha !ETH]: %TAN%Razor's Edge
 //Razor's Edge
@@ -886,8 +831,7 @@ ItemDisplay[UNI !ID 8cb]: %TAN%Endlesshail
 ItemDisplay[UNI !ID 8s8]: %RED%¤ Witchwild String %SOCKETS%%RED% ¤
 //Cliffkiller
 ItemDisplay[UNI !ID 8l8]: %RED%¤ Cliffkiller %RED%¤
-//Magewrath
-ItemDisplay[UNI !ID 8sw]: %TAN%Magewrath
+
 //Goldstrike Arch
 ItemDisplay[UNI !ID 8lw]: %RED%¤ Goldstrike Arch %RED%¤
 //Eaglehorn
@@ -901,10 +845,6 @@ ItemDisplay[UNI !ID 6lw]: %RED%¤ %PURPLE%Windforce %RED%¤
 
 //Leadcrow
 ItemDisplay[UNI !ID lxb]: %TAN%Leadcrow
-//Ichorsting
-ItemDisplay[UNI !ID mxb]: %TAN%Ichorsting
-//Hellcast
-ItemDisplay[UNI !ID hxb]: %RED%Hellcast
 //Doomslinger
 ItemDisplay[UNI !ID rxb]: %RED%¤ Doomslinger %RED%¤
 //Langer Briser
@@ -950,10 +890,7 @@ ItemDisplay[UNI !ID 9di ETH]: %TAN%ETH Heart Carver
 ItemDisplay[UNI !ID 9kr !ETH]: %RED%Blackbog's Sharp
 //Blackbog's Sharp
 ItemDisplay[UNI !ID 9kr ETH]: %TAN%ETH Blackbog's Sharp
-//Stormspike
-ItemDisplay[UNI !ID 9bl !ETH]: %RED%¤ Stormspike %RED%¤
-//Stormspike
-ItemDisplay[UNI !ID 9bl ETH]: %TAN%ETH Stormspike
+
 //Wizardspike
 ItemDisplay[UNI !ID 7dg !ETH]: %RED%¤ Wizardspike %RED%¤
 //Wizardspike
@@ -979,14 +916,8 @@ ItemDisplay[UNI !ID spc ETH]: %TAN%ETH Stoutnail
 ItemDisplay[UNI !ID mac !ETH]: %TAN%Crushflange
 //Crushflange
 ItemDisplay[UNI !ID mac ETH]: %TAN%ETH Crushflange
-//Bloodrise
-ItemDisplay[UNI !ID mst !ETH]: %TAN%Bloodrise
-//Bloodrise
-ItemDisplay[UNI !ID mst ETH]: %TAN%ETH Bloodrise
-//The General's Tan Do Li Ga
-ItemDisplay[UNI !ID fla !ETH]: %TAN%The General's Tan Do Li Ga
-//The General's Tan Do Li Ga
-ItemDisplay[UNI !ID fla ETH]: %TAN%ETH The General's Tan Do Li Ga
+
+
 //Ironstone
 ItemDisplay[UNI !ID whm !ETH]: %TAN%Ironstone
 //Ironstone
@@ -999,10 +930,7 @@ ItemDisplay[UNI !ID mau ETH]: %TAN%ETH Bonesnap
 ItemDisplay[UNI !ID gma !ETH]: %TAN%Steeldriver
 //Steeldriver
 ItemDisplay[UNI !ID gma ETH]: %TAN%ETH Steeldriver
-//Fleshrender
-ItemDisplay[UNI !ID 9sp !ETH]: %RED%Fleshrender
-//Fleshrender
-ItemDisplay[UNI !ID 9sp ETH]: %RED%ETH Fleshrender
+
 //Sureshrill Frost
 ItemDisplay[UNI !ID 9ma !ETH]: %TAN%Sureshrill Frost
 //Sureshrill Frost
@@ -1172,10 +1100,7 @@ ItemDisplay[UNI !ID tri ETH]: %TAN%ETH Razortine
 ItemDisplay[UNI !ID brn !ETH]: %TAN%Bloodthief
 //Bloodthief
 ItemDisplay[UNI !ID brn ETH]: %TAN%ETH Bloodthief
-//The Tannr Gorerod
-ItemDisplay[UNI !ID pik !ETH]: %TAN%The Tannr Gorerod
-//The Tannr Gorerod
-ItemDisplay[UNI !ID pik ETH]: %TAN%ETH The Tannr Gorerod
+
 //The Impaler
 ItemDisplay[UNI !ID 9sr !ETH]: %TAN%The Impaler
 //The Impaler
@@ -1215,14 +1140,8 @@ ItemDisplay[UNI !ID sst ETH]: %TAN%ETH Bane Ash
 ItemDisplay[UNI !ID lst !ETH]: %TAN%Serpent Lord
 //Serpent Lord
 ItemDisplay[UNI !ID lst ETH]: %TAN%ETH Serpent Lord
-//Spire of Lazarus
-ItemDisplay[UNI !ID cst !ETH]: %TAN%Spire of Lazarus
-//Spire of Lazarus
-ItemDisplay[UNI !ID cst ETH]: %TAN%ETH Spire of Lazarus
-//The Salamander
-ItemDisplay[UNI !ID bst !ETH]: %TAN%The Salamander
-//The Salamander
-ItemDisplay[UNI !ID bst ETH]: %TAN%ETH The Salamander
+
+
 //The Iron Jang Bong
 ItemDisplay[UNI !ID wst !ETH]: %TAN%The Iron Jang Bong
 //The Iron Jang Bong
@@ -1235,10 +1154,7 @@ ItemDisplay[UNI !ID 8ss ETH]: %TAN%ETH Razorswitch
 ItemDisplay[UNI !ID 8ls !ETH]: %RED%¤ Ribcracker %RED%¤
 //Ribcracker
 ItemDisplay[UNI !ID 8ls ETH]: %RED%ETH Ribcracker
-//Chromatic Ire
-ItemDisplay[UNI !ID 8cs !ETH]: %TAN%Chromatic Ire
-//Chromatic Ire
-ItemDisplay[UNI !ID 8cs ETH]: %TAN%ETH Chromatic Ire
+
 //Warpspear
 ItemDisplay[UNI !ID 8bs !ETH]: %TAN%Warpspear
 //Warpspear
@@ -1286,10 +1202,7 @@ ItemDisplay[UNI !ID lsd ETH]: %TAN%ETH Hellplague
 ItemDisplay[UNI !ID wsd !ETH]: %TAN%Culwen's Point
 //Culwen's Point
 ItemDisplay[UNI !ID wsd ETH]: %TAN%ETHCulwen's Point
-//Shadowfang
-ItemDisplay[UNI !ID 2hs !ETH]: %TAN%Shadowfang
-//Shadowfang
-ItemDisplay[UNI !ID 2hs ETH]: %TAN%ETH Shadowfang
+
 //Kinemil's Awl (great paladin holy fire lvling sword)
 ItemDisplay[UNI !ID gis !ETH]: %TAN%Kinemil's Awl
 //Kinemil's Awl (great paladin holy fire lvling sword)
@@ -1434,10 +1347,7 @@ ItemDisplay[UNI !ID 7gw ETH]: %RED%¤ ETH Death's Web %RED%¤
 
 //-------------------------------------------------------------------------------UNIQUE THROWING WEAPONS
 
-//Deathbit
-ItemDisplay[UNI !ID 9tk !ETH]: %TAN%Deathbit
-//ETH Deathbit
-ItemDisplay[UNI !ID 9tk ETH]: %RED%¤ ETH Deathbit %RED%¤
+
 //The Scalper
 ItemDisplay[UNI !ID 9ta !ETH]: %TAN%The Scalper
 //ETH The Scalper
@@ -1617,25 +1527,7 @@ ItemDisplay[SET !ID rng]: %GREEN%%NAME% %DGREEN%Angelic
 //Angelic Sickle
 ItemDisplay[SET !ID sbr]: %GREEN%%NAME% %DGREEN%Angelic
 
-//-------------------------------------------------------------------------------Arcanna's Tricks
 
-//Arcanna's Head
-ItemDisplay[SET !ID skp]: %GREEN%%NAME% %DGREEN%Arcanna's
-//Arcanna's Flesh
-ItemDisplay[SET !ID ltp]: %GREEN%%NAME% %DGREEN%Arcanna's
-//Arcanna's Deathwand
-ItemDisplay[SET !ID wst]: %GREEN%%NAME% %DGREEN%Arcanna's
-
-//-------------------------------------------------------------------------------Arctic Gear
-
-//Arctic Furs
-ItemDisplay[SET !ID qui]: %GREEN%%NAME% %DGREEN%Arctic
-//Arctic Binding
-ItemDisplay[SET !ID vbl]: %GREEN%%NAME% %DGREEN%Arctic
-//Arctic Mitts
-ItemDisplay[SET !ID tgl]: %GREEN%%NAME% %DGREEN%Arctic
-//Arctic Horn
-ItemDisplay[SET !ID swb]: %GREEN%%NAME% %DGREEN%Arctic
 
 
 
@@ -1686,16 +1578,7 @@ ItemDisplay[SET !ID tbl]: %GREEN%%NAME% %DGREEN%Infernal Sign or Iratha's Cord
 ItemDisplay[SET !ID tgl]: %GREEN%%NAME% %DGREEN%Iratha's Cuff or Arctic Mitts
 
 
-//-------------------------------------------------------------------------------Milabrega's Regalia
 
-//Milabrega's Diadem
-ItemDisplay[SET !ID crn]: %GREEN%%NAME% %DGREEN%Iratha's Coil or Milabrega's Diadem
-//Milabrega's Robe
-ItemDisplay[SET !ID aar]: %GREEN%%NAME% %DGREEN%Milabrega's
-//Milabrega's Orb
-ItemDisplay[SET !ID kit]: %GREEN%%NAME% %DGREEN%Milabrega's
-//Milabrega's Rod
-ItemDisplay[SET !ID wsp]: %GREEN%%NAME% %DGREEN%Milabrega's
 
 //-------------------------------------------------------------------------------Sigon's Complete Steel
 
