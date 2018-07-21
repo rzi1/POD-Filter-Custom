@@ -1,7 +1,7 @@
 // Rzi Custom colors plus more to come
 //Based with Anirml's Loot filter
 //Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
-
+//ItemDisplay[]:%CODE%%NAME%
 //-------------------------------------------------------------------------------Basics
 //Hide Gold Piles Smaller Than (<) X based on Character levels
 ItemDisplay[CLVL>49 AND GOLD<5000]:
@@ -58,6 +58,7 @@ ItemDisplay[pk3]: %PURPLE%Destruction [Nihlathak]
 ItemDisplay[dhn]: %GREEN%Diablo's Horn
 ItemDisplay[bey]: %GREEN%Baal's Eye
 ItemDisplay[mbr]: %GREEN%Mephisto's Brain
+ItemDisplay[std]: %NAME%
 //-------------------------------------------------------------------------------END UBER KEYS----------------------------------------------------------\\
 
 //-------------------------------------------------------------------------------UTILITY 
@@ -2886,8 +2887,8 @@ ItemDisplay[7st ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=15]: %DGREEN%ETH %NAME%%BLUE%
 ItemDisplay[7p7 !ETH !RW NMAG (SOCK=0 OR SOCK>3) (ED>0 AND ED<15)]: %GRAY%%NAME%%BLUE% ED %RED%[%SOCKETS%]
 ItemDisplay[7p7 !ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=15]: %DGREEN%%NAME%%BLUE% +15%ED %RED%[%SOCKETS%]
 //-------------------------------------------------------------------------------War Pike ETH +ED 6os or zero sox
-ItemDisplay[7p7 ETH !RW NMAG (SOCK=0 OR SOCK=6) (ED>0 AND ED<15)]: %DGREEN%ETH %NAME%%BLUE% ED %PURPLE%[%SOCKETS%]
-ItemDisplay[7p7 ETH !RW NMAG (SOCK=0 OR SOCK=6) ED=15]: %DGREEN%ETH %NAME%%BLUE% +15%ED %PURPLE%[%SOCKETS%]
+ItemDisplay[7p7 ETH !RW NMAG (SOCK=0 OR SOCK=6) (ED>0 AND ED<15)]: %RED%ETH %NAME%%BLUE% ED %PURPLE%[%SOCKETS%]
+ItemDisplay[7p7 ETH !RW NMAG (SOCK=0 OR SOCK=6) ED=15]: %ORANGE%ETH %NAME%%BLUE% +15%ED %PURPLE%[%SOCKETS%]
 //-------------------------------------------------------------------------------War Pike ETH 6os or zero sox
 ItemDisplay[7p7 ETH !RW NMAG (SOCK=0 OR SOCK=6)]: %DGREEN%ETH %NAME% %RED%[%SOCKETS%]
 
