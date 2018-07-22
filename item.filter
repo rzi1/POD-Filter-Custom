@@ -269,10 +269,7 @@ ItemDisplay[skz]: %ORANGE%P %TAN%SKULL
 ItemDisplay[UNI !ID cap !ETH]: %TAN%Biggin's Bonnet
 //Biggin's Bonnet ETH
 ItemDisplay[UNI !ID cap ETH]: %TAN%ETH Biggin's Bonnet
-//Tarnhelm
-ItemDisplay[UNI !ID skp !ETH]: %RED%¤ Tarnhelm %RED%¤
-//Tarnhelm ETH
-ItemDisplay[UNI !ID skp ETH]: %RED%ETH Tarnhelm%RED%
+
 //Coif of Glory
 ItemDisplay[UNI !ID hlm !ETH]: %TAN%Coif of Glory
 //Coif of Glory ETH
@@ -455,15 +452,9 @@ ItemDisplay[UNI !ID xld ETH]: %TAN%ETH Toothrow
 ItemDisplay[UNI !ID xlt !ETH]: %RED%¤ %PURPLE%Guardian Angel %RED%¤
 //Guardian Angel
 ItemDisplay[UNI !ID xlt ETH]: %RED%¤ ETH Guardian Angel %RED%¤
-//Atma's Wail
-ItemDisplay[UNI !ID xth !ETH]: %TAN%Atma's Wail
-//Atma's Wail
-ItemDisplay[UNI !ID xth ETH]: %TAN%ETH Atma's Wail
 
-//Corpsemourn
-ItemDisplay[UNI !ID xar !ETH]: %TAN%Corpsemourn
-//Corpsemourn
-ItemDisplay[UNI !ID xar ETH]: %TAN%ETH Corpsemourn
+
+
 //Ormus' Robes
 ItemDisplay[UNI !ID uui !ETH]: %RED%¤ %PURPLE%Ormus' Robes %RED%¤
 //Ormus' Robes
@@ -503,16 +494,9 @@ ItemDisplay[UNI !ID buc ETH]: %TAN%ETH Pelta Lunata
 ItemDisplay[UNI !ID sml !ETH]: %TAN%Umbral Disk
 //Umbral Disk
 ItemDisplay[UNI !ID sml ETH]: %TAN%ETH Umbral Disk
-//Stormguild
-ItemDisplay[UNI !ID lrg !ETH]: %TAN%Stormguild
-//Stormguild
-ItemDisplay[UNI !ID lrg ETH]: %TAN%ETH Stormguild
 
 
-//Wall of the Eyeless
-ItemDisplay[UNI !ID bsh !ETH]: %TAN%Wall of the Eyeless
-//Wall of the Eyeless
-ItemDisplay[UNI !ID bsh ETH]: %TAN%ETH Wall of the Eyeless
+
 //Visceratuant
 ItemDisplay[UNI !ID xuc !ETH]: %RED%Visceratuant
 //Visceratuant
@@ -550,10 +534,7 @@ ItemDisplay[UNI !ID uml ETH]: %TAN%ETH Blackoak Shield
 ItemDisplay[UNI !ID uit !ETH]: %RED%¤ %PURPLE%Stormshield %RED%¤
 //Stormshield
 ItemDisplay[UNI !ID uit ETH]: %RED%¤ %PURPLE%ETH Stormshield %RED%¤
-//Spike Thorn
-ItemDisplay[UNI !ID upk !ETH]: %TAN%Spike Thorn %SOCKETS%
-//Spike Thorn
-ItemDisplay[UNI !ID upk ETH]: %TAN%ETH Spike Thorn %SOCKETS%
+
 //Medusa's Gaze
 ItemDisplay[UNI !ID uow !ETH]: %RED%¤ %PURPLE%Medusa's Gaze %RED%¤
 //Medusa's Gaze
@@ -729,15 +710,9 @@ ItemDisplay[UNI !ID umc ETH]: %RED%ETH Verdungo's Hearty Cord
 ItemDisplay[UNI !ID hax !ETH]: %TAN%The Gnasher
 //The Gnasher
 ItemDisplay[UNI !ID hax ETH]: %TAN%ETH The Gnasher
-//Deathspade
-ItemDisplay[UNI !ID axe !ETH]: %TAN%Deathspade
-//Deathspade
-ItemDisplay[UNI !ID axe ETH]: %TAN%ETH Deathspade
 
-//Rakescar
-ItemDisplay[UNI !ID wax !ETH]: %TAN%Rakescar
-//Rakescar
-ItemDisplay[UNI !ID wax ETH]: %TAN%ETH Rakescar
+
+
 //Axe of Feckmar
 ItemDisplay[UNI !ID lax !ETH]: %TAN%Axe of Feckmar
 //Axe of Feckmar
@@ -820,12 +795,10 @@ ItemDisplay[UNI !ID sbb]: %TAN%Stormstrike
 ItemDisplay[UNI !ID lbb]: %TAN%Wizendraw
 //Hellclap
 ItemDisplay[UNI !ID swb]: %TAN%Hellclap
-//Blastbark
-ItemDisplay[UNI !ID lwb]: %TAN%Blastbark
+
 //Skystrike
 ItemDisplay[UNI !ID 8sb]: %TAN%Skystrike
-//Riphook (good for terror/support ama)
-ItemDisplay[UNI !ID 8hb]: %RED%Riphook
+
 //Endlesshail
 ItemDisplay[UNI !ID 8cb]: %TAN%Endlesshail
 //Witchwild String
@@ -835,10 +808,7 @@ ItemDisplay[UNI !ID 8l8]: %RED%¤ Cliffkiller %RED%¤
 
 //Goldstrike Arch
 ItemDisplay[UNI !ID 8lw]: %RED%¤ Goldstrike Arch %RED%¤
-//Eaglehorn
-ItemDisplay[UNI !ID 6l7]: %RED%¤ Eaglehorn %RED%¤
-//Widowmaker
-ItemDisplay[UNI !ID 6sw]: %RED%¤ Widowmaker %RED%¤
+
 //Windforce
 ItemDisplay[UNI !ID 6lw]: %RED%¤ %PURPLE%Windforce %RED%¤
 
@@ -850,16 +820,13 @@ ItemDisplay[UNI !ID lxb]: %TAN%Leadcrow
 ItemDisplay[UNI !ID rxb]: %RED%¤ Doomslinger %RED%¤
 //Langer Briser
 ItemDisplay[UNI !ID 8lx]: %TAN%Langer Briser
-//Pus Spitter
-ItemDisplay[UNI !ID 8mx]: %TAN%Pus Spitter
+
 //Buriza-Do Kyanon
 ItemDisplay[UNI !ID 8hx]: %RED%¤ Buriza-Do Kyanon %RED%¤
 //Demon Machine
 ItemDisplay[UNI !ID 8rx]: %RED%¤ Demon Machine %RED%¤
-//Hellrack
-ItemDisplay[UNI !ID 6hx]: %TAN%Hellrack %SOCKETS%
-//Gut Siphon (good for terror amazon or support amazon)
-ItemDisplay[UNI !ID 6rx]: %RED%¤ Gut Siphon %RED%¤
+
+
 
 //-------------------------------------------------------------------------------UNIQUE DAGGERS
 
@@ -919,10 +886,6 @@ ItemDisplay[UNI !ID mac !ETH]: %TAN%Crushflange
 ItemDisplay[UNI !ID mac ETH]: %TAN%ETH Crushflange
 
 
-//Ironstone
-ItemDisplay[UNI !ID whm !ETH]: %TAN%Ironstone
-//Ironstone
-ItemDisplay[UNI !ID whm ETH]: %TAN%ETH Ironstone
 //Bonesnap
 ItemDisplay[UNI !ID mau !ETH]: %RED%Bonesnap
 //Bonesnap
@@ -952,10 +915,7 @@ ItemDisplay[UNI !ID 9wh ETH]: %TAN%ETH Earthshaker
 ItemDisplay[UNI !ID 9m9 !ETH]: %RED%¤ Bloodtree Stump %RED%¤
 //Bloodtree Stump
 ItemDisplay[UNI !ID 9m9 ETH]: %RED%ETH Bloodtree Stump
-//The Gavel of Pain
-ItemDisplay[UNI !ID 9gm !ETH]: %RED%The Gavel of Pain
-//ETH The Gavel of Pain
-ItemDisplay[UNI !ID 9gm ETH]: %RED%¤ ETH The Gavel of Pain %RED%¤
+
 //Nord's Tenderizer
 ItemDisplay[UNI !ID 7cl !ETH]: %TAN%Nord's Tenderizer
 //Nord's Tenderizer
@@ -987,18 +947,12 @@ ItemDisplay[UNI !ID 7gm ETH]: %RED%¤ ETH Earth Shifter or ETH The Cranium Bashe
 
 //-------------------------------------------------------------------------------UNIQUE POLEARMS
 
-//Dimoak's Hew
-ItemDisplay[UNI !ID bar !ETH]: %TAN%Dimoak's Hew
-//Dimoak's Hew
-ItemDisplay[UNI !ID bar ETH]: %TAN%ETH Dimoak's Hew
+
 //Steelgoad
 ItemDisplay[UNI !ID vou !ETH]: %TAN%Steelgoad
 //Steelgoad
 ItemDisplay[UNI !ID vou ETH]: %TAN%ETH Steelgoad
-//Soul Harvest
-ItemDisplay[UNI !ID scy !ETH]: %TAN%Soul Harvest
-//Soul Harvest
-ItemDisplay[UNI !ID scy ETH]: %TAN%ETH Soul Harvest
+
 //The Battlebranch
 ItemDisplay[UNI !ID pax !ETH]: %TAN%The Battlebranch
 //The Battlebranch
@@ -1023,10 +977,7 @@ ItemDisplay[UNI !ID 9vo ETH]: %TAN%ETH Blackleach Blade
 ItemDisplay[UNI !ID 9s8 !ETH]: %TAN%Athena's Wrath
 //Athena's Wrath
 ItemDisplay[UNI !ID 9s8 ETH]: %TAN%ETH Athena's Wrath
-//Pierre Tombale Couant
-ItemDisplay[UNI !ID 9pa !ETH]: %TAN%Pierre Tombale Couant
-//Pierre Tombale Couant
-ItemDisplay[UNI !ID 9pa ETH]: %TAN%ETH Pierre Tombale Couant
+
 //Husoldal Evo
 ItemDisplay[UNI !ID 9h9 !ETH]: %TAN%Husoldal Evo
 //Husoldal Evo
@@ -1110,10 +1061,7 @@ ItemDisplay[UNI !ID 9sr ETH]: %TAN%ETH The Impaler
 ItemDisplay[UNI !ID 9br !ETH]: %TAN%Soulfeast Time
 //Soulfeast Time
 ItemDisplay[UNI !ID 9br ETH]: %TAN%ETH Soulfeast Time
-//Hone Sundan
-ItemDisplay[UNI !ID 9st !ETH]: %RED%¤ Hone Sundan %RED%¤
-//ETH Hone Sundan
-ItemDisplay[UNI !ID 9st ETH]: %RED%¤ %PURPLE%ETH Hone Sundan %RED%¤
+
 //Spire of Honor
 ItemDisplay[UNI !ID 9p9 !ETH]: %TAN%Spire of Honor
 //Spire of Honor
@@ -1205,9 +1153,7 @@ ItemDisplay[UNI !ID wsd !ETH]: %TAN%Culwen's Point
 ItemDisplay[UNI !ID wsd ETH]: %TAN%ETHCulwen's Point
 
 //Kinemil's Awl (great paladin holy fire lvling sword)
-ItemDisplay[UNI !ID gis !ETH]: %TAN%Kinemil's Awl
-//Kinemil's Awl (great paladin holy fire lvling sword)
-ItemDisplay[UNI !ID gis ETH]: %TAN%ETH Kinemil's Awl
+
 //Blacktongue
 ItemDisplay[UNI !ID bsw !ETH]: %TAN%Blacktongue
 //Blacktongue
@@ -1268,18 +1214,12 @@ ItemDisplay[UNI !ID 9gs ETH]: %RED%ETH The Vile Husk
 ItemDisplay[UNI !ID 9b9 !ETH]: %TAN%Cloudcrack
 //Cloudcrack
 ItemDisplay[UNI !ID 9b9 ETH]: %TAN%ETH Cloudcrack
-//Todesfaelle Flamme (The RF Sword)
-ItemDisplay[UNI !ID 9fb !ETH]: %RED%¤ Todesfaelle Flamme %RED%¤
-//Todesfaelle Flamme (The RF Sword)
-ItemDisplay[UNI !ID 9fb ETH]: %RED%ETH Todesfaelle Flamme
+
 //Swordguard
 ItemDisplay[UNI !ID 9gd !ETH]: %TAN%Swordguard
 //Swordguard
 ItemDisplay[UNI !ID 9gd ETH]: %TAN%ETH Swordguard
-//Djinn Slayer
-ItemDisplay[UNI !ID 7sm !ETH]: %TAN%Djinn Slayer %SOCKETS%
-//Djinn Slayer
-ItemDisplay[UNI !ID 7sm ETH]: %TAN%ETH Djinn Slayer %SOCKETS% 
+
 //Bloodmoon (lvl 15 blood golem charges)
 ItemDisplay[UNI !ID 7sb !ETH]: %RED%¤ Bloodmoon %RED%¤
 //Bloodmoon (lvl 15 blood golem charges)
@@ -1374,10 +1314,7 @@ ItemDisplay[UNI !ID 7s7 !ETH]: %RED%Demon's Arch
 ItemDisplay[UNI !ID 7s7 ETH]: %RED%¤ ETH Demon's Arch %RED%¤
 //ETH Wraith Flight (always ETH)
 ItemDisplay[UNI !ID 7gl ETH]: %RED%ETH Wraith Flight
-//Gargoyle's Bite
-ItemDisplay[UNI !ID 7ts !ETH]: %TAN%Gargoyle's Bite
-//ETH Gargoyle's Bite
-ItemDisplay[UNI !ID 7ts ETH]: %RED%ETH Gargoyle's Bite
+
 
 //-------------------------------------------------------------------------------UNIQUE AMAZON ONLY
 
