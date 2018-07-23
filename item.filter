@@ -45,8 +45,7 @@ ItemDisplay[cx7]: %PURPLE%¤¤¤¤¤ KEY OF CHAOS ¤¤¤¤¤
 //MAPS
 ItemDisplay[ma4]: %PURPLE%Tier 1 Relic
 ItemDisplay[ma5]: %PURPLE%Tier 2 Relic
-ItemDisplay[ma6]: %PURPLE%%NAME%
-ItemDisplay[maz]: %PURPLE%%NAME%
+ItemDisplay[ma6]: %PURPLE%Tier 3 Relic
 ItemDisplay[ma2]: %PURPLE%Tier 4 Relic
 
 //Wirt's Leg
@@ -265,19 +264,13 @@ ItemDisplay[skz]: %ORANGE%P %TAN%SKULL
 
 //-------------------------------------------------------------------------------UNIQUE HELMS (inc Circlets)
 
-//Biggin's Bonnet
-ItemDisplay[UNI !ID cap !ETH]: %TAN%Biggin's Bonnet
-//Biggin's Bonnet ETH
-ItemDisplay[UNI !ID cap ETH]: %TAN%ETH Biggin's Bonnet
+
 
 //Coif of Glory
 ItemDisplay[UNI !ID hlm !ETH]: %TAN%Coif of Glory
 //Coif of Glory ETH
 ItemDisplay[UNI !ID hlm ETH]: %TAN%ETH Coif of Glory
-//Duskdeep
-ItemDisplay[UNI !ID fhl !ETH]: %TAN%Duskdeep
-//Duskdeep ETH
-ItemDisplay[UNI !ID fhl ETH]: %TAN%ETH Duskdeep
+
 //Howltusk
 ItemDisplay[UNI !ID ghm !ETH]: %TAN%Howltusk
 //Howltusk ETH
@@ -459,6 +452,8 @@ ItemDisplay[UNI !ID xlt ETH]: %RED%¤ ETH Guardian Angel %RED%¤
 ItemDisplay[UNI !ID uui !ETH]: %RED%¤ %PURPLE%Ormus' Robes %RED%¤
 //Ormus' Robes
 ItemDisplay[UNI !ID uui ETH]: %RED%ETH Ormus' Robes
+
+
 //The Gladiator's Bane
 ItemDisplay[UNI !ID utu !ETH]: %RED%The Gladiator's Bane
 //The Gladiator's Bane
@@ -467,10 +462,12 @@ ItemDisplay[UNI !ID utu ETH]: %RED%ETH The Gladiator's Bane
 ItemDisplay[UNI !ID upl !ETH]: %RED%¤ %PURPLE%Arkaine's Valor %RED%¤
 //Arkaine's Valor
 ItemDisplay[UNI !ID upl ETH]: %RED%ETH Arkaine's Valor
+
 //Leviathan
 ItemDisplay[UNI !ID uld !ETH]: %RED%¤ Leviathan %RED%¤
 //Leviathan
 ItemDisplay[UNI !ID uld ETH]: %RED%¤ ETH Leviathan %RED%¤
+
 //Steel Carapace
 ItemDisplay[UNI !ID uul !ETH]: %TAN%Steel Carapace
 //Steel Carapace
@@ -550,10 +547,7 @@ ItemDisplay[UNI !ID uts ETH]: %RED%ETH Spirit Ward
 
 //-------------------------------------------------------------------------------UNIQUE GLOVES
 
-//The Hand of Broc
-ItemDisplay[UNI !ID lgl !ETH]: %TAN%The Hand of Broc
-//The Hand of Broc
-ItemDisplay[UNI !ID lgl ETH]: %TAN%ETH The Hand of Broc
+/
 //Bloodfist
 ItemDisplay[UNI !ID vgl !ETH]: %RED%Bloodfist
 //Bloodfist
@@ -594,10 +588,7 @@ ItemDisplay[UNI !ID xhg ETH]: %TAN%ETH Hellmouth
 ItemDisplay[UNI !ID uvg !ETH]: %RED%¤ %PURPLE%Dracul's Grasp %RED%¤
 //Dracul's Grasp
 ItemDisplay[UNI !ID uvg ETH]: %TAN%ETH Dracul's Grasp
-//Soul Drainer
-ItemDisplay[UNI !ID umg !ETH]: %RED%¤ %PURPLE%Soul Drainer %RED%¤
-//Soul Drainer
-ItemDisplay[UNI !ID umg ETH]: %TAN%ETH Soul Drainer
+
 //Steelrend
 ItemDisplay[UNI !ID uhg !ETH]: %RED%Steelrend
 //Steelrend
@@ -791,8 +782,7 @@ ItemDisplay[UNI !ID lbw]: %RED%Raven Claw
 ItemDisplay[UNI !ID cbw]: %TAN%Rogue's Bow
 //Stormstrike
 ItemDisplay[UNI !ID sbb]: %TAN%Stormstrike
-//Wizendraw
-ItemDisplay[UNI !ID lbb]: %TAN%Wizendraw
+
 //Hellclap
 ItemDisplay[UNI !ID swb]: %TAN%Hellclap
 
@@ -806,8 +796,6 @@ ItemDisplay[UNI !ID 8s8]: %RED%¤ Witchwild String %SOCKETS%%RED% ¤
 //Cliffkiller
 ItemDisplay[UNI !ID 8l8]: %RED%¤ Cliffkiller %RED%¤
 
-//Goldstrike Arch
-ItemDisplay[UNI !ID 8lw]: %RED%¤ Goldstrike Arch %RED%¤
 
 //Windforce
 ItemDisplay[UNI !ID 6lw]: %RED%¤ %PURPLE%Windforce %RED%¤
@@ -823,8 +811,7 @@ ItemDisplay[UNI !ID 8lx]: %TAN%Langer Briser
 
 //Buriza-Do Kyanon
 ItemDisplay[UNI !ID 8hx]: %RED%¤ Buriza-Do Kyanon %RED%¤
-//Demon Machine
-ItemDisplay[UNI !ID 8rx]: %RED%¤ Demon Machine %RED%¤
+
 
 
 
@@ -838,10 +825,7 @@ ItemDisplay[UNI !ID dgr ETH]: %TAN%ETH Gull
 ItemDisplay[UNI !ID dir !ETH]: %TAN%The Diggler
 //The Diggler
 ItemDisplay[UNI !ID dir ETH]: %TAN%ETH The Diggler
-//The Jade Tan Do
-ItemDisplay[UNI !ID kri !ETH]: %TAN%The Jade Tan Do
-//The Jade Tan Do
-ItemDisplay[UNI !ID kri ETH]: %TAN%ETH The Jade Tan Do
+
 //Spectral Shard
 ItemDisplay[UNI !ID bld !ETH]: %RED%Spectral Shard
 //Spectral Shard
@@ -863,10 +847,7 @@ ItemDisplay[UNI !ID 9kr ETH]: %TAN%ETH Blackbog's Sharp
 ItemDisplay[UNI !ID 7dg !ETH]: %RED%¤ Wizardspike %RED%¤
 //Wizardspike
 ItemDisplay[UNI !ID 7dg ETH]: %RED%¤ ETH Wizardspike %RED%¤
-//Fleshripper
-ItemDisplay[UNI !ID 7kr !ETH]: %RED%¤ Fleshripper %RED%¤
-//Fleshripper
-ItemDisplay[UNI !ID 7kr ETH]: %RED%ETH Fleshripper
+
 //ETH Ghostflame (always eth)
 ItemDisplay[UNI !ID 7bl ETH]: %RED%ETH Ghostflame
 
@@ -1341,10 +1322,7 @@ ItemDisplay[UNI !ID amb]: %TAN%Blood Raven's Charge
 
 //-------------------------------------------------------------------------------UNIQUE ASSASSIN ONLY
 
-//Bartuc's Cut-Throat
-ItemDisplay[UNI !ID 9tw !ETH]: %RED%¤ Bartuc's Cut-Throat %RED%¤
-//Bartuc's Cut-Throat
-ItemDisplay[UNI !ID 9tw ETH]: %RED%ETH Bartuc's Cut-Throat
+
 //Jade Talon
 ItemDisplay[UNI !ID 7wb !ETH]: %RED%jade Talon
 //Jade Talon
@@ -1452,7 +1430,7 @@ ItemDisplay[!UNI ID (cm1 OR cm3)]:%NAME% %WHITE%[L%ILVL%]
 //-------------------------------------------------------------------------------LC
 ItemDisplay[!UNI (cm2)]: %NAME% %WHITE%[L%ILVL%]
 //-------------------------------------------------------------------------------UNIQUE
-ItemDisplay[UNI !ID (cm1 OR cm2 OR cm3)]: %RED%%NAME% ¤
+ItemDisplay[UNI !ID (cm1 OR cm2 OR cm3)]: %RED%¤ %NAME% ¤
 
 
 
@@ -1470,21 +1448,8 @@ ItemDisplay[SET !ID sbr]: %GREEN%%NAME% %DGREEN%Angelic
 
 
 
-//-------------------------------------------------------------------------------Civerb's Vestments
 
-//Civerb's Cudgel
-ItemDisplay[SET !ID gsc]: %GREEN%%NAME% %DGREEN%Civerb's
-//Civerb's Ward
-ItemDisplay[SET !ID lrg]: %GREEN%%NAME% %DGREEN%Civerb's
 
-//-------------------------------------------------------------------------------Cleglaw's Brace
-
-//Cleglaw's Tooth
-ItemDisplay[SET !ID lsd]: %GREEN%%NAME% %DGREEN%Cleglaw's
-//Cleglaw's Pincer's
-ItemDisplay[SET !ID mgl]: %GREEN%%NAME% %DGREEN%Cleglaw's
-//Cleglaw's Claw
-ItemDisplay[SET !ID sml]: %GREEN%%NAME% %DGREEN%Cleglaw's
 
 
 
@@ -1565,7 +1530,6 @@ ItemDisplay[SET !ID uul]: %GREEN%%NAME% %DGREEN%Aldur's %RED%¤
 ItemDisplay[SET !ID 9mt]: %GREEN%%NAME% %DGREEN%Aldur's [%SOCKETS%]
 
 //-------------------------------------------------------------------------------Bul-Kathos' Children
-
 //Bul-Kathos' Sacred Charge
 ItemDisplay[SET !ID 7gd]: %GREEN%%NAME% %DGREEN%Bul-Kathos' %RED%¤
 //Bul-Kathos' Tribal Guardian
@@ -1641,20 +1605,6 @@ ItemDisplay[SET !ID xhg]: %GREEN%%NAME% %DGREEN%Immortal King
 //Immortal King's Pillar
 ItemDisplay[SET !ID xhb]: %RED%¤ %GREEN%%NAME% %DGREEN%Immortal King %RED%¤
 
-//-------------------------------------------------------------------------------M'avina's Battle Hymn
-
-//M'avina's True Sight
-ItemDisplay[SET !ID ci3]: %GREEN%%NAME% %DGREEN%Mavina's %RED%¤
-//M'avina's Caster
-ItemDisplay[SET !ID amc]: %GREEN%%NAME% %DGREEN%Mavina's %RED%¤
-//M'avina's Embrace
-ItemDisplay[SET !ID uld]: %GREEN%%NAME% %DGREEN%Mavina's %RED%¤
-//M'avina's Icy Clutch
-ItemDisplay[SET !ID xtg]: %GREEN%%NAME% %DGREEN%Mavina's
-//M'avina's Tenet
-ItemDisplay[SET !ID zvb]: %GREEN%%NAME% %DGREEN%Mavina's
-//M'avina's Tenet perf def
-ItemDisplay[SET !ID zvb DEF>35]: %RED%¤ %GREEN%%NAME% %DGREEN%Mavina's Perf Def %RED%¤
 
 //-------------------------------------------------------------------------------Natalya's Odium
 
