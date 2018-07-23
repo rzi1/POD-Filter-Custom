@@ -1951,6 +1951,7 @@ ItemDisplay[ush !ETH !RW NMAG !SOCK=1]: %NAME% %WHITE%[%SOCKETS%]
 
 ////Paladin Shields Top Tier Elite non-eth, Medium-High Eth, Basic (ILVL restriction)
 //
+ItemDisplay[paf ETH NMAG RES>35 (SOCK=0 OR SOCK=4)]: %ORANGE%** %NAME% 35+ %PURPLE%[%SOCKETS%] %ORANGE%**
 ItemDisplay[CL3 !ETH NMAG (RES>34 AND RES<45) !SOCK=1 !SOCK=0]: %DGREEN%%NAME%%BLUE% >34 %YELLOW%[%SOCKETS%]
 ItemDisplay[CL3 !ETH NMAG RES=45 !SOCK=1]: %DGREEN%%NAME%%BLUE% 45 %RED%[%SOCKETS%]
 //zero socket pala shields
