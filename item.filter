@@ -47,7 +47,8 @@ ItemDisplay[ma4]: %PURPLE%Tier 1 Relic
 ItemDisplay[ma5]: %PURPLE%Tier 2 Relic
 ItemDisplay[ma6]: %PURPLE%Tier 3 Relic
 ItemDisplay[ma2]: %PURPLE%Tier 4 Relic
-
+// Horadrim charm
+ItemDisplay[cm4]: %PURPLE% %NAME% 
 //Wirt's Leg
 ItemDisplay[leg]: %NAME%
 //-------------------------------------------------------------------------------UBER KEYS----------------------------------------------------------\\
