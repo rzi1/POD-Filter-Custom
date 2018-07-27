@@ -344,6 +344,10 @@ ItemDisplay[UNI !ID uh9 ETH]: %TAN%ETH Giant Skull
 ItemDisplay[UNI !ID ci3 !ETH]: %RED%¤ %PURPLE% Griffon's Eye %RED%¤
 //Griffon's Eye ETH
 ItemDisplay[UNI !ID ci3 ETH]: %RED%ETHGriffon's Eye%RED%
+//Valkyrie Wing
+ItemDisplay[UNI !ID xhm !ETH]: %RED%¤ %PURPLE% Valkyrie Wing %RED%¤
+//Valkyrie Wing ETH
+ItemDisplay[UNI !ID xhm ETH]: %RED%ETH Valkyrie Wing%RED%
 //Kira's Guardian
 ItemDisplay[UNI !ID ci2 !ETH]: %RED%¤ Kira's Guardian %RED%¤
 //Kira's Guardian ETH
