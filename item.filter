@@ -1433,7 +1433,9 @@ ItemDisplay[MAG cm1 ILVL=47]: %NAME% %ORANGE%[L%ILVL%]
 ItemDisplay[!UNI ID (cm1 OR cm3)]:%NAME% %WHITE%[L%ILVL%]
 ItemDisplay[!UNI ID (cm1 OR cm3)]:%NAME% %WHITE%[L%ILVL%]
 //-------------------------------------------------------------------------------LC
+ItemDisplay[!UNI (cm2) CLVL>20]:
 ItemDisplay[!UNI (cm2)]: %NAME% %WHITE%[L%ILVL%]
+
 //-------------------------------------------------------------------------------UNIQUE
 ItemDisplay[UNI !ID (cm1 OR cm2 OR cm3)]: %RED%¤ %NAME% ¤
 
