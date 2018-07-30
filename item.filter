@@ -1758,7 +1758,8 @@ ItemDisplay[MAG ulb ILVL>84]: %ORANGE%Caster Boots
 ItemDisplay[MAG xlb ILVL>84]: %ORANGE%Caster Boots
 //Boots
 ItemDisplay[MAG lbt ILVL>84]: %ORANGE%Caster Boots
-
+// Blood Boots
+ItemDisplay[MAG (tbt OR xtb OR utb) ILVL>84: %ORANGE%Xila Crazy Time Boots
 //-------------------------------------------------------------------------------RUNEWORDS
 ItemDisplay[RW]: %NAME%
 
