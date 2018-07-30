@@ -1753,13 +1753,9 @@ ItemDisplay[MAG zmb ILVL>84]: %ORANGE%Blood Belt
 //-------------------------------------------------------------------------------BOOTS
 //Caster Boots + Thul + Amethyst + Jewel
 //Wyrmhide Boots
-ItemDisplay[MAG ulb ILVL>84]: %ORANGE%Caster Boots
-//Demonhide Boots
-ItemDisplay[MAG xlb ILVL>84]: %ORANGE%Caster Boots
-//Boots
-ItemDisplay[MAG lbt ILVL>84]: %ORANGE%Caster Boots
+ItemDisplay[MAG (ulb OR xlb OR lbt) ILVL>84]: %ORANGE%Caster Boots
 // Blood Boots
-ItemDisplay[MAG (tbt OR xtb OR utb) ILVL>84: %ORANGE%Xila Crazy Time Boots
+ItemDisplay[MAG (tbt OR xtb OR utb) ILVL>84: %ORANGE%Xila Crazy Time Boots(Blood)
 //-------------------------------------------------------------------------------RUNEWORDS
 ItemDisplay[RW]: %NAME%
 
