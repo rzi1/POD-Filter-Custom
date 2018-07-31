@@ -1755,7 +1755,7 @@ ItemDisplay[MAG zmb ILVL>84]: %ORANGE%Blood Belt
 //Wyrmhide Boots
 ItemDisplay[MAG (ulb OR xlb OR lbt) ILVL>84]: %ORANGE%Caster Boots
 // Blood Boots
-ItemDisplay[MAG (tbt OR xtb OR utb) ILVL>84: %ORANGE%Xila Crazy Time Boots(Blood)
+ItemDisplay[MAG (tbt OR xtb OR utb) ILVL>84: %ORANGE%Blood Boots
 //-------------------------------------------------------------------------------RUNEWORDS
 ItemDisplay[RW]: %NAME%
 
