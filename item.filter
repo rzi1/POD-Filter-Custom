@@ -43,10 +43,19 @@ ItemDisplay[cx6]: %PURPLE%%NAME%
 ItemDisplay[cx7]: %PURPLE%¤¤¤¤¤ KEY OF CHAOS ¤¤¤¤¤
 
 //MAPS
-ItemDisplay[ma4]: %PURPLE%Tier 1 Relic
-ItemDisplay[ma5]: %PURPLE%Tier 2 Relic
-ItemDisplay[ma6]: %PURPLE%Tier 3 Relic
-ItemDisplay[ma2]: %PURPLE%Tier 4 Relic
+ItemDisplay[std]: %PURPLE%%NAME%
+ItemDisplay[cx9]: %PURPLE%%NAME%
+ItemDisplay[ma1]: %PURPLE%%NAME%
+ItemDisplay[ma2]: %PURPLE%%NAME%
+ItemDisplay[ma3]: %PURPLE%%NAME%
+ItemDisplay[ma4]: %PURPLE%%NAME%
+ItemDisplay[ma5]: %PURPLE%%NAME%
+ItemDisplay[ma6]: %PURPLE%%NAME%
+ItemDisplay[ma7]: %PURPLE%%NAME%
+ItemDisplay[ma8]: %PURPLE%%NAME%
+ItemDisplay[ma9]: %PURPLE%%NAME%
+ItemDisplay[ma10]: %PURPLE%%NAME%
+ItemDisplay[maz]: %PURPLE%%NAME%
 // Horadrim charm
 ItemDisplay[cm4]: %GREEN% %NAME% 
 //Wirt's Leg
