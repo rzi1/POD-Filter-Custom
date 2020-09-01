@@ -185,15 +185,15 @@ ItemDisplay[r23]: %PURPLE%  ** %RUNENAME% ** [%RUNENUM%]  %PURPLE%
 
 //-------------------------------------------------------------------------------24-33
 ItemDisplay[r24]: %PURPLE%  ***%GREEN%¤X¤X¤%GREEN%%PURPLE%***%PURPLE% %ORANGE% %RUNENAME% %ORANGE% %PURPLE%***%PURPLE%%GREEN%¤X¤X¤%GREEN%%PURPLE%*** [%RUNENUM%]  %PURPLE%
-ItemDisplay[r25]: %PURPLE%  **¤¤¤** %RUNENAME% **¤¤¤** [%RUNENUM%]  %PURPLE%
-ItemDisplay[r26]: %PURPLE%  ***¤¤¤*** %RUNENAME% ***¤¤¤*** [%RUNENUM%]  %PURPLE%
-ItemDisplay[r27]: %PURPLE%  ***¤¤¤*** %RUNENAME% ***¤¤¤*** [%RUNENUM%]  %PURPLE%
-ItemDisplay[r28]: %PURPLE%  *** %GREEN% ¤X¤X¤ %GREEN% *** %RUNENAME% *** %GREEN% ¤X¤X¤ %GREEN% *** [%RUNENUM%]  %PURPLE%
-ItemDisplay[r29]: %PURPLE%  ***¤¤¤*** %RUNENAME% ***¤¤¤*** [%RUNENUM%]  %PURPLE%
-ItemDisplay[r30]: %PURPLE%  ***¤¤¤*** %RUNENAME% ***¤¤¤*** [%RUNENUM%]  %PURPLE%
-ItemDisplay[r31]: %PURPLE%  ***¤¤¤*** %RUNENAME% ***¤¤¤*** [%RUNENUM%]  %PURPLE%
-ItemDisplay[r32]: %PURPLE%  ***¤¤¤*** %RUNENAME% ***¤¤¤*** [%RUNENUM%]  %PURPLE%
-ItemDisplay[r33]: %PURPLE%  ***¤¤¤*** %RUNENAME% ***¤¤¤*** [%RUNENUM%]  %PURPLE%
+ItemDisplay[r25]: %PURPLE%  ***%GREEN%¤X¤X¤%GREEN%%PURPLE%***%PURPLE% %ORANGE% %RUNENAME% %ORANGE% %PURPLE%***%PURPLE%%GREEN%¤X¤X¤%GREEN%%PURPLE%*** [%RUNENUM%]  %PURPLE%
+ItemDisplay[r26]: %PURPLE%  ***%GREEN%¤X¤X¤%GREEN%%PURPLE%***%PURPLE% %ORANGE% %RUNENAME% %ORANGE% %PURPLE%***%PURPLE%%GREEN%¤X¤X¤%GREEN%%PURPLE%*** [%RUNENUM%]  %PURPLE%
+ItemDisplay[r27]: %PURPLE%  ***%GREEN%¤X¤X¤%GREEN%%PURPLE%***%PURPLE% %ORANGE% %RUNENAME% %ORANGE% %PURPLE%***%PURPLE%%GREEN%¤X¤X¤%GREEN%%PURPLE%*** [%RUNENUM%]  %PURPLE%
+ItemDisplay[r28]: %PURPLE%  ***%GREEN%¤X¤X¤%GREEN%%PURPLE%***%PURPLE% %ORANGE% %RUNENAME% %ORANGE% %PURPLE%***%PURPLE%%GREEN%¤X¤X¤%GREEN%%PURPLE%*** [%RUNENUM%]  %PURPLE%
+ItemDisplay[r29]: %PURPLE%  ***%GREEN%¤X¤X¤%GREEN%%PURPLE%***%PURPLE% %ORANGE% %RUNENAME% %ORANGE% %PURPLE%***%PURPLE%%GREEN%¤X¤X¤%GREEN%%PURPLE%*** [%RUNENUM%]  %PURPLE%
+ItemDisplay[r30]: %PURPLE%  ***%GREEN%¤X¤X¤%GREEN%%PURPLE%***%PURPLE% %ORANGE% %RUNENAME% %ORANGE% %PURPLE%***%PURPLE%%GREEN%¤X¤X¤%GREEN%%PURPLE%*** [%RUNENUM%]  %PURPLE%
+ItemDisplay[r31]: %PURPLE%  ***%GREEN%¤X¤X¤%GREEN%%PURPLE%***%PURPLE% %ORANGE% %RUNENAME% %ORANGE% %PURPLE%***%PURPLE%%GREEN%¤X¤X¤%GREEN%%PURPLE%*** [%RUNENUM%]  %PURPLE%
+ItemDisplay[r32]: %PURPLE%  ***%GREEN%¤X¤X¤%GREEN%%PURPLE%***%PURPLE% %ORANGE% %RUNENAME% %ORANGE% %PURPLE%***%PURPLE%%GREEN%¤X¤X¤%GREEN%%PURPLE%*** [%RUNENUM%]  %PURPLE%
+ItemDisplay[r33]: %PURPLE%  ***%GREEN%¤X¤X¤%GREEN%%PURPLE%***%PURPLE% %ORANGE% %RUNENAME% %ORANGE% %PURPLE%***%PURPLE%%GREEN%¤X¤X¤%GREEN%%PURPLE%*** [%RUNENUM%]  %PURPLE%
 //-------------------------------------------------------------------------------END RUNES----------------------------------------------------------------------------\\
 
 
